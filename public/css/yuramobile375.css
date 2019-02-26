@@ -1,0 +1,4091 @@
+
+@font-face {
+                          font-family: "Apercu-Regular";
+                          src: url('../fonts/Apercu-Regular.otf') format("opentype");
+                        }
+                        @font-face {
+                          font-family: "Apercu-Light";
+                          src: url('../fonts/Apercu-Light.otf') format("opentype");
+                        }
+                        @font-face {
+                          font-family: "Apercu-Bold";
+                          src: url('../fonts/Apercu-Bold.otf') format("opentype");
+                        }
+                        
+.bp1-yuradesktop1920px {
+  width               : 100%;
+  min-width           : 1920px;
+  height              : 100vh;
+  min-height          : 8241px;
+  position            : relative;
+  overflow            : hidden;
+  margin              : 0px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color    : rgba(255, 255, 255, 1.0);
+}
+div {
+  -webkit-text-size-adjust: none;
+}
+.bp1-yuradesktop1920px .bp1-footer {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 7734px;
+  height              : 509px;
+  width               : 1920px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp1-yuradesktop1920px .bp1-footer .bp1-footerbackground {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 509px;
+  width               : 1920px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp1-yuradesktop1920px .bp1-footer .bp1-logowhite {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 76px;
+  height              : 43px;
+  width               : 120px;
+  position            : absolute;
+  margin              : 0;
+  left                : 243px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp1-yuradesktop1920px .bp1-footer .bp1-yuraagency31202 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 63px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 619px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Apercu-Regular", Helvetica, Arial, serif;
+  font-size           : 18.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  line-height         : 30.0px;
+}
+.bp1-yuradesktop1920px .bp1-footer .bp1-homeaboutcaserole {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 68px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 977px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Apercu-Regular", Helvetica, Arial, serif;
+  font-size           : 18.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  line-height         : 30.0px;
+}
+.bp1-yuradesktop1920px .bp1-footer .bp1-twitterlinkedinfac {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 68px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 1339px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Apercu-Regular", Helvetica, Arial, serif;
+  font-size           : 18.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  line-height         : 30.0px;
+}
+.bp1-yuradesktop1920px .bp1-footer .bp1-copyright251yuraage {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 435px;
+  height              : auto;
+  width               : 647px;
+  position            : absolute;
+  margin              : 0;
+  left                : 637px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Apercu-Regular", Helvetica, Arial, serif;
+  font-size           : 14.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : center;
+  letter-spacing      : -0.19px;
+  line-height         : 16.0px;
+}
+.bp1-yuradesktop1920px .bp1-case {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 3696px;
+  height              : 761px;
+  width               : 1440px;
+  position            : absolute;
+  margin              : 0;
+  left                : 240px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp1-yuradesktop1920px .bp1-case .bp1-gettyimages554391989 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 114px;
+  height              : 647px;
+  width               : 1304px;
+  position            : absolute;
+  margin              : 0;
+  left                : 136px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp1-yuradesktop1920px .bp1-case .bp1-rectanglecopy6 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 584px;
+  width               : 448px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp1-yuradesktop1920px .bp1-case .bp1-readmore {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 508px;
+  height              : 36px;
+  width               : 39px;
+  position            : absolute;
+  margin              : 0;
+  left                : 374px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp1-yuradesktop1920px .bp1-case .bp1-readmore .bp1-arrow {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 36px;
+  width               : 39px;
+  position            : relative;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp1-yuradesktop1920px .bp1-case .bp1-readmore .bp1-arrow .bp1-line {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 14px;
+  height              : 8px;
+  width               : 37px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp1-yuradesktop1920px .bp1-case .bp1-readmore .bp1-arrow .bp1-path2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 4px;
+  height              : 26px;
+  width               : 27px;
+  position            : absolute;
+  margin              : 0;
+  left                : 8px;
+  -ms-transform       : rotate(-315deg); /* IE 9 */
+  -webkit-transform   : rotate(-315deg); /* Chrome, Safari, Opera */
+  transform           : rotate(-315deg);
+}
+.bp1-yuradesktop1920px .bp1-case .bp1-innovationtechnolog {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 82px;
+  height              : auto;
+  width               : 391px;
+  position            : absolute;
+  margin              : 0;
+  left                : 27px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Apercu-Regular", Helvetica, Arial, serif;
+  font-size           : 48.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  letter-spacing      : -0.51px;
+  line-height         : 58.0px;
+}
+.bp1-yuradesktop1920px .bp1-case .bp1-loremipsumdolorsi {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 296px;
+  height              : auto;
+  width               : 392px;
+  position            : absolute;
+  margin              : 0;
+  left                : 27px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Apercu-Light", Helvetica, Arial, serif;
+  font-size           : 24.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  letter-spacing      : -0.26px;
+  line-height         : 34.0px;
+}
+.bp1-yuradesktop1920px .bp1-case .bp1-mybit {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 36px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 32px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Apercu-Bold", Helvetica, Arial, serif;
+  font-size           : 24.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  letter-spacing      : -0.26px;
+  line-height         : 22.0px;
+}
+.bp1-yuradesktop1920px .bp1-gettyimages554391989copy {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 2639px;
+  height              : 954px;
+  width               : 1924px;
+  position            : absolute;
+  margin              : 0;
+  left                : -1px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp1-yuradesktop1920px .bp1-home {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 49px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 1194px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Apercu-Regular", Helvetica, Arial, serif;
+  font-size           : 18.0px;
+  color               : rgba(0, 52, 218, 1.0);
+  text-align          : right;
+  letter-spacing      : -0.19px;
+  line-height         : 22.0px;
+}
+.bp1-yuradesktop1920px .bp1-about {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 49px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 1273px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Apercu-Regular", Helvetica, Arial, serif;
+  font-size           : 18.0px;
+  color               : rgba(0, 52, 218, 1.0);
+  text-align          : right;
+  letter-spacing      : -0.19px;
+  line-height         : 22.0px;
+}
+.bp1-yuradesktop1920px .bp1-cases {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 49px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 1354px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Apercu-Regular", Helvetica, Arial, serif;
+  font-size           : 18.0px;
+  color               : rgba(0, 52, 218, 1.0);
+  text-align          : right;
+  letter-spacing      : -0.19px;
+  line-height         : 22.0px;
+}
+.bp1-yuradesktop1920px .bp1-contact {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 49px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 1440px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Apercu-Regular", Helvetica, Arial, serif;
+  font-size           : 18.0px;
+  color               : rgba(0, 52, 218, 1.0);
+  text-align          : right;
+  letter-spacing      : -0.19px;
+  line-height         : 22.0px;
+}
+.bp1-yuradesktop1920px .bp1-a31202440000 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 49px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 1543px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Apercu-Regular", Helvetica, Arial, serif;
+  font-size           : 18.0px;
+  color               : rgba(0, 52, 218, 1.0);
+  text-align          : right;
+  letter-spacing      : -0.19px;
+  line-height         : 22.0px;
+}
+.bp1-yuradesktop1920px .bp1-yuraisacreatived {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 581px;
+  height              : auto;
+  width               : 1002px;
+  position            : absolute;
+  margin              : 0;
+  left                : 257px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Apercu-Light", Helvetica, Arial, serif;
+  font-size           : 48.0px;
+  color               : rgba(0, 52, 218, 1.0);
+  text-align          : left;
+  letter-spacing      : -0.51px;
+  line-height         : 56.0px;
+}
+.bp1-yuradesktop1920px .bp1-readytogoandbuil {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 7210px;
+  height              : auto;
+  width               : 538px;
+  position            : absolute;
+  margin              : 0;
+  left                : 377px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Apercu-Light", Helvetica, Arial, serif;
+  font-size           : 48.0px;
+  color               : rgba(0, 52, 218, 1.0);
+  text-align          : left;
+  letter-spacing      : -0.51px;
+  line-height         : 56.0px;
+}
+.bp1-yuradesktop1920px .bp1-ygradient {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 980px;
+  height              : 954px;
+  width               : 728px;
+  position            : absolute;
+  margin              : 0;
+  left                : -260px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp1-yuradesktop1920px .bp1-ygradient .bp1-ygradient3 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 954px;
+  width               : 728px;
+  position            : relative;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp1-yuradesktop1920px .bp1-ygradient1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 2189px;
+  height              : 954px;
+  width               : 728px;
+  position            : absolute;
+  margin              : 0;
+  left                : 1633px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp1-yuradesktop1920px .bp1-ygradient1 .bp1-ygradient3 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 954px;
+  width               : 728px;
+  position            : relative;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp1-yuradesktop1920px .bp1-weworkwithstartup {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 5730px;
+  height              : auto;
+  width               : 832px;
+  position            : absolute;
+  margin              : 0;
+  left                : 375px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Apercu-Light", Helvetica, Arial, serif;
+  font-size           : 48.0px;
+  color               : rgba(0, 52, 218, 1.0);
+  text-align          : left;
+  letter-spacing      : -0.51px;
+  line-height         : 56.0px;
+}
+.bp1-yuradesktop1920px .bp1-drivingbusinessres {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 2054px;
+  height              : auto;
+  width               : 566px;
+  position            : absolute;
+  margin              : 0;
+  left                : 975px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Apercu-Light", Helvetica, Arial, serif;
+  font-size           : 48.0px;
+  color               : rgba(0, 52, 218, 1.0);
+  text-align          : left;
+  letter-spacing      : -0.51px;
+  line-height         : 56.0px;
+}
+.bp1-yuradesktop1920px .bp1-hithereud83dudc4b {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 827px;
+  height              : auto;
+  width               : 1046px;
+  position            : absolute;
+  margin              : 0;
+  left                : 257px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Apercu-Light", Helvetica, Arial, serif;
+  font-size           : 24.0px;
+  color               : rgba(0, 52, 218, 1.0);
+  text-align          : left;
+  letter-spacing      : -0.51px;
+  line-height         : 24.0px;
+}
+.bp1-yuradesktop1920px .bp1-hithereud83dudc4b .bp1-span1 {
+  line-height         : 29.0px;
+}
+.bp1-yuradesktop1920px .bp1-hithereud83dudc4b .bp1-span2 {
+  font-family         : "AppleColorEmoji", Helvetica, Arial, serif;
+  line-height         : 32.0px;
+}
+.bp1-yuradesktop1920px .bp1-putourteamofstra {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 7335px;
+  height              : auto;
+  width               : 501px;
+  position            : absolute;
+  margin              : 0;
+  left                : 377px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Apercu-Light", Helvetica, Arial, serif;
+  font-size           : 24.0px;
+  color               : rgba(0, 52, 218, 1.0);
+  text-align          : left;
+  letter-spacing      : -0.51px;
+  line-height         : 38.0px;
+}
+.bp1-yuradesktop1920px .bp1-putourteamofstra .bp1-span1 {
+  
+}
+.bp1-yuradesktop1920px .bp1-putourteamofstra .bp1-span2 {
+  font-family         : "AppleColorEmoji", Helvetica, Arial, serif;
+}
+.bp1-yuradesktop1920px .bp1-maywehelpyouac {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 2359px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 975px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Apercu-Light", Helvetica, Arial, serif;
+  font-size           : 24.0px;
+  color               : rgba(0, 52, 218, 1.0);
+  text-align          : left;
+  letter-spacing      : -0.51px;
+  line-height         : 24.0px;
+}
+.bp1-yuradesktop1920px .bp1-maywehelpyouac .bp1-span1 {
+  line-height         : 29.0px;
+}
+.bp1-yuradesktop1920px .bp1-maywehelpyouac .bp1-span2 {
+  font-family         : "AppleColorEmoji", Helvetica, Arial, serif;
+  line-height         : 32.0px;
+}
+.bp1-yuradesktop1920px .bp1-working {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1089px;
+  height              : 328px;
+  width               : 688px;
+  position            : absolute;
+  margin              : 0;
+  left                : 256px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp1-yuradesktop1920px .bp1-news {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1089px;
+  height              : 328px;
+  width               : 328px;
+  position            : absolute;
+  margin              : 0;
+  left                : 1336px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp1-yuradesktop1920px .bp1-photo1497348231296713b847f4ca4 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1449px;
+  height              : 328px;
+  width               : 328px;
+  position            : absolute;
+  margin              : 0;
+  left                : 616px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp1-yuradesktop1920px .bp1-unknown {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1449px;
+  height              : 328px;
+  width               : 328px;
+  position            : absolute;
+  margin              : 0;
+  left                : 256px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp1-yuradesktop1920px .bp1-yurateampartly {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1449px;
+  height              : 328px;
+  width               : 328px;
+  position            : absolute;
+  margin              : 0;
+  left                : 1336px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp1-yuradesktop1920px .bp1-cases1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1089px;
+  height              : 688px;
+  width               : 328px;
+  position            : absolute;
+  margin              : 0;
+  left                : 976px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp1-yuradesktop1920px .bp1-yblue {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : -414px;
+  height              : 602px;
+  width               : 460px;
+  position            : absolute;
+  margin              : 0;
+  left                : 702px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp1-yuradesktop1920px .bp1-yblue .bp1-yblue1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 602px;
+  width               : 460px;
+  position            : relative;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp1-yuradesktop1920px .bp1-aboutyura {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1118px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 288px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Apercu-Bold", Helvetica, Arial, serif;
+  font-size           : 24.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  letter-spacing      : -0.26px;
+  line-height         : 22.0px;
+}
+.bp1-yuradesktop1920px .bp1-services {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1474px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 288px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Apercu-Bold", Helvetica, Arial, serif;
+  font-size           : 24.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  letter-spacing      : -0.26px;
+  line-height         : 22.0px;
+}
+.bp1-yuradesktop1920px .bp1-cases2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1118px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 1009px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Apercu-Bold", Helvetica, Arial, serif;
+  font-size           : 24.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  letter-spacing      : -0.26px;
+  line-height         : 22.0px;
+}
+.bp1-yuradesktop1920px .bp1-methods {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1474px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 648px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Apercu-Bold", Helvetica, Arial, serif;
+  font-size           : 24.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  letter-spacing      : -0.26px;
+  line-height         : 22.0px;
+}
+.bp1-yuradesktop1920px .bp1-news1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1118px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 1375px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Apercu-Bold", Helvetica, Arial, serif;
+  font-size           : 24.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  letter-spacing      : -0.26px;
+  line-height         : 22.0px;
+}
+.bp1-yuradesktop1920px .bp1-team {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1474px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 1375px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Apercu-Bold", Helvetica, Arial, serif;
+  font-size           : 24.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  letter-spacing      : -0.26px;
+  line-height         : 22.0px;
+}
+.bp1-yuradesktop1920px .bp1-ygradient2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 2639px;
+  height              : 954px;
+  width               : 728px;
+  position            : absolute;
+  margin              : 0;
+  left                : -450px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp1-yuradesktop1920px .bp1-ygradient2 .bp1-ygradient3 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 954px;
+  width               : 728px;
+  position            : relative;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp1-yuradesktop1920px .bp1-gradientbackground {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 4665px;
+  height              : 984px;
+  width               : 1920px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp1-yuradesktop1920px .bp1-ywhite {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 4662px;
+  height              : 791px;
+  width               : 604px;
+  position            : absolute;
+  margin              : 0;
+  left                : 1622px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp1-yuradesktop1920px .bp1-ywhite .bp1-ywhite1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 791px;
+  width               : 604px;
+  position            : relative;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp1-yuradesktop1920px .bp1-whatwedo {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 4789px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 378px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Apercu-Regular", Helvetica, Arial, serif;
+  font-size           : 48.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  letter-spacing      : -0.51px;
+  line-height         : 58.0px;
+}
+.bp1-yuradesktop1920px .bp1-branding {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 4791px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 976px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Apercu-Regular", Helvetica, Arial, serif;
+  font-size           : 32.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  letter-spacing      : -0.34px;
+  line-height         : 39.0px;
+}
+.bp1-yuradesktop1920px .bp1-strategy {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 4993px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 976px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Apercu-Regular", Helvetica, Arial, serif;
+  font-size           : 32.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  letter-spacing      : -0.34px;
+  line-height         : 39.0px;
+}
+.bp1-yuradesktop1920px .bp1-u2022loremipsumdolor {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 4791px;
+  height              : auto;
+  width               : 333px;
+  position            : absolute;
+  margin              : 0;
+  left                : 1216px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Apercu-Light", Helvetica, Arial, serif;
+  font-size           : 24.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  letter-spacing      : -0.39px;
+  line-height         : 32.0px;
+}
+.bp1-yuradesktop1920px .bp1-u2022loremipsumdolorcopy {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 4993px;
+  height              : auto;
+  width               : 333px;
+  position            : absolute;
+  margin              : 0;
+  left                : 1216px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Apercu-Light", Helvetica, Arial, serif;
+  font-size           : 24.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  letter-spacing      : -0.39px;
+  line-height         : 32.0px;
+}
+.bp1-yuradesktop1920px .bp1-design {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 5195px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 976px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Apercu-Regular", Helvetica, Arial, serif;
+  font-size           : 32.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  letter-spacing      : -0.34px;
+  line-height         : 39.0px;
+}
+.bp1-yuradesktop1920px .bp1-u2022loremipsumdolorcopy2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 5195px;
+  height              : auto;
+  width               : 333px;
+  position            : absolute;
+  margin              : 0;
+  left                : 1216px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Apercu-Light", Helvetica, Arial, serif;
+  font-size           : 24.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  letter-spacing      : -0.39px;
+  line-height         : 32.0px;
+}
+.bp1-yuradesktop1920px .bp1-development {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 5397px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 976px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Apercu-Regular", Helvetica, Arial, serif;
+  font-size           : 32.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  letter-spacing      : -0.34px;
+  line-height         : 39.0px;
+}
+.bp1-yuradesktop1920px .bp1-u2022loremipsumdolorcopy3 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 5397px;
+  height              : auto;
+  width               : 333px;
+  position            : absolute;
+  margin              : 0;
+  left                : 1216px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Apercu-Light", Helvetica, Arial, serif;
+  font-size           : 24.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  letter-spacing      : -0.39px;
+  line-height         : 32.0px;
+}
+.bp1-yuradesktop1920px .bp1-logoplaceholder {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 5930px;
+  height              : 80px;
+  width               : 138px;
+  position            : absolute;
+  margin              : 0;
+  left                : 287px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp1-yuradesktop1920px .bp1-logoplaceholder .bp1-logo {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 80px;
+  width               : 138px;
+  position            : relative;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp1-yuradesktop1920px .bp1-logoplaceholder .bp1-logo .bp1-rectangle {
+  background-color    : rgba(215, 215, 215, 1.0);
+  top                 : 0px;
+  height              : 80px;
+  width               : 138px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  border-radius       : 4px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp1-yuradesktop1920px .bp1-logoplaceholder .bp1-logo .bp1-logo1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 21px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 33px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Apercu-Regular", Helvetica, Arial, serif;
+  font-size           : 32.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : center;
+  letter-spacing      : -0.21px;
+  line-height         : 39.0px;
+}
+.bp1-yuradesktop1920px .bp1-logoplaceholdercopy {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 5930px;
+  height              : 80px;
+  width               : 138px;
+  position            : absolute;
+  margin              : 0;
+  left                : 529px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp1-yuradesktop1920px .bp1-logoplaceholdercopy .bp1-logo {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 80px;
+  width               : 138px;
+  position            : relative;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp1-yuradesktop1920px .bp1-logoplaceholdercopy .bp1-logo .bp1-rectangle {
+  background-color    : rgba(215, 215, 215, 1.0);
+  top                 : 0px;
+  height              : 80px;
+  width               : 138px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  border-radius       : 4px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp1-yuradesktop1920px .bp1-logoplaceholdercopy .bp1-logo .bp1-logo1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 21px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 33px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Apercu-Regular", Helvetica, Arial, serif;
+  font-size           : 32.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : center;
+  letter-spacing      : -0.21px;
+  line-height         : 39.0px;
+}
+.bp1-yuradesktop1920px .bp1-logoplaceholdercopy2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 5930px;
+  height              : 80px;
+  width               : 138px;
+  position            : absolute;
+  margin              : 0;
+  left                : 770px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp1-yuradesktop1920px .bp1-logoplaceholdercopy2 .bp1-logo {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 80px;
+  width               : 138px;
+  position            : relative;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp1-yuradesktop1920px .bp1-logoplaceholdercopy2 .bp1-logo .bp1-rectangle {
+  background-color    : rgba(215, 215, 215, 1.0);
+  top                 : 0px;
+  height              : 80px;
+  width               : 138px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  border-radius       : 4px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp1-yuradesktop1920px .bp1-logoplaceholdercopy2 .bp1-logo .bp1-logo1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 21px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 33px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Apercu-Regular", Helvetica, Arial, serif;
+  font-size           : 32.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : center;
+  letter-spacing      : -0.21px;
+  line-height         : 39.0px;
+}
+.bp1-yuradesktop1920px .bp1-logoplaceholdercopy3 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 5930px;
+  height              : 80px;
+  width               : 138px;
+  position            : absolute;
+  margin              : 0;
+  left                : 1012px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp1-yuradesktop1920px .bp1-logoplaceholdercopy3 .bp1-logo {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 80px;
+  width               : 138px;
+  position            : relative;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp1-yuradesktop1920px .bp1-logoplaceholdercopy3 .bp1-logo .bp1-rectangle {
+  background-color    : rgba(215, 215, 215, 1.0);
+  top                 : 0px;
+  height              : 80px;
+  width               : 138px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  border-radius       : 4px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp1-yuradesktop1920px .bp1-logoplaceholdercopy3 .bp1-logo .bp1-logo1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 21px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 33px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Apercu-Regular", Helvetica, Arial, serif;
+  font-size           : 32.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : center;
+  letter-spacing      : -0.21px;
+  line-height         : 39.0px;
+}
+.bp1-yuradesktop1920px .bp1-logoplaceholdercopy4 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 5930px;
+  height              : 80px;
+  width               : 138px;
+  position            : absolute;
+  margin              : 0;
+  left                : 1253px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp1-yuradesktop1920px .bp1-logoplaceholdercopy4 .bp1-logo {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 80px;
+  width               : 138px;
+  position            : relative;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp1-yuradesktop1920px .bp1-logoplaceholdercopy4 .bp1-logo .bp1-rectangle {
+  background-color    : rgba(215, 215, 215, 1.0);
+  top                 : 0px;
+  height              : 80px;
+  width               : 138px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  border-radius       : 4px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp1-yuradesktop1920px .bp1-logoplaceholdercopy4 .bp1-logo .bp1-logo1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 21px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 33px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Apercu-Regular", Helvetica, Arial, serif;
+  font-size           : 32.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : center;
+  letter-spacing      : -0.21px;
+  line-height         : 39.0px;
+}
+.bp1-yuradesktop1920px .bp1-logoplaceholdercopy5 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 5930px;
+  height              : 80px;
+  width               : 138px;
+  position            : absolute;
+  margin              : 0;
+  left                : 1495px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp1-yuradesktop1920px .bp1-logoplaceholdercopy5 .bp1-logo {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 80px;
+  width               : 138px;
+  position            : relative;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp1-yuradesktop1920px .bp1-logoplaceholdercopy5 .bp1-logo .bp1-rectangle {
+  background-color    : rgba(215, 215, 215, 1.0);
+  top                 : 0px;
+  height              : 80px;
+  width               : 138px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  border-radius       : 4px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp1-yuradesktop1920px .bp1-logoplaceholdercopy5 .bp1-logo .bp1-logo1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 21px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 33px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Apercu-Regular", Helvetica, Arial, serif;
+  font-size           : 32.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : center;
+  letter-spacing      : -0.21px;
+  line-height         : 39.0px;
+}
+.bp1-yuradesktop1920px .bp1-button {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 4528px;
+  height              : 51px;
+  width               : 199px;
+  position            : absolute;
+  margin              : 0;
+  left                : 861px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp1-yuradesktop1920px .bp1-button .bp1-button2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 51px;
+  width               : 199px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp1-yuradesktop1920px .bp1-button .bp1-button2 .bp1-button3 {
+  background-color    : rgba(0, 52, 218, 1.0);
+  top                 : 0px;
+  height              : 51px;
+  width               : 199px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  border-radius       : 25px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp1-yuradesktop1920px .bp1-button .bp1-button2 .bp1-morecases {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 14px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 47px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Apercu-Regular", Helvetica, Arial, serif;
+  font-size           : 18.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  line-height         : 21.0px;
+}
+.bp1-yuradesktop1920px .bp1-button .bp1-arrow {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 17px;
+  height              : 17px;
+  width               : 17px;
+  position            : absolute;
+  margin              : 0;
+  left                : 149px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp1-yuradesktop1920px .bp1-button .bp1-arrow .bp1-path2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 2px;
+  height              : 12px;
+  width               : 12px;
+  position            : relative;
+  margin              : 0;
+  left                : 2px;
+  -ms-transform       : rotate(-315deg); /* IE 9 */
+  -webkit-transform   : rotate(-315deg); /* Chrome, Safari, Opera */
+  transform           : rotate(-315deg);
+}
+.bp1-yuradesktop1920px .bp1-button1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 7455px;
+  height              : 51px;
+  width               : 214px;
+  position            : absolute;
+  margin              : 0;
+  left                : 377px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp1-yuradesktop1920px .bp1-button1 .bp1-button2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 51px;
+  width               : 214px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp1-yuradesktop1920px .bp1-button1 .bp1-button2 .bp1-button3 {
+  background-color    : rgba(0, 52, 218, 1.0);
+  top                 : 0px;
+  height              : 51px;
+  width               : 214px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  border-radius       : 25px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp1-yuradesktop1920px .bp1-button1 .bp1-button2 .bp1-chatwithus {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 14px;
+  height              : auto;
+  width               : 111px;
+  position            : absolute;
+  margin              : 0;
+  left                : 50px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Apercu-Regular", Helvetica, Arial, serif;
+  font-size           : 18.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  line-height         : 21.0px;
+}
+.bp1-yuradesktop1920px .bp1-button1 .bp1-arrow {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 17px;
+  height              : 17px;
+  width               : 17px;
+  position            : absolute;
+  margin              : 0;
+  left                : 160px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp1-yuradesktop1920px .bp1-button1 .bp1-arrow .bp1-path2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 2px;
+  height              : 12px;
+  width               : 12px;
+  position            : relative;
+  margin              : 0;
+  left                : 2px;
+  -ms-transform       : rotate(-315deg); /* IE 9 */
+  -webkit-transform   : rotate(-315deg); /* Chrome, Safari, Opera */
+  transform           : rotate(-315deg);
+}
+.bp1-yuradesktop1920px .bp1-ourdrivingprincipl {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 3173px;
+  height              : auto;
+  width               : 936px;
+  position            : absolute;
+  margin              : 0;
+  left                : 372px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Apercu-Light", Helvetica, Arial, serif;
+  font-size           : 48.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  letter-spacing      : -0.51px;
+  line-height         : 56.0px;
+}
+.bp1-yuradesktop1920px .bp1-buttoncopy {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 3432px;
+  height              : 51px;
+  width               : 199px;
+  position            : absolute;
+  margin              : 0;
+  left                : 375px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp1-yuradesktop1920px .bp1-buttoncopy .bp1-button2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 51px;
+  width               : 199px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp1-yuradesktop1920px .bp1-buttoncopy .bp1-button2 .bp1-button3 {
+  background-color    : rgba(211, 0, 255, 1.0);
+  top                 : 0px;
+  height              : 51px;
+  width               : 199px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  border-radius       : 25px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp1-yuradesktop1920px .bp1-buttoncopy .bp1-button2 .bp1-learnhow {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 14px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 47px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Apercu-Regular", Helvetica, Arial, serif;
+  font-size           : 18.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  line-height         : 21.0px;
+}
+.bp1-yuradesktop1920px .bp1-buttoncopy .bp1-arrow {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 17px;
+  height              : 17px;
+  width               : 17px;
+  position            : absolute;
+  margin              : 0;
+  left                : 142px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp1-yuradesktop1920px .bp1-buttoncopy .bp1-arrow .bp1-path2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 2px;
+  height              : 12px;
+  width               : 12px;
+  position            : relative;
+  margin              : 0;
+  left                : 2px;
+  -ms-transform       : rotate(-315deg); /* IE 9 */
+  -webkit-transform   : rotate(-315deg); /* Chrome, Safari, Opera */
+  transform           : rotate(-315deg);
+}
+.bp1-yuradesktop1920px .bp1-helpcrunch {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 916px;
+  height              : 60px;
+  width               : 184px;
+  position            : absolute;
+  margin              : 0;
+  left                : 1496px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp1-yuradesktop1920px .bp1-helpcrunch .bp1-rectangle {
+  background-color    : rgba(0, 52, 218, 1.0);
+  top                 : 0px;
+  height              : 60px;
+  width               : 60px;
+  position            : absolute;
+  margin              : 0;
+  left                : 124px;
+  border-radius       : 15px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp1-yuradesktop1920px .bp1-helpcrunch .bp1-rectangle1 {
+  background-color    : rgba(0, 52, 218, 1.0);
+  top                 : 8px;
+  height              : 44px;
+  width               : 112px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  border-radius       : 21px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp1-yuradesktop1920px .bp1-helpcrunch .bp1-triangle {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 28px;
+  height              : 13px;
+  width               : 10px;
+  position            : absolute;
+  margin              : 0;
+  left                : 109px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp1-yuradesktop1920px .bp1-helpcrunch .bp1-chatwithus {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 21px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 8px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Apercu-Regular", Helvetica, Arial, serif;
+  font-size           : 15.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : right;
+  letter-spacing      : -0.16px;
+  line-height         : 18.0px;
+}
+.bp1-yuradesktop1920px .bp1-helpcrunch .bp1-shape {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 15px;
+  height              : 32px;
+  width               : 30px;
+  position            : absolute;
+  margin              : 0;
+  left                : 138px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp1-yuradesktop1920px .bp1-casecopy2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 6217px;
+  height              : 702px;
+  width               : 1169px;
+  position            : absolute;
+  margin              : 0;
+  left                : 376px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp1-yuradesktop1920px .bp1-casecopy2 .bp1-gettyimages554391989 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 590px;
+  width               : 568px;
+  position            : absolute;
+  margin              : 0;
+  left                : 601px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp1-yuradesktop1920px .bp1-casecopy2 .bp1-casecopy {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 112px;
+  height              : 590px;
+  width               : 568px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp1-yuradesktop1920px .bp1-casecopy2 .bp1-casecopy .bp1-gettyimages5543919891 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 590px;
+  width               : 568px;
+  position            : relative;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp1-yuradesktop1920px .bp1-testemonial {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 6218px;
+  height              : 495px;
+  width               : 463px;
+  position            : absolute;
+  margin              : 0;
+  left                : 241px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp1-yuradesktop1920px .bp1-testemonial .bp1-rectanglecopy6 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 495px;
+  width               : 463px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp1-yuradesktop1920px .bp1-testemonial .bp1-readmore {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 417px;
+  height              : 36px;
+  width               : 39px;
+  position            : absolute;
+  margin              : 0;
+  left                : 387px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp1-yuradesktop1920px .bp1-testemonial .bp1-readmore .bp1-arrow {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 36px;
+  width               : 39px;
+  position            : relative;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp1-yuradesktop1920px .bp1-testemonial .bp1-readmore .bp1-arrow .bp1-line {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 14px;
+  height              : 8px;
+  width               : 37px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp1-yuradesktop1920px .bp1-testemonial .bp1-readmore .bp1-arrow .bp1-path2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 4px;
+  height              : 26px;
+  width               : 27px;
+  position            : absolute;
+  margin              : 0;
+  left                : 8px;
+  -ms-transform       : rotate(-315deg); /* IE 9 */
+  -webkit-transform   : rotate(-315deg); /* Chrome, Safari, Opera */
+  transform           : rotate(-315deg);
+}
+.bp1-yuradesktop1920px .bp1-testemonial .bp1-u201cwhatconvincedust {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 80px;
+  height              : auto;
+  width               : 394px;
+  position            : absolute;
+  margin              : 0;
+  left                : 40px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Apercu-Regular", Helvetica, Arial, serif;
+  font-size           : 28.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  letter-spacing      : -0.25px;
+  line-height         : 37.0px;
+}
+.bp1-yuradesktop1920px .bp1-testemonial .bp1-u201cwhatconvincedust .bp1-span1 {
+  
+}
+.bp1-yuradesktop1920px .bp1-testemonial .bp1-u201cwhatconvincedust .bp1-span2 {
+  letter-spacing      : -0.25px;
+}
+.bp1-yuradesktop1920px .bp1-testemonial .bp1-testemonial2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 40px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 40px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Apercu-Bold", Helvetica, Arial, serif;
+  font-size           : 18.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  letter-spacing      : -0.19px;
+  line-height         : 22.0px;
+}
+.bp1-yuradesktop1920px .bp1-testemonial .bp1-profile {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 410px;
+  height              : 45px;
+  width               : 181px;
+  position            : absolute;
+  margin              : 0;
+  left                : 40px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp1-yuradesktop1920px .bp1-testemonial .bp1-profile .bp1-johngoodwill {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 2px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 52px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Apercu-Bold", Helvetica, Arial, serif;
+  font-size           : 16.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  letter-spacing      : -0.17px;
+  line-height         : 22.0px;
+}
+.bp1-yuradesktop1920px .bp1-testemonial .bp1-profile .bp1-accountdirectorh {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 22px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 52px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Apercu-Regular", Helvetica, Arial, serif;
+  font-size           : 14.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  letter-spacing      : -0.15px;
+  line-height         : 22.0px;
+}
+.bp1-yuradesktop1920px .bp1-testemonial .bp1-profile .bp1-oval {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1px;
+  height              : 44px;
+  width               : 44px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp1-yuradesktop1920px .bp1-testemonial1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 6425px;
+  height              : 495px;
+  width               : 463px;
+  position            : absolute;
+  margin              : 0;
+  left                : 1217px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp1-yuradesktop1920px .bp1-testemonial1 .bp1-rectanglecopy6 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 495px;
+  width               : 463px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp1-yuradesktop1920px .bp1-testemonial1 .bp1-readmore {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 417px;
+  height              : 36px;
+  width               : 39px;
+  position            : absolute;
+  margin              : 0;
+  left                : 387px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp1-yuradesktop1920px .bp1-testemonial1 .bp1-readmore .bp1-arrow {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 36px;
+  width               : 39px;
+  position            : relative;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp1-yuradesktop1920px .bp1-testemonial1 .bp1-readmore .bp1-arrow .bp1-line {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 14px;
+  height              : 8px;
+  width               : 37px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp1-yuradesktop1920px .bp1-testemonial1 .bp1-readmore .bp1-arrow .bp1-path2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 4px;
+  height              : 26px;
+  width               : 27px;
+  position            : absolute;
+  margin              : 0;
+  left                : 8px;
+  -ms-transform       : rotate(-315deg); /* IE 9 */
+  -webkit-transform   : rotate(-315deg); /* Chrome, Safari, Opera */
+  transform           : rotate(-315deg);
+}
+.bp1-yuradesktop1920px .bp1-testemonial1 .bp1-u201cwhatconvincedust {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 80px;
+  height              : auto;
+  width               : 394px;
+  position            : absolute;
+  margin              : 0;
+  left                : 40px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Apercu-Regular", Helvetica, Arial, serif;
+  font-size           : 28.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  letter-spacing      : -0.25px;
+  line-height         : 37.0px;
+}
+.bp1-yuradesktop1920px .bp1-testemonial1 .bp1-testemonial2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 40px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 40px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Apercu-Bold", Helvetica, Arial, serif;
+  font-size           : 18.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  letter-spacing      : -0.19px;
+  line-height         : 22.0px;
+}
+.bp1-yuradesktop1920px .bp1-testemonial1 .bp1-profile {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 410px;
+  height              : 45px;
+  width               : 178px;
+  position            : absolute;
+  margin              : 0;
+  left                : 40px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp1-yuradesktop1920px .bp1-testemonial1 .bp1-profile .bp1-johngoodwill {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 2px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 52px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Apercu-Bold", Helvetica, Arial, serif;
+  font-size           : 16.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  letter-spacing      : -0.17px;
+  line-height         : 22.0px;
+}
+.bp1-yuradesktop1920px .bp1-testemonial1 .bp1-profile .bp1-accountdirectorh {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 22px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 52px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Apercu-Regular", Helvetica, Arial, serif;
+  font-size           : 14.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  letter-spacing      : -0.15px;
+  line-height         : 22.0px;
+}
+.bp1-yuradesktop1920px .bp1-testemonial1 .bp1-profile .bp1-oval {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1px;
+  height              : 44px;
+  width               : 44px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp1-yuradesktop1920px .bp1-path {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 6804px;
+  height              : 52px;
+  width               : 53px;
+  position            : absolute;
+  margin              : 0;
+  left                : 248px;
+  -ms-transform       : rotate(-315deg); /* IE 9 */
+  -webkit-transform   : rotate(-315deg); /* Chrome, Safari, Opera */
+  transform           : rotate(-315deg);
+}
+.bp1-yuradesktop1920px .bp1-path1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 6294px;
+  height              : 52px;
+  width               : 53px;
+  position            : absolute;
+  margin              : 0;
+  left                : 1618px;
+  -ms-transform       : rotate(-315deg); /* IE 9 */
+  -webkit-transform   : rotate(-315deg); /* Chrome, Safari, Opera */
+  transform           : rotate(-315deg);
+}
+.bp1-yuradesktop1920px .bp1-writers {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 7068px;
+  height              : 420px;
+  width               : 538px;
+  position            : absolute;
+  margin              : 0;
+  left                : -649px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp1-yuradesktop1920px .bp1-mediagirl01 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1985px;
+  height              : 459px;
+  width               : 604px;
+  position            : absolute;
+  margin              : 0;
+  left                : 323px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp1-yuradesktop1920px .bp1-a3dblocks {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 7049px;
+  height              : 521px;
+  width               : 392px;
+  position            : absolute;
+  margin              : 0;
+  left                : 953px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp1-yuradesktop1920px .bp1-yuralogo {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 30px;
+  height              : 43px;
+  width               : 120px;
+  position            : absolute;
+  margin              : 0;
+  left                : 240px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp1-yuradesktop1920px .bp1-yuralogo .bp1-logo {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 43px;
+  width               : 120px;
+  position            : relative;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+/* .anima-animate-appear prefix for appear animations */
+.anima-animate-appear {
+  opacity             : 0;
+  display             : block;
+  -webkit-animation   : anima-reveal 0.3s ease-in-out 1 normal forwards;
+  -moz-animation      : anima-reveal 0.3s ease-in 1 normal forwards;
+  -o-animation        : anima-reveal 0.3s ease-in-out 1 normal forwards;
+  animation           : anima-reveal 0.3s ease-in-out 1 normal forwards;
+}
+.anima-animate-disappear {
+  opacity             : 1;
+  display             : block;
+  -webkit-animation   : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+  -moz-animation      : anima-reveal 0.3s ease-in 1 normal forwards;
+  -o-animation        : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+  animation           : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+}
+.anima-animate-nodelay {
+  -webkit-animation-delay: 0;
+  -moz-animation-delay: 0;
+  -o-animation-delay  : 0;
+  animation-delay     : 0;
+}
+@-webkit-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@-moz-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@-o-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+.bp2-yuramobile375 {
+  width               : 100%;
+  min-width           : 375px;
+  height              : 100vh;
+  min-height          : 7182px;
+  position            : relative;
+  overflow            : hidden;
+  margin              : 0px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color    : rgba(255, 255, 255, 1.0);
+}
+a {
+  text-decoration     : none;
+}
+div {
+  -webkit-text-size-adjust: none;
+}
+.anima-full-width-a {
+  width               : 100%;
+}
+.anima-full-height-a {
+  height              : 100%;
+}
+div {
+  -webkit-text-size-adjust: none;
+}
+.bp2-yuramobile375 .bp2-yuralogo {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 24px;
+  height              : 30px;
+  width               : 84px;
+  position            : absolute;
+  margin              : 0;
+  left                : 16px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-yuramobile375 .bp2-yuralogo .bp2-logo {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 30px;
+  width               : 84px;
+  position            : relative;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-yuramobile375 .bp2-yuraisacreatived {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 332px;
+  height              : auto;
+  width               : 344px;
+  position            : absolute;
+  margin              : 0;
+  left                : 16px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Apercu-Light", Helvetica, Arial, serif;
+  font-size           : 33.6px;
+  color               : rgba(0, 52, 218, 1.0);
+  text-align          : left;
+  letter-spacing      : -0.36px;
+  line-height         : 40.0px;
+}
+.bp2-yuramobile375 .bp2-hithereud83dudc4b {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 656px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 15px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Apercu-Light", Helvetica, Arial, serif;
+  font-size           : 16.0px;
+  color               : rgba(0, 52, 218, 1.0);
+  text-align          : left;
+  letter-spacing      : -0.36px;
+  line-height         : 16.0px;
+}
+.bp2-yuramobile375 .bp2-hithereud83dudc4b .bp2-span1 {
+  line-height         : 18.0px;
+}
+.bp2-yuramobile375 .bp2-hithereud83dudc4b .bp2-span2 {
+  font-family         : "AppleColorEmoji", Helvetica, Arial, serif;
+  line-height         : 26.0px;
+}
+.bp2-yuramobile375 .bp2-yblue {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : -372px;
+  height              : 421px;
+  width               : 322px;
+  position            : absolute;
+  margin              : 0;
+  left                : -26px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-yuramobile375 .bp2-yblue .bp2-yblue1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 421px;
+  width               : 322px;
+  position            : relative;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-yuramobile375 .bp2-helpcrunch {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 693px;
+  height              : 42px;
+  width               : 129px;
+  position            : absolute;
+  margin              : 0;
+  left                : 231px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-yuramobile375 .bp2-helpcrunch .bp2-rectangle {
+  background-color    : rgba(0, 52, 218, 1.0);
+  top                 : 0px;
+  height              : 42px;
+  width               : 42px;
+  position            : absolute;
+  margin              : 0;
+  left                : 87px;
+  border-radius       : 10px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-yuramobile375 .bp2-helpcrunch .bp2-rectangle1 {
+  background-color    : rgba(0, 52, 218, 1.0);
+  top                 : 6px;
+  height              : 31px;
+  width               : 78px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  border-radius       : 15px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-yuramobile375 .bp2-helpcrunch .bp2-triangle {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 20px;
+  height              : 9px;
+  width               : 7px;
+  position            : absolute;
+  margin              : 0;
+  left                : 76px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-yuramobile375 .bp2-helpcrunch .bp2-chatwithus {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 15px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 5px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Apercu-Regular", Helvetica, Arial, serif;
+  font-size           : 10.5px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : right;
+  letter-spacing      : -0.11px;
+  line-height         : 12.0px;
+}
+.bp2-yuramobile375 .bp2-helpcrunch .bp2-shape {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 11px;
+  height              : 22px;
+  width               : 21px;
+  position            : absolute;
+  margin              : 0;
+  left                : 97px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-yuramobile375 .bp2-ygradient {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 809px;
+  height              : 668px;
+  width               : 510px;
+  position            : absolute;
+  margin              : 0;
+  left                : -453px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-yuramobile375 .bp2-ygradient .bp2-ygradient1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 668px;
+  width               : 510px;
+  position            : relative;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-yuramobile375 .bp2-workingcopy {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 845px;
+  height              : 125px;
+  width               : 344px;
+  position            : absolute;
+  margin              : 0;
+  left                : 16px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-yuramobile375 .bp2-workingcopy2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 980px;
+  height              : 125px;
+  width               : 344px;
+  position            : absolute;
+  margin              : 0;
+  left                : 16px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-yuramobile375 .bp2-aboutyuracopy {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 897px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 144px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Apercu-Bold", Helvetica, Arial, serif;
+  font-size           : 18.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  letter-spacing      : -0.19px;
+  line-height         : 15.4px;
+}
+.bp2-yuramobile375 .bp2-services {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1032px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 154px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Apercu-Bold", Helvetica, Arial, serif;
+  font-size           : 18.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  letter-spacing      : -0.19px;
+  line-height         : 15.4px;
+}
+.bp2-yuramobile375 .bp2-workingcopy3 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1115px;
+  height              : 125px;
+  width               : 344px;
+  position            : absolute;
+  margin              : 0;
+  left                : 16px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-yuramobile375 .bp2-methods {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1167px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 153px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Apercu-Bold", Helvetica, Arial, serif;
+  font-size           : 18.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  letter-spacing      : -0.19px;
+  line-height         : 15.4px;
+}
+.bp2-yuramobile375 .bp2-workingcopy4 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1250px;
+  height              : 125px;
+  width               : 344px;
+  position            : absolute;
+  margin              : 0;
+  left                : 16px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-yuramobile375 .bp2-cases {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1302px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 164px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Apercu-Bold", Helvetica, Arial, serif;
+  font-size           : 18.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  letter-spacing      : -0.19px;
+  line-height         : 15.4px;
+}
+.bp2-yuramobile375 .bp2-workingcopy5 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1385px;
+  height              : 125px;
+  width               : 344px;
+  position            : absolute;
+  margin              : 0;
+  left                : 16px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-yuramobile375 .bp2-news {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1437px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 166px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Apercu-Bold", Helvetica, Arial, serif;
+  font-size           : 18.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  letter-spacing      : -0.19px;
+  line-height         : 15.4px;
+}
+.bp2-yuramobile375 .bp2-workingcopy6 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1520px;
+  height              : 125px;
+  width               : 344px;
+  position            : absolute;
+  margin              : 0;
+  left                : 16px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-yuramobile375 .bp2-team {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1572px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 167px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Apercu-Bold", Helvetica, Arial, serif;
+  font-size           : 18.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  letter-spacing      : -0.19px;
+  line-height         : 15.4px;
+}
+.bp2-yuramobile375 .bp2-drivingbusinessres {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1753px;
+  height              : auto;
+  width               : 344px;
+  position            : absolute;
+  margin              : 0;
+  left                : 16px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Apercu-Light", Helvetica, Arial, serif;
+  font-size           : 33.6px;
+  color               : rgba(0, 52, 218, 1.0);
+  text-align          : center;
+  letter-spacing      : -0.36px;
+  line-height         : 40.0px;
+}
+.bp2-yuramobile375 .bp2-maywehelpyouac {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 2041px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 41px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Apercu-Light", Helvetica, Arial, serif;
+  font-size           : 16.8px;
+  color               : rgba(0, 52, 218, 1.0);
+  text-align          : center;
+  letter-spacing      : -0.36px;
+  line-height         : 16.8px;
+}
+.bp2-yuramobile375 .bp2-maywehelpyouac .bp2-span1 {
+  line-height         : 20.0px;
+}
+.bp2-yuramobile375 .bp2-maywehelpyouac .bp2-span2 {
+  font-family         : "AppleColorEmoji", Helvetica, Arial, serif;
+  line-height         : 26.0px;
+}
+.bp2-yuramobile375 .bp2-mediagirl01 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 2127px;
+  height              : 260px;
+  width               : 342px;
+  position            : absolute;
+  margin              : 0;
+  left                : 17px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-yuramobile375 .bp2-menudark {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 16px;
+  height              : 18px;
+  width               : 20px;
+  position            : absolute;
+  margin              : 0;
+  left                : 339px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-yuramobile375 .bp2-gettyimages554391989copy {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 2510px;
+  height              : 572px;
+  width               : 1154px;
+  position            : absolute;
+  margin              : 0;
+  left                : -217px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-yuramobile375 .bp2-ourdrivingprincipl {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 2649px;
+  height              : auto;
+  width               : 344px;
+  position            : absolute;
+  margin              : 0;
+  left                : 16px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Apercu-Light", Helvetica, Arial, serif;
+  font-size           : 33.6px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : center;
+  letter-spacing      : -0.36px;
+  line-height         : 40.0px;
+}
+.bp2-yuramobile375 .bp2-joinuscopy {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 2566px;
+  height              : auto;
+  width               : 107px;
+  position            : absolute;
+  margin              : 0;
+  left                : 135px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Apercu-Regular", Helvetica, Arial, serif;
+  font-size           : 33.6px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  letter-spacing      : -0.36px;
+  line-height         : 41.0px;
+}
+.bp2-yuramobile375 .bp2-pathcopy2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 2510px;
+  height              : 572px;
+  width               : 437px;
+  position            : absolute;
+  margin              : 0;
+  left                : -370px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-yuramobile375 .bp2-case {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 3152px;
+  height              : 653px;
+  width               : 356px;
+  position            : absolute;
+  margin              : 0;
+  left                : 10px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-yuramobile375 .bp2-case .bp2-gettyimages5543919891 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 408px;
+  width               : 356px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-yuramobile375 .bp2-case .bp2-rectanglecopy6 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 244px;
+  height              : 409px;
+  width               : 314px;
+  position            : absolute;
+  margin              : 0;
+  left                : 22px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-yuramobile375 .bp2-case .bp2-readmore {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 599px;
+  height              : 26px;
+  width               : 28px;
+  position            : absolute;
+  margin              : 0;
+  left                : 284px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-yuramobile375 .bp2-case .bp2-readmore .bp2-arrow {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 26px;
+  width               : 28px;
+  position            : relative;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-yuramobile375 .bp2-case .bp2-readmore .bp2-arrow .bp2-line {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 10px;
+  height              : 6px;
+  width               : 26px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-yuramobile375 .bp2-case .bp2-readmore .bp2-arrow .bp2-path {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 3px;
+  height              : 19px;
+  width               : 19px;
+  position            : absolute;
+  margin              : 0;
+  left                : 5px;
+  -ms-transform       : rotate(-315deg); /* IE 9 */
+  -webkit-transform   : rotate(-315deg); /* Chrome, Safari, Opera */
+  transform           : rotate(-315deg);
+}
+.bp2-yuramobile375 .bp2-case .bp2-innovationtechnolog {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 301px;
+  height              : auto;
+  width               : 274px;
+  position            : absolute;
+  margin              : 0;
+  left                : 41px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Apercu-Regular", Helvetica, Arial, serif;
+  font-size           : 33.6px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  letter-spacing      : -0.36px;
+  line-height         : 41.0px;
+}
+.bp2-yuramobile375 .bp2-case .bp2-loremipsumdolorsi {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 451px;
+  height              : auto;
+  width               : 274px;
+  position            : absolute;
+  margin              : 0;
+  left                : 41px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Apercu-Light", Helvetica, Arial, serif;
+  font-size           : 16.8px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  letter-spacing      : -0.18px;
+  line-height         : 23.8px;
+}
+.bp2-yuramobile375 .bp2-case .bp2-mybit {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 269px;
+  height              : auto;
+  width               : 43px;
+  position            : absolute;
+  margin              : 0;
+  left                : 44px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Apercu-Bold", Helvetica, Arial, serif;
+  font-size           : 16.8px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  letter-spacing      : -0.18px;
+  line-height         : 15.4px;
+}
+.bp2-yuramobile375 .bp2-gradientbackground {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 3951px;
+  height              : 881px;
+  width               : 375px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-yuramobile375 .bp2-ywhite {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 3949px;
+  height              : 554px;
+  width               : 423px;
+  position            : absolute;
+  margin              : 0;
+  left                : 285px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-yuramobile375 .bp2-ywhite .bp2-ywhite1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 554px;
+  width               : 423px;
+  position            : relative;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-yuramobile375 .bp2-whatwedo {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 4026px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 99px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Apercu-Regular", Helvetica, Arial, serif;
+  font-size           : 33.6px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  letter-spacing      : -0.36px;
+  line-height         : 41.0px;
+}
+.bp2-yuramobile375 .bp2-branding {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 4096px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 146px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Apercu-Regular", Helvetica, Arial, serif;
+  font-size           : 22.4px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  letter-spacing      : -0.24px;
+  line-height         : 27.0px;
+}
+.bp2-yuramobile375 .bp2-strategy {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 4269px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 148px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Apercu-Regular", Helvetica, Arial, serif;
+  font-size           : 22.4px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  letter-spacing      : -0.24px;
+  line-height         : 27.0px;
+}
+.bp2-yuramobile375 .bp2-u2022loremipsumdolor {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 4137px;
+  height              : auto;
+  width               : 233px;
+  position            : absolute;
+  margin              : 0;
+  left                : 81px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Apercu-Light", Helvetica, Arial, serif;
+  font-size           : 16.8px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  letter-spacing      : -0.27px;
+  line-height         : 22.4px;
+}
+.bp2-yuramobile375 .bp2-u2022loremipsumdolorcopy {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 4310px;
+  height              : auto;
+  width               : 233px;
+  position            : absolute;
+  margin              : 0;
+  left                : 81px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Apercu-Light", Helvetica, Arial, serif;
+  font-size           : 16.8px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  letter-spacing      : -0.27px;
+  line-height         : 22.4px;
+}
+.bp2-yuramobile375 .bp2-design {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 4442px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 157px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Apercu-Regular", Helvetica, Arial, serif;
+  font-size           : 22.4px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  letter-spacing      : -0.24px;
+  line-height         : 27.0px;
+}
+.bp2-yuramobile375 .bp2-u2022loremipsumdolorcopy2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 4483px;
+  height              : auto;
+  width               : 233px;
+  position            : absolute;
+  margin              : 0;
+  left                : 81px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Apercu-Light", Helvetica, Arial, serif;
+  font-size           : 16.8px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  letter-spacing      : -0.27px;
+  line-height         : 22.4px;
+}
+.bp2-yuramobile375 .bp2-development {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 4615px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 123px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Apercu-Regular", Helvetica, Arial, serif;
+  font-size           : 22.4px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  letter-spacing      : -0.24px;
+  line-height         : 27.0px;
+}
+.bp2-yuramobile375 .bp2-u2022loremipsumdolorcopy3 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 4656px;
+  height              : auto;
+  width               : 233px;
+  position            : absolute;
+  margin              : 0;
+  left                : 81px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Apercu-Light", Helvetica, Arial, serif;
+  font-size           : 16.8px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  letter-spacing      : -0.27px;
+  line-height         : 22.4px;
+}
+.bp2-yuramobile375 .bp2-weworkwithstartup {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 4895px;
+  height              : auto;
+  width               : 344px;
+  position            : absolute;
+  margin              : 0;
+  left                : 16px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Apercu-Light", Helvetica, Arial, serif;
+  font-size           : 33.6px;
+  color               : rgba(0, 52, 218, 1.0);
+  text-align          : center;
+  letter-spacing      : -0.36px;
+  line-height         : 40.0px;
+}
+.bp2-yuramobile375 .bp2-logoplaceholdercopy {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 5093px;
+  height              : 56px;
+  width               : 97px;
+  position            : absolute;
+  margin              : 0;
+  left                : 215px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-yuramobile375 .bp2-logoplaceholdercopy .bp2-logo {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 56px;
+  width               : 97px;
+  position            : relative;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-yuramobile375 .bp2-logoplaceholdercopy .bp2-logo .bp2-rectangle {
+  background-color    : rgba(215, 215, 215, 1.0);
+  top                 : 0px;
+  height              : 56px;
+  width               : 97px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  border-radius       : 2px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-yuramobile375 .bp2-logoplaceholdercopy .bp2-logo .bp2-logo1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 15px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 23px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Apercu-Regular", Helvetica, Arial, serif;
+  font-size           : 22.4px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : center;
+  letter-spacing      : -0.14px;
+  line-height         : 27.0px;
+}
+.bp2-yuramobile375 .bp2-logoplaceholdercopy2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 5171px;
+  height              : 56px;
+  width               : 97px;
+  position            : absolute;
+  margin              : 0;
+  left                : 215px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-yuramobile375 .bp2-logoplaceholdercopy2 .bp2-logo {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 56px;
+  width               : 97px;
+  position            : relative;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-yuramobile375 .bp2-logoplaceholdercopy2 .bp2-logo .bp2-rectangle {
+  background-color    : rgba(215, 215, 215, 1.0);
+  top                 : 0px;
+  height              : 56px;
+  width               : 97px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  border-radius       : 2px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-yuramobile375 .bp2-logoplaceholdercopy2 .bp2-logo .bp2-logo1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 15px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 23px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Apercu-Regular", Helvetica, Arial, serif;
+  font-size           : 22.4px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : center;
+  letter-spacing      : -0.14px;
+  line-height         : 27.0px;
+}
+.bp2-yuramobile375 .bp2-logoplaceholder {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 5093px;
+  height              : 56px;
+  width               : 97px;
+  position            : absolute;
+  margin              : 0;
+  left                : 66px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-yuramobile375 .bp2-logoplaceholder .bp2-logo {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 56px;
+  width               : 97px;
+  position            : relative;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-yuramobile375 .bp2-logoplaceholder .bp2-logo .bp2-rectangle {
+  background-color    : rgba(215, 215, 215, 1.0);
+  top                 : 0px;
+  height              : 56px;
+  width               : 97px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  border-radius       : 2px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-yuramobile375 .bp2-logoplaceholder .bp2-logo .bp2-logo1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 15px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 23px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Apercu-Regular", Helvetica, Arial, serif;
+  font-size           : 22.4px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : center;
+  letter-spacing      : -0.14px;
+  line-height         : 27.0px;
+}
+.bp2-yuramobile375 .bp2-logoplaceholdercopy3 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 5171px;
+  height              : 56px;
+  width               : 97px;
+  position            : absolute;
+  margin              : 0;
+  left                : 66px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-yuramobile375 .bp2-logoplaceholdercopy3 .bp2-logo {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 56px;
+  width               : 97px;
+  position            : relative;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-yuramobile375 .bp2-logoplaceholdercopy3 .bp2-logo .bp2-rectangle {
+  background-color    : rgba(215, 215, 215, 1.0);
+  top                 : 0px;
+  height              : 56px;
+  width               : 97px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  border-radius       : 2px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-yuramobile375 .bp2-logoplaceholdercopy3 .bp2-logo .bp2-logo1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 15px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 23px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Apercu-Regular", Helvetica, Arial, serif;
+  font-size           : 22.4px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : center;
+  letter-spacing      : -0.14px;
+  line-height         : 27.0px;
+}
+.bp2-yuramobile375 .bp2-logoplaceholdercopy5 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 5249px;
+  height              : 56px;
+  width               : 97px;
+  position            : absolute;
+  margin              : 0;
+  left                : 215px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-yuramobile375 .bp2-logoplaceholdercopy5 .bp2-logo {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 56px;
+  width               : 97px;
+  position            : relative;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-yuramobile375 .bp2-logoplaceholdercopy5 .bp2-logo .bp2-rectangle {
+  background-color    : rgba(215, 215, 215, 1.0);
+  top                 : 0px;
+  height              : 56px;
+  width               : 97px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  border-radius       : 2px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-yuramobile375 .bp2-logoplaceholdercopy5 .bp2-logo .bp2-logo1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 15px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 23px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Apercu-Regular", Helvetica, Arial, serif;
+  font-size           : 22.4px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : center;
+  letter-spacing      : -0.14px;
+  line-height         : 27.0px;
+}
+.bp2-yuramobile375 .bp2-logoplaceholdercopy4 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 5249px;
+  height              : 56px;
+  width               : 97px;
+  position            : absolute;
+  margin              : 0;
+  left                : 66px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-yuramobile375 .bp2-logoplaceholdercopy4 .bp2-logo {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 56px;
+  width               : 97px;
+  position            : relative;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-yuramobile375 .bp2-logoplaceholdercopy4 .bp2-logo .bp2-rectangle {
+  background-color    : rgba(215, 215, 215, 1.0);
+  top                 : 0px;
+  height              : 56px;
+  width               : 97px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  border-radius       : 2px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-yuramobile375 .bp2-logoplaceholdercopy4 .bp2-logo .bp2-logo1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 15px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 23px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Apercu-Regular", Helvetica, Arial, serif;
+  font-size           : 22.4px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : center;
+  letter-spacing      : -0.14px;
+  line-height         : 27.0px;
+}
+.bp2-yuramobile375 .bp2-gettyimages554391989 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 5382px;
+  height              : 413px;
+  width               : 355px;
+  position            : absolute;
+  margin              : 0;
+  left                : 10px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-yuramobile375 .bp2-testemonial {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 5528px;
+  height              : 347px;
+  width               : 325px;
+  position            : absolute;
+  margin              : 0;
+  left                : 26px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-yuramobile375 .bp2-testemonial .bp2-rectanglecopy6 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 347px;
+  width               : 324px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-yuramobile375 .bp2-testemonial .bp2-readmore {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 291px;
+  height              : 26px;
+  width               : 28px;
+  position            : absolute;
+  margin              : 0;
+  left                : 271px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-yuramobile375 .bp2-testemonial .bp2-readmore .bp2-arrow {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 26px;
+  width               : 28px;
+  position            : relative;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-yuramobile375 .bp2-testemonial .bp2-readmore .bp2-arrow .bp2-line {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 11px;
+  height              : 6px;
+  width               : 26px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-yuramobile375 .bp2-testemonial .bp2-readmore .bp2-arrow .bp2-path {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 4px;
+  height              : 18px;
+  width               : 18px;
+  position            : absolute;
+  margin              : 0;
+  left                : 6px;
+  -ms-transform       : rotate(-315deg); /* IE 9 */
+  -webkit-transform   : rotate(-315deg); /* Chrome, Safari, Opera */
+  transform           : rotate(-315deg);
+}
+.bp2-yuramobile375 .bp2-testemonial .bp2-u201cwhatconvincedust {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 56px;
+  height              : auto;
+  width               : 276px;
+  position            : absolute;
+  margin              : 0;
+  left                : 28px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Apercu-Regular", Helvetica, Arial, serif;
+  font-size           : 19.6px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  letter-spacing      : -0.17px;
+  line-height         : 25.9px;
+}
+.bp2-yuramobile375 .bp2-testemonial .bp2-testemonial1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 28px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 28px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Apercu-Bold", Helvetica, Arial, serif;
+  font-size           : 12.6px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  letter-spacing      : -0.14px;
+  line-height         : 15.4px;
+}
+.bp2-yuramobile375 .bp2-testemonial .bp2-profile {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 287px;
+  height              : 32px;
+  width               : 125px;
+  position            : absolute;
+  margin              : 0;
+  left                : 28px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-yuramobile375 .bp2-testemonial .bp2-profile .bp2-johngoodwill {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 36px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Apercu-Bold", Helvetica, Arial, serif;
+  font-size           : 11.2px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  letter-spacing      : -0.12px;
+  line-height         : 15.4px;
+}
+.bp2-yuramobile375 .bp2-testemonial .bp2-profile .bp2-accountdirectorh {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 15px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 36px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Apercu-Regular", Helvetica, Arial, serif;
+  font-size           : 9.8px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  letter-spacing      : -0.11px;
+  line-height         : 15.4px;
+}
+.bp2-yuramobile375 .bp2-testemonial .bp2-profile .bp2-oval {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 31px;
+  width               : 31px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-yuramobile375 .bp2-readytogoandbuil {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 5968px;
+  height              : auto;
+  width               : 344px;
+  position            : absolute;
+  margin              : 0;
+  left                : 16px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Apercu-Light", Helvetica, Arial, serif;
+  font-size           : 33.6px;
+  color               : rgba(0, 52, 218, 1.0);
+  text-align          : center;
+  letter-spacing      : -0.36px;
+  line-height         : 40.0px;
+}
+.bp2-yuramobile375 .bp2-putourteamofstra {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 6056px;
+  height              : auto;
+  width               : 344px;
+  position            : absolute;
+  margin              : 0;
+  left                : 16px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Apercu-Light", Helvetica, Arial, serif;
+  font-size           : 16.8px;
+  color               : rgba(0, 52, 218, 1.0);
+  text-align          : center;
+  letter-spacing      : -0.36px;
+  line-height         : 16.8px;
+}
+.bp2-yuramobile375 .bp2-putourteamofstra .bp2-span1 {
+  line-height         : 26.6px;
+}
+.bp2-yuramobile375 .bp2-putourteamofstra .bp2-span2 {
+  font-family         : "AppleColorEmoji", Helvetica, Arial, serif;
+  line-height         : 26.6px;
+}
+.bp2-yuramobile375 .bp2-a3dblocks {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 6237px;
+  height              : 365px;
+  width               : 274px;
+  position            : absolute;
+  margin              : 0;
+  left                : 50px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-yuramobile375 .bp2-footer {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 6691px;
+  height              : 492px;
+  width               : 375px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-yuramobile375 .bp2-footer .bp2-footerbackground {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 492px;
+  width               : 375px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-yuramobile375 .bp2-footer .bp2-logowhite {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 49px;
+  height              : 32px;
+  width               : 84px;
+  position            : absolute;
+  margin              : 0;
+  left                : 18px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-yuramobile375 .bp2-footer .bp2-copyright251yuraage {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 429px;
+  height              : auto;
+  width               : 346px;
+  position            : absolute;
+  margin              : 0;
+  left                : 18px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Apercu-Regular", Helvetica, Arial, serif;
+  font-size           : 12.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : center;
+  letter-spacing      : -0.16px;
+  line-height         : 14.0px;
+}
+.bp2-yuramobile375 .bp2-yuraagency31202 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 6730px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 201px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Apercu-Regular", Helvetica, Arial, serif;
+  font-size           : 18.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  line-height         : 30.0px;
+}
+.bp2-yuramobile375 .bp2-homeaboutcaserole {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 6821px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 16px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Apercu-Regular", Helvetica, Arial, serif;
+  font-size           : 18.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  line-height         : 30.0px;
+}
+.bp2-yuramobile375 .bp2-twitterlinkedinfac {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 6821px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 200px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Apercu-Regular", Helvetica, Arial, serif;
+  font-size           : 18.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  line-height         : 30.0px;
+}
+.bp2-yuramobile375 .bp2-buttoncopy {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 3001px;
+  height              : 51px;
+  width               : 199px;
+  position            : absolute;
+  margin              : 0;
+  left                : 88px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-yuramobile375 .bp2-buttoncopy .bp2-button2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 51px;
+  width               : 199px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-yuramobile375 .bp2-buttoncopy .bp2-button2 .bp2-button3 {
+  background-color    : rgba(211, 0, 255, 1.0);
+  top                 : 0px;
+  height              : 51px;
+  width               : 199px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  border-radius       : 25px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-yuramobile375 .bp2-buttoncopy .bp2-button2 .bp2-learnhow {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 14px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 47px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Apercu-Regular", Helvetica, Arial, serif;
+  font-size           : 18.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  line-height         : 21.0px;
+}
+.bp2-yuramobile375 .bp2-buttoncopy .bp2-arrow {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 17px;
+  height              : 17px;
+  width               : 17px;
+  position            : absolute;
+  margin              : 0;
+  left                : 142px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-yuramobile375 .bp2-buttoncopy .bp2-arrow .bp2-path {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 2px;
+  height              : 12px;
+  width               : 12px;
+  position            : relative;
+  margin              : 0;
+  left                : 2px;
+  -ms-transform       : rotate(-315deg); /* IE 9 */
+  -webkit-transform   : rotate(-315deg); /* Chrome, Safari, Opera */
+  transform           : rotate(-315deg);
+}
+.bp2-yuramobile375 .bp2-button {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 3834px;
+  height              : 51px;
+  width               : 199px;
+  position            : absolute;
+  margin              : 0;
+  left                : 88px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-yuramobile375 .bp2-button .bp2-button2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 51px;
+  width               : 199px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-yuramobile375 .bp2-button .bp2-button2 .bp2-button3 {
+  background-color    : rgba(0, 52, 218, 1.0);
+  top                 : 0px;
+  height              : 51px;
+  width               : 199px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  border-radius       : 25px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-yuramobile375 .bp2-button .bp2-button2 .bp2-morecases {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 14px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 47px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Apercu-Regular", Helvetica, Arial, serif;
+  font-size           : 18.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  line-height         : 21.0px;
+}
+.bp2-yuramobile375 .bp2-button .bp2-arrow {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 17px;
+  height              : 17px;
+  width               : 17px;
+  position            : absolute;
+  margin              : 0;
+  left                : 149px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-yuramobile375 .bp2-button .bp2-arrow .bp2-path {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 2px;
+  height              : 12px;
+  width               : 12px;
+  position            : relative;
+  margin              : 0;
+  left                : 2px;
+  -ms-transform       : rotate(-315deg); /* IE 9 */
+  -webkit-transform   : rotate(-315deg); /* Chrome, Safari, Opera */
+  transform           : rotate(-315deg);
+}
+.bp2-yuramobile375 .bp2-button1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 6135px;
+  height              : 51px;
+  width               : 214px;
+  position            : absolute;
+  margin              : 0;
+  left                : 81px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-yuramobile375 .bp2-button1 .bp2-button2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 51px;
+  width               : 214px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-yuramobile375 .bp2-button1 .bp2-button2 .bp2-button3 {
+  background-color    : rgba(0, 52, 218, 1.0);
+  top                 : 0px;
+  height              : 51px;
+  width               : 214px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  border-radius       : 25px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-yuramobile375 .bp2-button1 .bp2-button2 .bp2-chatwithus {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 14px;
+  height              : auto;
+  width               : 111px;
+  position            : absolute;
+  margin              : 0;
+  left                : 50px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Apercu-Regular", Helvetica, Arial, serif;
+  font-size           : 18.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  line-height         : 21.0px;
+}
+.bp2-yuramobile375 .bp2-button1 .bp2-arrow {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 17px;
+  height              : 17px;
+  width               : 17px;
+  position            : absolute;
+  margin              : 0;
+  left                : 160px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-yuramobile375 .bp2-button1 .bp2-arrow .bp2-path {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 2px;
+  height              : 12px;
+  width               : 12px;
+  position            : relative;
+  margin              : 0;
+  left                : 2px;
+  -ms-transform       : rotate(-315deg); /* IE 9 */
+  -webkit-transform   : rotate(-315deg); /* Chrome, Safari, Opera */
+  transform           : rotate(-315deg);
+}
+/* .anima-animate-appear prefix for appear animations */
+.anima-animate-appear {
+  opacity             : 0;
+  display             : block;
+  -webkit-animation   : anima-reveal 0.3s ease-in-out 1 normal forwards;
+  -moz-animation      : anima-reveal 0.3s ease-in 1 normal forwards;
+  -o-animation        : anima-reveal 0.3s ease-in-out 1 normal forwards;
+  animation           : anima-reveal 0.3s ease-in-out 1 normal forwards;
+}
+.anima-animate-disappear {
+  opacity             : 1;
+  display             : block;
+  -webkit-animation   : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+  -moz-animation      : anima-reveal 0.3s ease-in 1 normal forwards;
+  -o-animation        : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+  animation           : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+}
+.anima-animate-nodelay {
+  -webkit-animation-delay: 0;
+  -moz-animation-delay: 0;
+  -o-animation-delay  : 0;
+  animation-delay     : 0;
+}
+@-webkit-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@-moz-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@-o-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@media screen and (max-width: 1919px) {
+  .bp2-yuramobile375 {
+    display             : block;
+  }
+  .bp1-yuradesktop1920px {
+    display             : none;
+  }
+}
+@media screen and (min-width: 1920px) {
+  .bp2-yuramobile375 {
+    display             : none;
+  }
+  .bp1-yuradesktop1920px {
+    display             : block;
+  }
+}

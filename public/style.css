@@ -1,0 +1,1787 @@
+@font-face {
+    font-family: "Apercu-Regular";
+    src: url('static/fonts/Apercu-Regular.otf') format("opentype");
+}
+
+@font-face {
+    font-family: "Apercu-Light";
+    src: url('static/fonts/Apercu-Light.otf') format("opentype");
+}
+
+@font-face {
+    font-family: "Apercu-Bold";
+    src: url('static/fonts/Apercu-Bold.otf') format("opentype");
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Apercu-Regular", Helvetica, Arial, serif;
+    overflow-x: hidden
+}
+
+.navbar-text a {
+    position: relative;
+}
+
+.navbar-text a:hover {
+    text-decoration: none
+}
+
+.navbar-text a:after {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 0%;
+    content: '.';
+    color: transparent;
+    background: #042ae2;
+    height: 3px;
+}
+
+.navbar-text a:hover:after {
+    width: 100%;
+}
+
+.navbar-text a,
+.navbar-text a:after,
+.navbar-text a:before {
+    transition: all .3s;
+}
+
+button,
+input {
+    outline: none !important;
+}
+
+.main {
+    position: absolute;
+    width: 100%;
+    left: 0;
+    top: 0;
+    opacity: 0.7
+}
+
+.main img {
+    width: 100%;
+}
+
+.navbar-nav {
+    flex-direction: row;
+}
+
+.navbar-nav li {
+    padding: 1.5rem;
+    color: #0133d9
+}
+
+.navbar-nav li a {
+    color: #0133d9
+}
+
+.navbar-brand {
+    margin-left: 6.5%
+}
+
+.navbar-brand img {
+    width: 120px !important;
+    margin-top: 1rem;
+}
+
+.navbar-text a {
+    color: #0133d9 !important;
+    padding: 1.5rem 1.5rem 1rem 1.5rem;
+}
+
+.navbar-collapse {
+    margin-right: 6%;
+    padding-top: 2rem
+}
+
+.navbar-toggler {
+    border: none !important;
+}
+
+.topGraphic {
+    position: absolute;
+    top: 0;
+    left: 43%;
+    z-index: -1;
+    width: 30%;
+    margin-top: -28%;
+    margin-left: -10%
+}
+
+.homeText {
+    font-family: "Apercu-Light", Helvetica, Arial, serif;
+    font-size: 2.9rem;
+    width: 75%;
+    padding: 2rem 10% 1rem 8%;
+    color: #0133d9;
+    margin-top: 27%;
+    font-weight: thin !important;
+    line-height: 3.5rem;
+}
+
+.homeSubtext {
+    padding: 1rem 8%;
+    font-size: 1.4rem;
+    ;
+    color: #0133d9;
+}
+
+.section {
+    margin-top: 0 !important
+}
+
+.sectionImage {
+    margin-bottom: 2.3rem
+}
+
+.gardientLogo {
+    position: absolute;
+    width: 725px !important;
+    left: -375px;
+    margin-top: -30px;
+}
+
+.section img {
+    width: 100%;
+    transition: 0.3s;
+}
+
+.homePageSection img:hover {
+    width: 101%;
+}
+
+.mainSections {
+    padding: 4rem 8% 4rem 8%;
+    margin-top: 4rem !important;
+}
+
+.mainSectionsInner {
+    margin-top: 4.5rem
+}
+
+.sectionTitleText {
+    color: white;
+    position: absolute;
+    padding: 1rem;
+    font-size: 1.5rem;
+}
+
+.girlSection {
+    padding: 6% 10% 4% 10%
+}
+
+.girlText {
+    color: #0133d9;
+    font-size: 2.8rem;
+    font-family: "Apercu-Light", Helvetica, Arial, serif;
+    margin-top: 4.8rem;
+    width: 90%;
+    line-height: 3.4rem
+}
+
+.girlSubtext {
+    color: #0133d9;
+    margin-top: 2rem;
+    font-size: 1.4rem
+}
+
+.girlGraphic {
+    position: absolute;
+    width: 40% !important;
+    right: -500px;
+    margin-top: -300px;
+    z-index: -1
+}
+
+.learnMoreText {
+    color: white;
+    font-size: 2.7rem;
+    font-family: "Apercu-Light", Helvetica, Arial, serif;
+    width: 70%;
+    padding: 4em 4rem 1rem 6%;
+    padding-top: 20rem;
+    margin-top: 6rem;
+    line-height: 3.5rem
+}
+
+.learnMoreButton {
+    background-color: #C136F5;
+    color: white;
+    border: none;
+    font-family: "Apercu-Light", Helvetica, Arial, serif;
+    padding: 0.8rem 3rem;
+    font-size: 1.2rem;
+    border-radius: 30px;
+    margin-left: 6.5%;
+    margin-top: 1rem;
+    transition: 0.3s;
+}
+
+.learnMoreButton:hover {
+    background-color: white;
+    color: #C136F5;
+    cursor: pointer
+}
+
+.gardientLogoLearnMore {
+    width: 635px !important;
+    left: -480px;
+    position: absolute;
+    height: 100vh !important
+}
+
+.footer {
+    background-size: cover;
+    padding: 5% 8% 0% 8%;
+    color: white
+}
+
+.footerLogo {
+    width: 120px !important
+}
+
+.footer a {
+    color: white
+}
+
+.copyrightText {
+    text-align: center;
+    font-family: "Apercu-Light", Helvetica, Arial, serif;
+    font-size: 0.8rem
+}
+
+.footerCopyrightText {
+    padding: 4rem;
+    margin-top: 5rem;
+    font-size: 1.5rem
+}
+
+.chatSection {
+    padding: 0% 15% 12% 15%;
+    font-family: "Apercu-Light", Helvetica, Arial, serif;
+}
+
+.chatSectionText {
+    color: #0133d9;
+    font-size: 3rem;
+    line-height: 3.5rem;
+    margin-top: 2.7rem
+}
+
+.chatSectionSubtext {
+    color: #0133d9;
+    font-size: 1.5rem;
+    margin-top: 1.5rem;
+    margin-left: 0.5rem
+}
+
+.chatSectionButton {
+    background-color: #0133d9;
+    color: white;
+    font-size: 1.1rem;
+    padding: 0.7rem 3.5rem;
+    margin-top: 3rem;
+    border-radius: 30px;
+    border: 1px solid #0133d9;
+    transition: 0.3s
+}
+
+.chatSectionButton:hover {
+    background-color: white;
+    ;
+    color: #0133d9;
+    cursor: pointer
+}
+
+.learnMoreBackground {
+    background-image: url('img/yura---desktop-1920px-gettyimages-554391989-copy.png');
+    background-size: cover;
+    min-height: 100vh;
+    padding: 0 10% 0% 10%;
+}
+
+.techSection {
+    padding: 6% 7% 5% 7%;
+}
+
+.techContent {
+    background-image: url('img/yura-mobile-375-rectangle-copy-6.png');
+    display: inline-block;
+    padding: 2rem 2rem;
+    color: white;
+    font-family: "Apercu-Light", Helvetica, Arial, serif;
+    background-size: cover;
+    position: absolute;
+    width: 450px;
+    z-index: 2
+}
+
+.techTitle {
+    font-size: 1.5rem;
+}
+
+.techMain {
+    font-size: 3rem;
+    width: 400px;
+    line-height: 3.2rem;
+    margin-top: 1.3rem
+}
+
+.techText {
+    margin-top: 3.5rem;
+    width: 350px;
+    font-size: 1.4rem
+}
+
+.techArrow,
+.addressArrow {
+    width: 100px !important;
+    filter: invert(1);
+    transform: rotate(180deg);
+    float: right;
+    margin-top: 2.5rem
+}
+
+.techImage {
+    width: 90% !important;
+    margin: 8% 10% 5% 10%
+}
+
+.moreCasesButton,
+.ambitionButton,
+.contactButton {
+    background-color: #0133d9;
+    color: white;
+    font-size: 1.1rem;
+    padding: 0.7rem 3rem;
+    margin-top: 0rem;
+    border-radius: 30px;
+    transition: 0.3s;
+    border: 1px solid #0133d9
+}
+
+.moreCasesButton:hover,
+.ambitionButton:hover,
+.contactButton:hover {
+    background-color: white;
+    color: #0133d9;
+    cursor: pointer
+}
+
+.whatWeDoSection {
+    font-family: "Apercu-Light", Helvetica, Arial, serif;
+    background-image: url('img/yura---desktop-1920px-gradientbackground.png');
+    background-size: cover;
+    color: white;
+}
+
+.whatWeDoGraphic {
+    width: 620px !important;
+    position: absolute;
+    right: 0;
+    margin-right: -440px
+}
+
+.whatWeDoMain {
+    padding: 8rem 8rem 2rem 8rem
+}
+
+.whatWeDoTitle {
+    font-size: 3rem;
+    text-align: center;
+    margin-left: -12rem
+}
+
+.whatWeDoHead {
+    font-size: 1.8rem
+}
+
+.whatWeDoText {
+    font-size: 1.4rem;
+}
+
+.footer {
+    background-image: url('img/yura---desktop-1920px-gradientbackground.png');
+}
+
+.footerText {
+    font-size: 1.2rem
+}
+
+.footerText:hover {
+    color: white !important
+}
+
+.clientsSection {
+    padding: 5%
+}
+
+.clientsHead {
+    font-size: 3rem;
+    line-height: 3.5rem;
+    color: #0133d9;
+    margin-left: 11rem;
+    font-family: "Apercu-Light", Helvetica, Arial, serif;
+}
+
+.clientLogo {
+    padding: 1.5rem 1.8rem;
+    margin-top: 4rem
+}
+
+.logos {
+    padding: 0% 3%
+}
+
+.testimonials {
+    padding: 5% 7%;
+}
+
+.testimonialContentLeft {
+    background-image: url('img/yura-mobile-375-rectangle-copy-6.png');
+    display: inline-block;
+    padding: 2rem;
+    color: white;
+    font-family: "Apercu-Light", Helvetica, Arial, serif;
+    background-size: cover;
+    position: absolute;
+    width: 60%
+}
+
+.testimonialArrow {
+    width: 100px !important;
+    filter: invert(1);
+    transform: rotate(180deg);
+    float: right
+}
+
+.testimonialTitle {
+    font-size: 1.2rem
+}
+
+.testimonialText {
+    font-size: 1.5rem;
+    margin-top: 1rem;
+}
+
+.authorDetails {
+    margin-top: 1rem
+}
+
+.authorImage {
+    width: 150%
+}
+
+.testimonialImageLeft {
+    width: 80%;
+    margin: 20%
+}
+
+.testimonialImageRight {
+    position: absolute;
+    width: 80%;
+}
+
+.testimonialContentRight {
+    background-image: url('img/yura-mobile-375-rectangle-copy-6.png');
+    display: inline-block;
+    padding: 2rem;
+    color: white;
+    font-family: "Apercu-Light", Helvetica, Arial, serif;
+    background-size: cover;
+    position: absolute;
+    width: 60%;
+    margin: 20% 40%;
+    position: absolute;
+    bottom: 0
+}
+
+.testimonialArrowRight {
+    position: absolute;
+    transform: rotate(45deg);
+    right: 20px;
+    margin-top: 5.5rem;
+    width: 50px
+}
+
+.testimonialArrowLeft {
+    position: absolute;
+    transform: rotate(-45deg);
+    left: 30px;
+    bottom: 200px;
+    width: 50px
+}
+
+.teamMain,
+.casesMain {
+    padding: 8% 8% 17% 8%;
+    font-family: "Apercu-Light", Helvetica, Arial, serif;
+    color: #0133d9;
+}
+
+.teamHead,
+.casesHead {
+    font-size: 3rem;
+    margin-top: 10rem
+}
+
+.teamText,
+.casesText {
+    font-size: 2.7rem;
+    margin-top: 9rem;
+    line-height: 3.6rem;
+    width: 95%
+}
+
+.teamMainButton,
+.joinUsButton,
+.casesMainButton {
+    background-color: #0133d9;
+    color: white;
+    font-size: 1.1rem;
+    padding: 0.7rem 3.5rem;
+    margin-top: 3rem;
+    border-radius: 30px;
+    border: none;
+    transition: 0.3s;
+    border: 1px solid #0133d9
+}
+
+.teamMainButton:hover,
+.joinUsButton:hover,
+.casesMainButton {
+    background-color: white;
+    color: #0133d9;
+    cursor: pointer
+}
+
+.teamMembers {
+    padding: 8% 8% 12% 8%;
+    color: #0133d9
+}
+
+.teamMembers a {
+    color: #0133d9;
+    text-decoration: underline;
+}
+
+.memberName {
+    font-family: "Apercu-Bold", Helvetica, Arial, serif;
+    margin-top: 0.7rem
+}
+
+.member {
+    margin-bottom: 1rem;
+    line-height: 1.5rem
+}
+
+.memberImage {
+    width: 100%
+}
+
+.joinUsSection {
+    background-image: url('img/yura---team-1920px-gettyimages-554391989-copy.png');
+    min-height: 100vh;
+    background-size: cover;
+    color: white;
+    padding-bottom: 10%
+}
+
+.joinUsGraphic {
+    position: absolute;
+    left: -500px;
+    height: 100vh;
+}
+
+.joinUsHead {
+    color: white;
+    font-size: 3rem;
+    padding: 18%;
+    text-align: center;
+    margin-left: 23%
+}
+
+.joinUsText {
+    font-size: 2.7rem;
+    font-family: "Apercu-Light", Helvetica, Arial, serif;
+    margin-top: 45%;
+    width: 90%;
+    margin-left: 3rem
+}
+
+.teamGraphic {
+    position: absolute;
+    width: 30% !important;
+    right: 0;
+    margin-right: -400px;
+    margin-top: -100px
+}
+
+.joinUsButton {
+    margin-left: 3rem
+}
+
+.servicesHead {
+    font-size: 3rem;
+    margin-top: 10rem;
+    line-height: 3.7rem;
+    width: 70%
+}
+
+.servicesText {
+    font-size: 3rem;
+    margin-top: 10rem;
+    line-height: 3.4rem
+}
+
+.services {
+    padding: 10% 8%;
+    color: #0133d9
+}
+
+.serviceHeadNumber,
+.serviceHeadText {
+    font-size: 2rem;
+    display: inline-block;
+    margin-right: 1rem
+}
+
+.serviceHeadNumber {
+    color: #C136F5;
+}
+
+.serviceDescription {
+    font-size: 1.3rem;
+    font-family: "Apercu-Light", Helvetica, Arial, serif;
+    margin-top: 1rem;
+    line-height: 2.2rem
+}
+
+.processMain {
+    padding: 1% 7% 5% 7%;
+}
+
+.processGraphic {
+    position: absolute;
+    width: 50% !important;
+    right: 0;
+    margin-right: -670px;
+    margin-top: -25px;
+    z-index: -1
+}
+
+.processContent {
+    background-image: url('img/yura-mobile-375-rectangle-copy-6.png');
+    display: inline-block;
+    position: absolute;
+    width: 450px;
+    background-size: cover;
+    padding: 2rem;
+    color: white;
+}
+
+.processMainHead {
+    font-size: 2rem
+}
+
+.processMainText {
+    font-size: 3rem;
+    font-family: "Apercu-Light", Helvetica, Arial, serif;
+    line-height: 3.5rem;
+    margin-top: 1rem
+}
+
+.servicesArrow {
+    width: 100px !important;
+    filter: invert(1);
+    transform: rotate(180deg);
+    float: right;
+    margin-top: 2rem
+}
+
+.processMainImage {
+    width: 90%;
+    margin: 7% 0% 0% 10%;
+}
+
+.processDetails {
+    padding: 5%;
+    color: #0133d9;
+    font-family: "Apercu-Light", Helvetica, Arial, serif;
+}
+
+.processDetailsHead {
+    font-size: 3rem;
+    font-family: "Apercu-Regular", Helvetica, Arial, serif;
+    margin-left: 3rem;
+    margin-top: 2.2rem
+}
+
+.processDetailsText {
+    font-size: 2.7rem;
+    margin-top: 3rem;
+    margin-left: 1rem
+}
+
+.processItemIcon,
+.processData {
+    display: inline-block
+}
+
+.processItemIcon {
+    width: 70px;
+    vertical-align: top
+}
+
+.processData {
+    margin-left: 1rem;
+    width: 70%;
+    left: 100px;
+    height: 200p
+}
+
+.processPhase {
+    font-size: 1.3rem;
+    color: #C136F5;
+}
+
+.processTitle {
+    font-size: 2rem;
+    font-family: "Apercu-Regular", Helvetica, Arial, serif;
+}
+
+.processDescription {
+    font-size: 1.4rem;
+    width: 70%
+}
+
+.processItem {
+    margin-top: 4rem
+}
+
+.notesImage {
+    width: 100%;
+}
+
+.ambition {
+    padding: 5%;
+    color: #0133d9;
+}
+
+.ambitionTitle {
+    font-size: 3rem;
+    margin: 9rem 3rem
+}
+
+.ambitionHead {
+    font-size: 3rem;
+    font-family: "Apercu-Light", Helvetica, Arial, serif;
+    line-height: 1.5rem line-height: 3.5rem;
+    margin-top: 5rem
+}
+
+.ambitionText {
+    margin-top: 2rem;
+    font-size: 1.6rem;
+    font-family: "Apercu-Light", Helvetica, Arial, serif;
+}
+
+.ambitionButton {
+    margin-top: 3rem
+}
+
+.cases {
+    padding: 9% 8%;
+    color: #0133d9;
+}
+
+.caseImage {
+    width: 100%;
+}
+
+.caseTitle {
+    font-size: 2rem;
+    margin-top: 1rem
+}
+
+.caseText {
+    font-size: 1.5rem;
+    font-family: "Apercu-Light", Helvetica, Arial, serif;
+    line-height: 1.5rem
+}
+
+.caseLink {
+    margin-top: 1rem;
+    text-decoration: underline;
+    font-family: "Apercu-Light", Helvetica, Arial, serif;
+    font-size: 1.5rem
+}
+
+.case {
+    margin-top: 2rem
+}
+
+.caseItem a {
+    color: #0133d9;
+}
+
+.caseItem {
+    margin-top: 3rem
+}
+
+.caseMainImage {
+    width: 84%;
+    margin: 8% 5% 8% 8%
+}
+
+.legendData {
+    padding: 0% 15%;
+    color: #0133d9
+}
+
+.caseLegend {
+    font-size: 1.4rem;
+    font-family: "Apercu-Light", Helvetica, Arial, serif;
+}
+
+.caseLegendValue {
+    font-size: 1.4rem;
+    text-align: left;
+    margin-left: 1rem
+}
+
+.caseLegendText {
+    font-size: 1.6rem;
+    font-family: "Apercu-Light", Helvetica, Arial, serif;
+    line-height: 2.3rem;
+    margin-left: 3.5rem
+}
+
+.mobileImageFrame {
+    margin-bottom: 10rem
+}
+
+.mobileImages {
+    background-image: url('img/yura---casedetail-1920-gradientbackground.png');
+    padding: 5% 10%
+}
+
+.mobileImageInner {
+    width: 90%;
+    margin-left: 5%;
+    left: 0;
+    border: 12px solid white;
+    border-radius: 50px
+}
+
+.caseDetailImages {
+    padding: 5% 8% 5% 8%;
+    color: #0133d9;
+}
+
+.caseDetailImageHead {
+    margin-left: 20%;
+    margin-top: 30%;
+    font-size: 2rem
+}
+
+.csaseDetailImageText {
+    margin-left: 20%;
+    font-size: 1.6rem;
+    font-family: "Apercu-Light", Helvetica, Arial, serif;
+    line-height: 2rem
+}
+
+.caseDetailsGraphic {
+    position: absolute;
+    right: 0;
+    margin-right: -330px;
+    margin-top: -250px
+}
+
+.controls {
+    text-align: center;
+    margin-bottom: 2rem
+}
+
+.controls a,
+.controls img,
+.control {
+    display: inline
+}
+
+.caseDetailsLeftArrow {
+    transform: rotate(-45deg);
+    width: 15px;
+    margin-top: -9px;
+}
+
+.caseDetailsRightArrow {
+    transform: rotate(135deg);
+    width: 15px;
+    margin-top: -9px;
+}
+
+.control {
+    font-size: 1.5rem;
+    font-family: "Apercu-Light", Helvetica, Arial, serif;
+    margin: 1rem
+}
+
+.controls a {
+    text-decoration: underline;
+    color: #0133d9
+}
+
+.contactMain {
+    padding: 10% 8%;
+    color: #0133d9;
+    margin-top: 8rem
+}
+
+.contactHead {
+    font-size: 3rem;
+    line-height: 3.5rem
+}
+
+.inline {
+    display: inline-block
+}
+
+.dennisPhoto {
+    margin-top: 2rem
+}
+
+.dennisName {
+    font-size: 1.1rem;
+    margin-top: 1rem;
+    font-family: "Apercu-Bold", Helvetica, Arial, serif;
+}
+
+.dennisProfile {
+    font-family: "Apercu-Light", Helvetica, Arial, serif;
+    font-size: 1.2rem;
+    line-height: 1.3rem
+}
+
+.dennisSocial {
+    font-family: "Apercu-Light", Helvetica, Arial, serif;
+    text-decoration: underline;
+    line-height: 1.6rem
+}
+
+.contactHeadRight {
+    font-size: 3rem;
+    width: 90%;
+    line-height: 3rem;
+    margin-bottom: 3.5rem
+}
+
+.formText {
+    font-size: 1.5rem;
+    margin-top: 1rem
+}
+
+.formInput {
+    background-color: #f3f3f3;
+    border: none;
+    padding: 0.3rem 0.5rem;
+    font-size: 1.3rem;
+    font-family: "Apercu-Light", Helvetica, Arial, serif;
+}
+
+.form {
+    margin-top: 1rem;
+    font-family: "Apercu-Light", Helvetica, Arial, serif;
+}
+
+.contactButton {
+    margin-top: 3rem
+}
+
+.contactAddress {
+    padding: 2% 7%;
+    font-family: "Apercu-Light", Helvetica, Arial, serif;
+}
+
+.address {
+    background-image: url('img/yura-mobile-375-rectangle-copy-6.png');
+    display: inline-block;
+    position: absolute;
+    width: 450px;
+    background-size: cover;
+    padding: 2rem;
+    color: white;
+}
+
+.addressImage {
+    width: 90%;
+    margin: 8% 0% 0% 10%
+}
+
+.visitUsText {
+    font-size: 1.5rem
+}
+
+.addressText {
+    font-size: 2.5rem
+}
+
+.getDirections {
+    margin-top: 3rem;
+    font-size: 1.2rem
+}
+
+.addressArrow {
+    margin-top: -4rem
+}
+
+.chatSectionImage {
+    width: 400px !important;
+    position: absolute;
+    left: 50%;
+    margin-left: -200px;
+    height: 400px;
+}
+
+.chatSectionTopImage,
+.chatSectionRightImage,
+.chatSectionLeftImage,
+.chatSectionGirlImage {
+    position: absolute;
+    opacity: 0.8;
+    width: 200px !important
+}
+
+.chatSectionGirlImage {
+    width: 400px !important;
+    opacity: 1;
+    z-index: -1;
+}
+
+.chatSectionTopImage {
+    width: 400px !important;
+    opacity: 0.8 !important;
+    margin-top: -3rem;
+}
+
+.chatSectionLeftImage,
+.chatSectionRightImage {
+    margin-top: 115px;
+    width: 200px;
+    opacity: 0.6
+}
+
+.chatSectionRightImage {
+    margin-left: 200px
+}
+
+@media (max-width:992px) {
+    .navbar-collapse {
+        margin-top: 2rem;
+        border-top: 1px solid #0628e21f;
+    }
+    .navbar-text {
+        width: 100% !important;
+        text-align: center;
+        border-bottom: 1px solid #0628e21f;
+        padding: 1rem !important;
+        background-color: white !important
+    }
+    .navbar-brand img {
+        width: 100% !important;
+        margin: 1rem 0rem 0rem 1rem
+    }
+    .topGraphic {
+        width: 25%;
+        left: 50%;
+    }
+    .homeText {
+        margin-top: 5rem !important;
+        font-size: 1.8rem;
+        line-height: 2.2rem;
+        width: 90%
+    }
+    .mainSections {
+        padding: 1.2rem
+    }
+    .gardientLogo {
+        left: -600px
+    }
+    .mainSections .col-md-3 {
+        margin: 0
+    }
+    .sectionTitleText {
+        width: 100%;
+        text-align: center;
+        padding: 3.5rem;
+        margin-left: -1rem
+    }
+    .girlText {
+        font-size: 1.8rem;
+        text-align: center
+    }
+    .girlGraphic {
+        display: none
+    }
+    .gardientLogoLearnMore {
+        height: 100vh;
+        left: -530px
+    }
+    .learnMoreText {
+        padding: 1rem;
+        font-size: 1.7rem;
+        text-align: center;
+        padding-top: 4rem;
+        width: 90%;
+        margin-left: 10%;
+        line-height: 2.4rem;
+    }
+    .learnMoreButton {
+        margin: 0;
+        width: 80%;
+        margin-left: 10%;
+    }
+    .techSection {
+        padding: 0;
+        margin-top: 2rem !important
+    }
+    .techImage {
+        width: 100% !important;
+        position: absolute;
+        left: 0;
+        padding: 0;
+        margin: 0;
+        z-index: -1
+    }
+    .techContent {
+        position: relative;
+        width: 80%;
+        margin: 10%;
+        margin-top: 7rem
+    }
+    .techTitle {
+        font-size: 1.3rem;
+    }
+    .techMain {
+        width: 90%;
+        font-size: 2.2rem
+    }
+    .techText {
+        width: 100%
+    }
+    .moreCasesButton {
+        margin-bottom: 2rem
+    }
+    .whatWeDoGraphic {
+        margin-right: -530px
+    }
+    .whatWeDoTitle,
+    .whatWeDoHead {
+        font-size: 2.5rem;
+        text-align: center;
+    }
+    .whatWeDoHead {
+        font-size: 1.5rem;
+        margin: 1rem
+    }
+    .whatWeDoText {
+        font-size: 1rem
+    }
+    .clientsSection {
+        padding-top: 4rem
+    }
+    .clientsHead {
+        margin: 0;
+        width: 100%;
+        text-align: center;
+        font-size: 1.7rem;
+        line-height: 2.7rem;
+    }
+    .testimonials {
+        padding: 0
+    }
+    .testimonialImageLeft,
+    .testimonialImageRight {
+        position: absolute;
+        width: 100% !important;
+        margin: 0;
+        padding: 0;
+        left: 0;
+        z-index: -1
+    }
+    .testimonialContentLeft,
+    .testimonialContentRight {
+        position: relative;
+        width: 90%;
+        margin: 5%;
+        margin-top: 8rem
+    }
+    .testimonialContentRight,
+    .testimonialImageRight {
+        display: none
+    }
+    .authorImage {
+        width: 120%
+    }
+    .clientLogo {
+        padding: 0;
+        margin-top: 1.5rem
+    }
+    .testimonialText {
+        font-size: 1.3rem;
+        text-align: center
+    }
+    .testimonialArrowLeft,
+    .testimonialArrowRight {
+        display: none
+    }
+    .chatSectionText {
+        margin-top: 0;
+        font-size: 1.6rem;
+        text-align: center
+    }
+    .chatSectionSubtext {
+        text-align: center;
+        font-size: 1rem;
+        margin-top: 1rem
+    }
+    .chatSectionButton {
+        width: 100%
+    }
+    .chatSectionImage {
+        margin-top: 2rem
+    }
+    .footerText {
+        font-size: 1rem
+    }
+    .smallMargin {
+        margin-top: 2rem
+    }
+    .footerCopyrightText {
+        padding: 0;
+        padding: 3rem 0rem;
+    }
+    .teamHead {
+        margin: 1rem;
+        font-size: 2rem
+    }
+    .teamText,
+    .casesText {
+        font-size: 1.5rem;
+        margin: 1rem;
+        width: 90%;
+        line-height: 2.2rem
+    }
+    .teamGraphic {
+        z-index: -1;
+        left: 250px
+    }
+    .teamMainButton {
+        width: 100%
+    }
+    .joinUsText {
+        margin-top: 0;
+        font-size: 1.5rem;
+        padding: 1rem;
+        text-align: center;
+    }
+    .joinUsButton {
+        width: 80%;
+        margin-left: 10%
+    }
+    .memberName {
+        font-size: 0.9rem
+    }
+    .memberProfile,
+    .memberSocial {
+        font-size: 0.8rem;
+        line-height: 1.2rem
+    }
+    .casesHead,
+    .servicesHead {
+        margin: 1rem;
+        font-size: 2rem
+    }
+    .caseTitle {
+        font-size: 1.2rem;
+        margin-top: 0.5rem
+    }
+    .caseText {
+        font-size: 1rem
+    }
+    .caseLink {
+        font-size: 1rem;
+        margin-top: 0.5rem
+    }
+    .mobileImageFrame {
+        width: 100%
+    }
+    .caseDetailImageHead {
+        font-size: 1.2rem;
+        margin-top: 0;
+        line-height: 1.5rem;
+        padding: 0;
+        margin-left: 0
+    }
+    .csaseDetailImageText {
+        font-size: 0.8rem;
+        line-height: 1.2rem;
+        margin-left: 0;
+        margin-bottom: 1rem
+    }
+    .caseDetailsGraphic {
+        display: none
+    }
+    .mobileImageInner {
+        border: 5px solid white;
+        border-radius: 17px
+    }
+    .hideThirdImage {
+        display: none
+    }
+    .caseLegend,
+    .caseLegendValue {
+        font-size: 1rem
+    }
+    .caseLegendText {
+        margin-top: 1.5rem;
+        font-size: 1.2rem;
+        line-height: 1.7rem
+    }
+    .mobileImages {
+        margin-top: 2rem;
+        padding: 2rem 1rem
+    }
+    .control {
+        font-size: 0.8rem
+    }
+    .caseDetailsLeftArrow,
+    .caseDetailsRightArrow {
+        width: 10px;
+        margin-top: 0.1rem
+    }
+    .servicesText {
+        margin-top: 0;
+        font-size: 1.2rem;
+        margin-left: 1rem;
+        line-height: 2rem
+    }
+    .servicesMethodsMainImage {
+        width: 100%
+    }
+    .processGraphic {
+        display: none
+    }
+    .processMain {
+        padding: 0;
+    }
+    .processContent {
+        width: 80%;
+        position: relative;
+        margin: 10%
+    }
+    .processMainImage {
+        position: absolute;
+        left: 0;
+        margin: 0;
+        width: 100%;
+        z-index: -1
+    }
+    .processMainHead {
+        font-size: 1.2rem
+    }
+    .processMainText {
+        font-size: 1.7rem;
+        line-height: 2.7rem
+    }
+    .processDetailsHead,
+    .ambitionTitle {
+        font-size: 2rem;
+    }
+    .processDetailsText,
+    .ambitionHead {
+        font-size: 1.5rem;
+        margin-top: 2rem
+    }
+    .ambitionButton {
+        width: 100%
+    }
+    .processTitle {
+        font-size: 1.2rem
+    }
+    .processDescription {
+        font-size: 1rem;
+        width: 100%
+    }
+    .contactAddress {
+        padding: 0;
+    }
+    .addressImage {
+        width: 100%;
+        position: absolute;
+        left: 0;
+        margin: 0;
+        z-index: -1;
+    }
+    .address {
+        position: relative;
+        width: 80%;
+        margin-left: 10%;
+        margin-top: 10%;
+        margin-bottom: 3rem
+    }
+    .addressText {
+        font-size: 1.2rem
+    }
+    .contactMain {
+        margin-top: 0;
+    }
+    .contactHead {
+        font-size: 2rem;
+        margin-left: 1rem
+    }
+    .contactHeadRight {
+        width: 100%;
+        margin-top: 2rem;
+        font-size: 1.8rem;
+        line-height: 2rem
+    }
+    .formText {
+        font-size: 1rem;
+        margin-bottom: 1rem
+    }
+    .formInput {
+        font-size: 1rem
+    }
+}
+
+@media(max-width:1600px) {
+    .gardientLogo {
+        width: 550px !important;
+        left: -360px;
+        margin-top: -30px;
+    }
+}
+
+@media (max-width:1340px) {
+    .topGraphic {
+        left: 30%;
+    }
+    .teamGraphic {
+        display: none
+    }
+    .homeText {
+        font-size: 2rem;
+        width: 75%;
+        padding: 2rem 10% 1rem 8%;
+        color: #0133d9;
+        margin-top: 20%;
+        font-weight: thin !important;
+        line-height: 3.5rem;
+    }
+    .sectionImage {
+        margin-bottom: 1rem
+    }
+    .gardientLogo {
+        width: 450px !important;
+        left: -300px;
+        margin-top: -30px;
+    }
+    .girlText {
+        font-size: 1.8rem;
+        line-height: 2.5rem
+    }
+    .learnMoreText {
+        font-size: 2rem;
+        padding-top: 15rem
+    }
+    .techMain {
+        font-size: 2.2rem;
+        line-height: 2.5rem
+    }
+    .techText {
+        font-size: 1.4rem;
+        margin-top: 1.5rem
+    }
+    .whatWeDoHead {
+        font-size: 1.6rem
+    }
+    .whatWeDoText {
+        font-size: 1.2rem
+    }
+    .clientsHead {
+        font-size: 2rem;
+        line-height: 2.5rem
+    }
+    .clientLogo {
+        padding: 0
+    }
+    .testimonialText {
+        font-size: 1rem;
+    }
+    .authorName,
+    .authorDesignation {
+        font-size: 0.8rem
+    }
+    .testimonialArrow {
+        width: 60px !important
+    }
+    .testimonialArrowLeft {
+        bottom: 50px
+    }
+    .testimonialArrowRight {
+        margin-top: 0
+    }
+    .teamHead,
+    .casesHead {
+        font-size: 2rem;
+        margin-top: 5rem
+    }
+    .teamText,
+    .casesText {
+        font-size: 2rem;
+        margin-top: 5rem;
+        line-height: 2.67rem
+    }
+    .teamMain,
+    .casesMain {
+        padding-bottom: 3rem
+    }
+    .joinUsText {
+        font-size: 2rem
+    }
+    .caseTitle {
+        font-size: 1.5rem
+    }
+    .caseText {
+        font-size: 1.3rem
+    }
+    .caseLink {
+        font-size: 1.3rem
+    }
+    .contactHead,
+    .contactHeadRight {
+        font-size: 2rem;
+        line-height: 2.5rem
+    }
+    .contactHeadRight {
+        margin-bottom: 2rem
+    }
+    .formText,
+    .formInput {
+        font-size: 1.5rem
+    }
+    .addressText {
+        font-size: 2rem
+    }
+    .mobileImageFrame {
+        width: 100%
+    }
+    .caseLegendText {
+        font-size: 1.4rem;
+        line-height: 2rem
+    }
+    .mobileImages {
+        margin-top: 2rem
+    }
+    .servicesHead,
+    .servicesText {
+        font-size: 2rem;
+        line-height: 2.5rem;
+        margin-top: 6rem
+    }
+    .serviceHeadText,
+    .serviceHeadNumber {
+        font-size: 1.5rem
+    }
+    .serviceDescription {
+        font-size: 1rem;
+        line-height: 1.5rem
+    }
+    .processMainHead {
+        font-size: 1.5rem
+    }
+    .processMainText {
+        font-size: 2.5rem;
+        line-height: 3rem
+    }
+    .processDetailsHead {
+        font-size: 2rem
+    }
+    .processDetailsText {
+        font-size: 2rem;
+        line-height: 2.5rem
+    }
+    .processTitle,
+    .processDescription {
+        font-size: 1.2rem
+    }
+    .ambitionTitle {
+        font-size: 2rem;
+        margin-top: 4rem
+    }
+    .ambitionHead {
+        font-size: 2rem;
+        margin-top: 4rem
+    }
+    .ambitionText {
+        font-size: 1.2rem
+    }
+    .whatWeDoGraphic {
+        display: none
+    }
+}
+
+@media(max-width:766px) {
+    .homePageSection {
+        height: 140px;
+        overflow: hidden;
+        margin: 1rem 1rem 0rem 0rem !important;
+    }
+    .homeText {
+        font-size: 1.5rem;
+        line-height: 2rem;
+        width: 95%;
+        padding-top: 0
+    }
+    .girlText {
+        font-size: 1.5rem;
+        width: 100%;
+        line-height: 2rem
+    }
+    .girlSubtext {
+        font-size: 1rem;
+        width: 100%;
+    }
+    .learnMoreText {
+        padding-top: 6rem;
+        font-size: 1.4rem;
+        width: 100%;
+        margin-left: 0
+    }
+    .learnMoreButton {
+        margin-top: 2rem
+    }
+    .techMain {
+        font-size: 1.8rem;
+        line-height: 2.3rem
+    }
+    .techText {
+        font-size: 1rem;
+        width: 100%
+    }
+    .whatWeDoMain {
+        padding: 1rem;
+        margin: 0
+    }
+    .whatWeDoTitle {
+        text-align: center;
+        margin: 0;
+        width: 100%;
+        font-size: 2rem
+    }
+    .whatWeDoText {
+        font-size: 1rem;
+        line-height: 1.1rem
+    }
+    .whatWeDoHead {
+        margin-top: 0
+    }
+    .teamHead {
+        font-size: 1.5rem;
+        margin-top: 2rem
+    }
+    .teamText {
+        font-size: 1.4rem;
+        line-height: 2rem;
+        width: 100%;
+        margin-top: 1rem
+    }
+    .teamMainButton {
+        font-size: 0.9rem
+    }
+    .joinUsHead {
+        font-size: 1.4rem;
+        margin: 0;
+    }
+    .joinUsText {
+        margin: 0;
+        text-align: center;
+        width: 100%;
+        font-size: 1.5rem
+    }
+    .topGraphic {
+        left: 43%;
+        width: 50%;
+        margin-top: -48%;
+        margin-left: -7%
+    }
+    .casesHead {
+        font-size: 1.5rem;
+        margin-top: 2rem
+    }
+    .casesText {
+        font-size: 1.5rem;
+        line-height: 2rem;
+        margin-top: 2rem
+    }
+    .caseLegendText {
+        margin: 0;
+        margin-top: 1rem;
+        font-size: 1.2rem;
+        line-height: 1.8rem
+    }
+    .mobileImageFrame {
+        margin-bottom: 2rem
+    }
+    .servicesHead {
+        font-size: 1.5rem;
+        margin-top: 2rem;
+    }
+    .servicesText {
+        font-size: 1.5rem;
+        line-height: 2rem;
+        margin-top: 2rem
+    }
+    .processMainText {
+        font-size: 1.5rem;
+        line-height: 2rem
+    }
+    .processDetailsText {
+        font-size: 1.5rem;
+        line-height: 2rem
+    }
+    .ambitionTitle {
+        margin: 0;
+    }
+    .ambitionHead {
+        margin: 0;
+        margin-top: 1rem;
+        font-size: 1.5rem
+    }
+    .dennisPhoto {
+        width: 100%
+    }
+    .contactHead {
+        font-size: 1.5rem;
+        line-height: 2rem;
+    }
+    .formText,
+    .formInput {
+        font-size: 1rem;
+        margin: 0.3rem
+    }
+    .addressText {
+        font-size: 1.5rem
+    }
+    .whatWeDoHead {
+        font-size: 1rem
+    }
+}
