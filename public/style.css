@@ -17,19 +17,13 @@
     width: 100%;
     opacity: 0.2;
     position: absolute;
-    z-index-1;
+    z-index: -1;
 }
 
 body {
     margin: 0;
     padding: 0;
     font-family: "Apercu-Regular", Helvetica, Arial, serif;
-    overflow-x: hidden
-}
-
-.root {
-    width: 100% !important;
-    overflow-x: hidden !important
 }
 
 .navbar-text a {
@@ -43,14 +37,13 @@ body {
 .navbar-text a:after {
     position: absolute;
     bottom: 0;
-    left: 0;
-    right: 0;
+    left: 10px;
     margin: auto;
-    width: 0%;
+    width: 0;
     content: '.';
     color: transparent;
     background: #042ae2;
-    height: 3px;
+    height: 2px;
 }
 
 .navbar-text a:hover:after {
@@ -60,7 +53,7 @@ body {
 .navbar-text a,
 .navbar-text a:after,
 .navbar-text a:before {
-    transition: all .3s;
+    transition: all 0.2s
 }
 
 button,
@@ -196,7 +189,7 @@ input {
 }
 
 .girlTextWrap {
-    margin-top: 4.8rem;
+    margin-top: 2rem;
 }
 
 .girlText {
@@ -212,6 +205,7 @@ input {
     margin-top: 2rem;
     font-size: 1.4rem;
     font-family: "Apercu-Light", Helvetica, Arial, serif;
+    margin-bottom: 4rem
 }
 
 .girlGraphic {
@@ -231,7 +225,8 @@ input {
     font-size: 2.7rem;
     font-family: "Apercu-Light", Helvetica, Arial, serif;
     padding: 0rem 4rem 1rem 6%;
-    line-height: 3rem
+    line-height: 3rem;
+    width: 75%
 }
 
 .learnMoreButton {
@@ -984,8 +979,9 @@ input {
 }
 
 .contactHead {
-    font-size: 3rem;
-    line-height: 3.5rem
+    font-size: 1.8rem;
+    line-height: 2.5rem;
+    font-family: "Apercu-Light", Helvetica, Arial, serif;
 }
 
 .inline {
@@ -1118,6 +1114,42 @@ input {
 
 .chatSectionRightImage {
     margin-left: 200px
+}
+
+.caseLink {
+    display: inline-block !important;
+    text-decoration: none !important
+}
+
+.caseLink {
+    padding-bottom: 0.2rem;
+    position: relative;
+}
+
+.caseLink:hover {
+    text-decoration: none
+}
+
+.caseLink:after {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+    width: 100%;
+    content: '.';
+    color: transparent;
+    background: #0528e1;
+    height: 2px;
+}
+
+.caseLink:hover:after {
+    width: 10px !important;
+}
+
+.caseLink,
+.caseLink:after,
+.caseLink:before {
+    transition: all 0.2s
 }
 
 @media (max-width:992px) {
@@ -1512,10 +1544,10 @@ input {
         position: relative;
         left: 0;
         top: 0;
-        width: 70%;
+        width: 70% !important;
         margin: 2rem 0rem 0rem 5rem;
         z-index: -1;
-        margin-top: -80%;
+        margin-top: -70%;
     }
     .topGraphic {
         left: 30%;
@@ -1567,7 +1599,7 @@ input {
         line-height: 2.5rem
     }
     .clientLogo {
-        padding: 0
+        padding: 1rem
     }
     .testimonialText {
         font-size: 1rem;
@@ -1796,11 +1828,11 @@ input {
         margin-left: -45%
     }
     .casesHead {
-        font-size: 2rem;
+        font-size: 1.9rem;
         margin-top: 2rem
     }
     .casesText {
-        font-size: 2rem;
+        font-size: 1.9rem;
         line-height: 2.5rem;
         margin-top: 2rem;
         width: 100%
@@ -1815,11 +1847,11 @@ input {
         margin-bottom: 2rem
     }
     .servicesHead {
-        font-size: 2rem;
+        font-size: 1.9rem;
         margin-top: 2rem;
     }
     .servicesText {
-        font-size: 2rem;
+        font-size: 1.9rem;
         line-height: 2.5rem;
         margin-top: 2rem
     }
@@ -1843,8 +1875,8 @@ input {
         width: 100%
     }
     .contactHead {
-        font-size: 2rem;
-        line-height: 2.5rem;
+        font-size: 1.3rem;
+        line-height: 1.8rem;
     }
     .formText,
     .formInput {
@@ -1866,7 +1898,11 @@ input {
     }
     .learnMoreText {
         padding: 0;
-        font-size: 2rem;
+        font-size: 1.9rem;
+        width: 100%;
+    }
+    .learnMoreBackground {
+        padding: 0rem 1.5rem 2rem 1.5rem
     }
     .testimonialImageLeft {
         margin: 0 !important;
@@ -1884,11 +1920,12 @@ input {
     .testimonialContentLeft {
         margin-top: 2rem;
         width: 90%;
-        margin-left: 5%
+        margin-left: 5%;
+        margin-bottom: 4rem
     }
     .testimonialContentRight {
         position: relative;
-        padding: 2rem 2rem 3rem 2rem !important;
+        padding: 2rem 2rem 2rem 2rem !important;
         margin: 2rem 1rem 1rem 1rem !important;
         width: 90% !important;
         display: block !important
@@ -1916,7 +1953,8 @@ input {
     }
     .clientLogo {
         width: 70% !important;
-        margin-left: 15%
+        margin-left: 15%;
+        padding: 0
     }
     .girlImage {
         margin-top: 3rem
@@ -1957,6 +1995,28 @@ input {
     }
     .formInput {
         width: 150px
+    }
+    .legendData {
+        padding: 1rem 2rem
+    }
+    .caseLegendTextWrap {
+        margin-bottom: 1rem
+    }
+    .casesMain {
+        padding-bottom: 0;
+    }
+    .cases {
+        padding-top: 0
+    }
+    .testimonials .slick-dots button {
+        height: 70px;
+        margin-top: 1rem
+    }
+    .sectionImage {
+        min-height: 200px
+    }
+    .girlSectionImage {
+        margin-top: 1rem
     }
 }
 

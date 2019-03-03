@@ -10,7 +10,6 @@ import Slider from "react-slick";
 function SampleNextArrow(props) {
 const { className, onClick } = props;
 return (
-    
     <div
     className={className}
     onClick={onClick}
@@ -69,6 +68,24 @@ class Home extends React.Component {
                 }
               ]
           };
+          const logoSettings = {
+            dots: true,
+            infinite: false,
+            speed: 500,
+            slidesToShow: 6,
+            slidesToScroll: 6,
+            responsive: [
+                {
+                  breakpoint: 1200,
+                  settings: {
+                    slidesToShow: 3,
+                    slidesToScroll: 3,
+                    infinite: true,
+                    dots: true
+                  }
+                }
+              ]
+          };
         return(
             <div>
                 <Text body="Yura is a creative digital agency dedicated to building brands in innovation and technology. We are here for the innovators, the technologists and the game changers." className="homeText"/>
@@ -79,7 +96,7 @@ class Home extends React.Component {
                         <div className="col-md-6 col-12">
                             <div className="row">
                                 <div className="col-md-12 col-12  wow fadeInUp homePageSection">
-                                <Link to="">
+                                <Link to="team">
                                     <Text body="About Yura" className="sectionTitleText"/>
                                     <Image file="yura---desktop-1920px-working.png" className="sectionImage"/>
                                 </Link>
@@ -102,7 +119,7 @@ class Home extends React.Component {
                             <div className="row">
                                 <div className="col-md-12 col-12 wow fadeInUp homePageSection">
                                 <Link to="cases">
-                                    <Text body="Cases" className="sectionTitleText"/>
+                                    <Text body="Cases Overview" className="sectionTitleText"/>
                                     <Image file="yura---desktop-1920px-cases.png" className="sectionImage"/>
                                 </Link>
                                 </div>
@@ -111,7 +128,7 @@ class Home extends React.Component {
                         <div className="col-md-3 col-12">
                             <div className="row">
                                 <div className="col-md-12 col-12 wow fadeInUp homePageSection">
-                                <Link to="">
+                                <Link to="//www.linkedin.com/company/28986347/" target="blank">
                                     <Text body="News" className="sectionTitleText"/>
                                     <Image file="yura---desktop-1920px-news.png" className="sectionImage"/>
                                 </Link>
@@ -139,7 +156,7 @@ class Home extends React.Component {
                             <Text body="technology. Because every" className="girlText"/>
                             <Text body="brand is a digital brand." className="girlText"/>
                         </div>
-                        <Text body="- May we help you accelerate growth. ✊✊🏻" className="girlSubtext"/>
+                        <Text body="- May we help you accelerate growth. ✊🏻" className="girlSubtext"/>
                         </div>
                     </div>
                     <Image file="yura-mobile-375-path.png" className="girlGraphic"/>
@@ -147,10 +164,7 @@ class Home extends React.Component {
                 <div className="section learnMoreBackground">
                     <Image file="yura---casedetail-1920-y-gradient.png" className="gardientLogoLearnMore"/>
                     <div className="learnMoreTextWrapper">
-                    <Text body="Our driving principles are: We underpromise" className="learnMoreText"/>
-                    <Text body="and overdeliver. We are equal partners with" className="learnMoreText"/>
-                    <Text body="all our clients and we work in sprints;" className="learnMoreText"/>
-                    <Text body="hyperfocusses and fast." className="learnMoreText"/>
+                    <Text body="Our driving principles are: We underpromise and overdeliver. We are equal partners with all our clients and we work in sprints; hyperfocusses and fast." className="learnMoreText"/>
                     </div>
                     
                     <Button link="" text="Learn how" className="learnMoreButton"/>
@@ -234,26 +248,29 @@ class Home extends React.Component {
                 <div className="section clientsSection">
                     <Text body="We works with startups, STO's and ICO's," className="clientsHead"/>
                     <Text body="blockchain and tech driven companies:" className="clientsHead"/>
-                    <div className="row logos">
-                        <div className="col-md-2 col-4 col-sm-4 col-6">
+                    <div className="logos">
+                        <Slider {...logoSettings}>
+                        <div>
                         <Image file="client-logo.png" className="clientLogo"/>
                         </div>
-                        <div className="col-md-2 col-4 col-sm-4 col-6">
+                        <div>
                         <Image file="client-logo.png" className="clientLogo"/>
                         </div>
-                        <div className="col-md-2 col-4 col-sm-4 col-6">
+                        <div>
                         <Image file="client-logo.png" className="clientLogo"/>
                         </div>
-                        <div className="col-md-2 col-4 col-sm-4 col-6">
+                        <div>
                         <Image file="client-logo.png" className="clientLogo"/>
                         </div>
-                        <div className="col-md-2 col-4 col-sm-4 col-6">
+                        <div>
                         <Image file="client-logo.png" className="clientLogo"/>
                         </div>
-                        <div className="col-md-2 col-4 col-sm-4 col-6">
+                        <div>
                         <Image file="client-logo.png" className="clientLogo"/>
                         </div>
+                    </Slider>
                     </div>
+                    
                 </div>
                 <div className="testimonials">
                 <Slider {...settings}>
@@ -270,7 +287,6 @@ class Home extends React.Component {
                                         <Text body="International Business Growth Advisor" className="authorDesignation"/>
                                     </div>
                                 </div>
-                                <img src="https://png.pngtree.com/svg/20170822/ios_arrow_round_back_1238310.png" className="testimonialArrow" alt=""/>
                             </div>
                             <Image file="yura---desktop-1920px-gettyimages-554391989-1.png" className="testimonialImageLeft wow fadeInLeft"/>
                         </div>
@@ -288,7 +304,6 @@ class Home extends React.Component {
                                     <Text body="Co-Founder | Block3" className="authorDesignation"/>
                                     </div>
                                 </div>  
-                                <img src="https://png.pngtree.com/svg/20170822/ios_arrow_round_back_1238310.png" className="testimonialArrow" alt=""/>
                             </div>
                         </div>
                         <div className="testimonialItem">
@@ -304,7 +319,6 @@ class Home extends React.Component {
                                         <Text body="Owner | DisPRuptive" className="authorDesignation"/>
                                     </div>
                                 </div>
-                                <img src="https://png.pngtree.com/svg/20170822/ios_arrow_round_back_1238310.png" className="testimonialArrow" alt=""/>
                             </div>
                             <Image file="yura---desktop-1920px-gettyimages-554391989-1.png" className="testimonialImageLeft wow fadeInRight"/>
                         </div>
@@ -315,7 +329,7 @@ class Home extends React.Component {
                         <div className="col-md-6">
                             <Text body="Ready to go and build long lasting impact?" className="chatSectionText"/>
                             <Text body="Put our team of strategists, creatives and developers to work for you?" className="chatSectionSubtext"/>
-                            <Button link="" text="Chat with us" className="chatSectionButton"/>
+                            <Button link="contact" text="Talk with us" className="chatSectionButton"/>
                         </div>
                         <div className="col-md-6">
                             <Image file="yura---desktop-1920px-3dblocks@2x.png" className="girlImage wow slideInLeft" />

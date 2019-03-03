@@ -20,17 +20,17 @@ class Footer extends React.Component {
                     <Text body="Yura Agency" className="footerText"/>
                     <Text body="+31 20 244 0000" className="footerText"/>
                     </div>
-                    <div className="col-md-3 col-6 smallMargin">
-                    <Link to=""><Text body="Home" className="footerText"/></Link>
-                    <Link to=""><Text body="About" className="footerText"/></Link>
-                    <Link to=""><Text body="Case" className="footerText"/></Link>
-                    <Link to=""><Text body="Roles" className="footerText"/></Link>
-                    <Link to=""><Text body="News" className="footerText"/></Link>
-                    <Link to=""><Text body="Services" className="footerText"/></Link>
-                    <Link to=""><Text body="Methods" className="footerText"/></Link>
-                    <Link to=""><Text body="Contact" className="footerText"/></Link>
+                    <div className="col-md-3 col-6 smallMargin footerLinks">
+                    <Link to="home"><Text body="Home" className="footerText"/></Link>
+                    <Link to="about"><Text body="About" className="footerText"/></Link>
+                    <Link to="cases"><Text body="Case" className="footerText"/></Link>
+                    <Link to="team"><Text body="Roles" className="footerText"/></Link>
+                    <Link to="//www.linkedin.com/company/28986347/"><Text body="News" className="footerText"/></Link>
+                    <Link to="services&Methods"><Text body="Services" className="footerText"/></Link>
+                    <Link to="services&Methods"><Text body="Methods" className="footerText"/></Link>
+                    <Link to="contact"><Text body="Contact" className="footerText"/></Link>
                     </div>
-                    <div className="col-md-3 col-6 smallMargin">
+                    <div className="col-md-3 col-6 smallMargin footerLinks">
                     <Link to=""><Text body="Twitter" className="footerText"/></Link>
                     <Link to=""><Text body="Linkedin" className="footerText"/></Link>
                     <Link to=""><Text body="Facebook" className="footerText"/></Link>

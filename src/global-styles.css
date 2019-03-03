@@ -13,6 +13,12 @@
     src: url('static/fonts/Apercu-Bold.otf') format("opentype");
 }
 
+html,
+body {
+    position: relative;
+    overflow-x: hidden;
+}
+
 body {
     margin: 0;
     padding: 0;

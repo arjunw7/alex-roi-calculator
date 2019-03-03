@@ -28,7 +28,7 @@ class Team extends React.Component {
                     </div>
                     <div className="col-md-8">
                     <Text body="Our team consists of experts within fields as diverse as design, animation and development, as well as Artificial Intelligence, machine learning and advanced algorithms. We are constantly on the lookout for talent within any of the fields." className="teamText"/>
-                    <Button link="" text="Want to join our team?" className="teamMainButton"/>
+                    <Button link="contact" text="Want to join our team?" className="teamMainButton"/>
                     </div>
                 </div>
                 <div className="teamMembers">
@@ -39,56 +39,48 @@ class Team extends React.Component {
                             <Text body="Dave Paulisse" className="memberName"/>
                             <Text body="Full Stack Developer" className="memberProfile"/>
                             <Link to=""><Text body="Linkedin" className="memberSocial"/></Link>
-                            <Link to=""><Text body="Instagram" className="memberSocial"/></Link>
                         </div>
                         <div className="col-md-3 col-6 member wow fadeInUp" data-wow-delay="0.2s">
                             <Image file="yura---team-1920px-team-3.png" className="memberImage"/>
                             <Text body="Dennis Roelofsen" className="memberName"/>
                             <Text body="Co-founder & Strategy Director" className="memberProfile"/>
                             <Link to=""><Text body="Linkedin" className="memberSocial"/></Link>
-                            <Link to=""><Text body="Instagram" className="memberSocial"/></Link>
                         </div>
                         <div className="col-md-3 col-6 member wow fadeInUp" data-wow-delay="0.3s">
                             <Image file="yura---team-1920px-team-4.png" className="memberImage"/>
                             <Text body="August Skare" className="memberName"/>
                             <Text body="Developer" className="memberProfile"/>
                             <Link to=""><Text body="Linkedin" className="memberSocial"/></Link>
-                            <Link to=""><Text body="Instagram" className="memberSocial"/></Link>
                         </div>
                         <div className="col-md-3 col-6 member wow fadeInUp" data-wow-delay="0.4s">
                             <Image file="yura---team-1920px-team-1.png" className="memberImage"/>
                             <Text body="Dave Paulisse" className="memberName"/>
                             <Text body="Full Stack Developer" className="memberProfile"/>
                             <Link to=""><Text body="Linkedin" className="memberSocial"/></Link>
-                            <Link to=""><Text body="Instagram" className="memberSocial"/></Link>
                         </div>
                         <div className="col-md-3 col-6 member wow fadeInUp" data-wow-delay="0.1s">
                             <Image file="yura---team-1920px-team-3.png" className="memberImage"/>
                             <Text body="Dennis Roelofsen" className="memberName"/>
                             <Text body="Co-founder & Strategy Director" className="memberProfile"/>
                             <Link to=""><Text body="Linkedin" className="memberSocial"/></Link>
-                            <Link to=""><Text body="Instagram" className="memberSocial"/></Link>
                         </div>
                         <div className="col-md-3 col-6 member wow fadeInUp" data-wow-delay="0.2s">
                             <Image file="yura---team-1920px-team-4.png" className="memberImage"/>
                             <Text body="August Skare" className="memberName"/>
                             <Text body="Developer" className="memberProfile"/>
                             <Link to=""><Text body="Linkedin" className="memberSocial"/></Link>
-                            <Link to=""><Text body="Instagram" className="memberSocial"/></Link>
                         </div>
                         <div className="col-md-3 col-6 member wow fadeInUp" data-wow-delay="0.3s">
                             <Image file="yura---team-1920px-team-1.png" className="memberImage"/>
                             <Text body="Dave Paulisse" className="memberName"/>
                             <Text body="Full Stack Developer" className="memberProfile"/>
                             <Link to=""><Text body="Linkedin" className="memberSocial"/></Link>
-                            <Link to=""><Text body="Instagram" className="memberSocial"/></Link>
                         </div>
                         <div className="col-md-3 col-6 member wow fadeInUp" data-wow-delay="0.4s">
                             <Image file="yura---team-1920px-team-3.png" className="memberImage"/>
                             <Text body="Dennis Roelofsen" className="memberName"/>
                             <Text body="Co-founder & Strategy Director" className="memberProfile"/>
                             <Link to=""><Text body="Linkedin" className="memberSocial"/></Link>
-                            <Link to=""><Text body="Instagram" className="memberSocial"/></Link>
                         </div>
                     </div>
                 </div>
@@ -100,7 +92,7 @@ class Team extends React.Component {
                         </div>
                         <div className="col-md-8">
                         <Text body="Great parties are an important ingredient of Yura Agency. Twice a year, at summer and christmas, we gather everyone in the company for a trip. We also do parties, open houses and yearly conferences." className="joinUsText"/>
-                        <Button link="" text="An Interesting Day" className="joinUsButton"/>
+                        <a href="mailto:info@yura.agency" rel="noopener noreferrer"><button className="joinUsButton">An Interesting Day</button></a>
                         </div>
                     </div>
                 </div>

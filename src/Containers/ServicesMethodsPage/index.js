@@ -26,7 +26,7 @@ class ServicesMethods extends React.Component {
                     </div>
                     <div className="col-md-8">
                     <Text body="Yura is a digital studio that transforms big ideas into great products and ventures. We help big companies like small startups, and provide the expertise startups need to launch and scale their business. We also create ventures on our own." className="servicesText"/>
-                    <Button link="" text="Want to join our team?" className="teamMainButton"/>
+                    <Button link="contact" text="Want to join our team?" className="teamMainButton"/>
                     </div>
                 </div>
 
@@ -56,7 +56,6 @@ class ServicesMethods extends React.Component {
                     <div className="processContent">
                         <Text body="Our Process" className="processMainHead"/>
                         <Text body="We have a unique process in 5 clearly defined phases taking a product from beginning to end." className="processMainText"/>
-                        <img src="https://png.pngtree.com/svg/20170822/ios_arrow_round_back_1238310.png" className="servicesArrow" alt=""/>
                     </div>
                     <Image file="yura---desktop-1920px-gettyimages-554391989.png" className="processMainImage"/>
                 </div>
@@ -127,7 +126,7 @@ class ServicesMethods extends React.Component {
                         <div className="col-md-8">
                         <Text body="Yura is a digital studio that transforms big ideas into great products and ventures." className="ambitionHead"/>
                         <Text body="We create new products and services from the ground up, or improve existing products. As a team we contribute with everything from concept work, product design, prototyping and branding to all types of development including advanced machine learning and working with blockchain.?" className="ambitionText"/>
-                        <Text body="How great would it be if we could get your project flying?" className="ambitionText"/><Button link="" text="Contact us now" className="ambitionButton"/>
+                        <Text body="How great would it be if we could get your project flying?" className="ambitionText"/><Button link="contact" text="Contact us now" className="ambitionButton"/>
                         </div>
                     </div>
                 </div>
