@@ -5,7 +5,34 @@ import Button from '../../Components/Button';
 import Footer from '../../Components/Footer';
 import {Link } from "react-router-dom";
 import WOW from "wowjs";
+import Slider from "react-slick";
 
+function SampleNextArrow(props) {
+const { className, onClick } = props;
+return (
+    
+    <div
+    className={className}
+    onClick={onClick}
+    >
+    <Image file="yura---desktop-1920px-path-6@2x.png" className="testimonialArrowLeft"/>
+    </div>
+);
+}
+
+function SamplePrevArrow(props) {
+const { className, onClick } = props;
+return (
+    <div
+    className={className}
+    onClick={onClick}
+    >
+    <Image file="yura---desktop-1920px-path-7@2x.png" className="testimonialArrowRight"/>
+    </div>
+);
+}
+
+  
 class Home extends React.Component {
 
     constructor(props) {
@@ -20,10 +47,32 @@ class Home extends React.Component {
     }
 
     render() { 
+        const settings = {
+            dots: true,
+            infinite: false,
+            speed: 500,
+            slidesToShow: 2,
+            slidesToScroll: 2,
+            nextArrow: <SamplePrevArrow />,
+            prevArrow: <SampleNextArrow />,
+            responsive: [
+                {
+                  breakpoint: 900,
+                  settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1,
+                    infinite: true,
+                    dots: true,
+                    nextArrow: <SamplePrevArrow />,
+                    prevArrow: <SampleNextArrow />,
+                  }
+                }
+              ]
+          };
         return(
             <div>
                 <Text body="Yura is a creative digital agency dedicated to building brands in innovation and technology. We are here for the innovators, the technologists and the game changers." className="homeText"/>
-                <Text body="- Hi there" className="homeSubtext"/>
+                <Text body="- Hi there 👋🏼" className="homeSubtext"/>
                 <div className="section mainSections">
                     <Image file="yura---casedetail-1920-y-gradient.png" className="gardientLogo"/>
                     <div className="row mainSectionsInner">
@@ -83,15 +132,27 @@ class Home extends React.Component {
                         <Image file="yura---desktop-1920px-media-girl-01.png" className="girlSectionImage"/>
                         </div>
                         <div className="col-md-6">
-                        <Text body="Driving business results through the combination of creativity, strategy and technology. Because every brand is a digital brand." className="girlText"/>
-                        <Text body="- May we help you accelerate growth." className="girlSubtext"/>
+                        <div className="girlTextWrap">
+                            <Text body="Driving business results" className="girlText"/>
+                            <Text body="through the combination" className="girlText"/>
+                            <Text body="of creativity, strategy and" className="girlText"/>
+                            <Text body="technology. Because every" className="girlText"/>
+                            <Text body="brand is a digital brand." className="girlText"/>
+                        </div>
+                        <Text body="- May we help you accelerate growth. ✊✊🏻" className="girlSubtext"/>
                         </div>
                     </div>
                     <Image file="yura-mobile-375-path.png" className="girlGraphic"/>
                 </div>
                 <div className="section learnMoreBackground">
                     <Image file="yura---casedetail-1920-y-gradient.png" className="gardientLogoLearnMore"/>
-                    <Text body="Our driving principles are: We underpromise and overdeliver. We are equal partners with all our clients and we work in sprints: hyoerfocusses and fast." className="learnMoreText"/>
+                    <div className="learnMoreTextWrapper">
+                    <Text body="Our driving principles are: We underpromise" className="learnMoreText"/>
+                    <Text body="and overdeliver. We are equal partners with" className="learnMoreText"/>
+                    <Text body="all our clients and we work in sprints;" className="learnMoreText"/>
+                    <Text body="hyperfocusses and fast." className="learnMoreText"/>
+                    </div>
+                    
                     <Button link="" text="Learn how" className="learnMoreButton"/>
                 </div>
                 <div className="section techSection">
@@ -112,13 +173,13 @@ class Home extends React.Component {
                         <div className="col-md-6 col-10">
                         <Text body="What we do" className="whatWeDoTitle"/>
                         </div>
-                        <div className="col-md-6 col-11">
+                        <div className="col-md-6 col-12">
                             <div className="row">
-                                <div className="col-md-4 col-4">
+                                <div className="col-md-4 col-12">
                                 <Text body="Branding" className="whatWeDoHead"/>
                                 </div>
-                                <div className="col-md-8 col-8">
-                                    <ul>
+                                <div className="col-md-8 col-12">
+                                    <ul className="smallList">
                                         <li><Text body="Lorem ipsum dolor sit amet" className="whatWeDoText"/></li>
                                         <li><Text body="Consectetur apidiscing elit" className="whatWeDoText"/></li>
                                         <li><Text body="Dolor sit amet lorem ipsum" className="whatWeDoText"/></li>
@@ -127,11 +188,11 @@ class Home extends React.Component {
                                     </ul>
                                     <br/>
                                 </div>
-                                <div className="col-md-4 col-4">
+                                <div className="col-md-4 col-12">
                                 <Text body="Strategy" className="whatWeDoHead"/>
                                 </div>
-                                <div className="col-md-8 col-8">
-                                    <ul>
+                                <div className="col-md-8 col-12">
+                                    <ul className="smallList">
                                         <li><Text body="Lorem ipsum dolor sit amet" className="whatWeDoText"/></li>
                                         <li><Text body="Consectetur apidiscing elit" className="whatWeDoText"/></li>
                                         <li><Text body="Dolor sit amet lorem ipsum" className="whatWeDoText"/></li>
@@ -140,11 +201,11 @@ class Home extends React.Component {
                                     </ul>
                                     <br/>
                                 </div>
-                                <div className="col-md-4 col-4">
+                                <div className="col-md-4 col-12">
                                 <Text body="Design" className="whatWeDoHead"/>
                                 </div>
-                                <div className="col-md-8 col-8">
-                                    <ul>
+                                <div className="col-md-8 col-12">
+                                    <ul className="smallList">
                                         <li><Text body="Lorem ipsum dolor sit amet" className="whatWeDoText"/></li>
                                         <li><Text body="Consectetur apidiscing elit" className="whatWeDoText"/></li>
                                         <li><Text body="Dolor sit amet lorem ipsum" className="whatWeDoText"/></li>
@@ -153,11 +214,11 @@ class Home extends React.Component {
                                     </ul>
                                     <br/>
                                 </div>
-                                <div className="col-md-4 col-4">
+                                <div className="col-md-4 col-12">
                                 <Text body="Development" className="whatWeDoHead"/>
                                 </div>
-                                <div className="col-md-8 col-8">
-                                    <ul>
+                                <div className="col-md-8 col-12">
+                                    <ul className="smallList">
                                         <li><Text body="Lorem ipsum dolor sit amet" className="whatWeDoText"/></li>
                                         <li><Text body="Consectetur apidiscing elit" className="whatWeDoText"/></li>
                                         <li><Text body="Dolor sit amet lorem ipsum" className="whatWeDoText"/></li>
@@ -174,57 +235,55 @@ class Home extends React.Component {
                     <Text body="We works with startups, STO's and ICO's," className="clientsHead"/>
                     <Text body="blockchain and tech driven companies:" className="clientsHead"/>
                     <div className="row logos">
-                        <div className="col-md-2 col-4 col-sm-4">
+                        <div className="col-md-2 col-4 col-sm-4 col-6">
                         <Image file="client-logo.png" className="clientLogo"/>
                         </div>
-                        <div className="col-md-2 col-4 col-sm-4">
+                        <div className="col-md-2 col-4 col-sm-4 col-6">
                         <Image file="client-logo.png" className="clientLogo"/>
                         </div>
-                        <div className="col-md-2 col-4 col-sm-4">
+                        <div className="col-md-2 col-4 col-sm-4 col-6">
                         <Image file="client-logo.png" className="clientLogo"/>
                         </div>
-                        <div className="col-md-2 col-4 col-sm-4">
+                        <div className="col-md-2 col-4 col-sm-4 col-6">
                         <Image file="client-logo.png" className="clientLogo"/>
                         </div>
-                        <div className="col-md-2 col-4 col-sm-4">
+                        <div className="col-md-2 col-4 col-sm-4 col-6">
                         <Image file="client-logo.png" className="clientLogo"/>
                         </div>
-                        <div className="col-md-2 col-4 col-sm-4">
+                        <div className="col-md-2 col-4 col-sm-4 col-6">
                         <Image file="client-logo.png" className="clientLogo"/>
                         </div>
                     </div>
                 </div>
                 <div className="testimonials">
-                    <div className="row">
-                        <div className="col-md-6" style={{"padding-right": 0}}>
+                <Slider {...settings}>
+                        <div className="testimonialItem">
                             <div className="testimonialContentLeft wow fadeInLeft">
                                 <Text body="Testimonial" className="testimonialTitle"/>
-                                <Text body='"What convinced us to work with Yura was their ability to understand our purpose and subsequent brand we wanted to achieve. Yura has realised our brand vision and excelled beyond expectations. Id highly recommend their services."' className="testimonialText"/>
+                                <Text body='"”Yura developed the key messaging, the graphical appearance and webdesign for our STO. In a very short time period, Yura produced exactly what we were after. They went the extra mile and worked with us as true partners."' className="testimonialText"/>
                                 <div className="row authorDetails">
-                                    <div className="col-md-2 col-4">
+                                    <div className="col-md-2 col-lg-3 col-2">
                                         <Image file="yura---desktop-1920px-oval@2x.png" className="authorImage"/>
                                     </div>
-                                    <div className="col-md-10 col-8">
-                                        <Text body="Luca Loscalzo" className="authorName"/>
-                                        <Text body="Co-Founder | Block3" className="authorDesignation"/>
+                                    <div className="col-md-10 col-10">
+                                        <Text body="Marco Quacken" className="authorName"/>
+                                        <Text body="International Business Growth Advisor" className="authorDesignation"/>
                                     </div>
                                 </div>
                                 <img src="https://png.pngtree.com/svg/20170822/ios_arrow_round_back_1238310.png" className="testimonialArrow" alt=""/>
                             </div>
                             <Image file="yura---desktop-1920px-gettyimages-554391989-1.png" className="testimonialImageLeft wow fadeInLeft"/>
-                            <Image file="yura---desktop-1920px-path-6@2x.png" className="testimonialArrowLeft"/>
                         </div>
-                        <div className="col-md-6">
+                        <div className="testimonialItem">
                             <Image file="yura---desktop-1920px-gettyimages-554391989-1.png" className="testimonialImageRight wow fadeInRight"/>
-                            <Image file="yura---desktop-1920px-path-7@2x.png" className="testimonialArrowRight"/>
                             <div className="testimonialContentRight wow fadeInRight" data-wow-offset="0">
                             <Text body="Testimonial" className="testimonialTitle"/>
                                 <Text body='"What convinced us to work with Yura was their ability to understand our purpose and subsequent brand we wanted to achieve. Yura has realised our brand vision and excelled beyond expectations. Id highly recommend their services."' className="testimonialText"/>
                                 <div className="row authorDetails">
-                                    <div className="col-md-2 col-4">
+                                    <div className="col-md-2 col-2">
                                     <Image file="yura---desktop-1920px-oval@2x.png" className="authorImage"/>
                                     </div>
-                                    <div className="col-md-10 col-8">
+                                    <div className="col-md-10 col-10">
                                     <Text body="Luca Loscalzo" className="authorName"/>
                                     <Text body="Co-Founder | Block3" className="authorDesignation"/>
                                     </div>
@@ -232,7 +291,24 @@ class Home extends React.Component {
                                 <img src="https://png.pngtree.com/svg/20170822/ios_arrow_round_back_1238310.png" className="testimonialArrow" alt=""/>
                             </div>
                         </div>
-                    </div>
+                        <div className="testimonialItem">
+                            <div className="testimonialContentLeft wow fadeInRight">
+                                <Text body="Testimonial" className="testimonialTitle"/>
+                                <Text body='"“We have worked with Yura on various projects, and they have never let us nor our clients down. What is most appealing however, is their intelligent approach and thirst to get under the skin of the client"' className="testimonialText"/>
+                                <div className="row authorDetails">
+                                    <div className="col-md-2 col-2">
+                                        <Image file="yura---desktop-1920px-oval@2x.png" className="authorImage"/>
+                                    </div>
+                                    <div className="col-md-10 col-10">
+                                        <Text body="Clara Florey" className="authorName"/>
+                                        <Text body="Owner | DisPRuptive" className="authorDesignation"/>
+                                    </div>
+                                </div>
+                                <img src="https://png.pngtree.com/svg/20170822/ios_arrow_round_back_1238310.png" className="testimonialArrow" alt=""/>
+                            </div>
+                            <Image file="yura---desktop-1920px-gettyimages-554391989-1.png" className="testimonialImageLeft wow fadeInRight"/>
+                        </div>
+                    </Slider>
                 </div>
                 <div className="section chatSection">
                     <div className="row">
@@ -245,7 +321,7 @@ class Home extends React.Component {
                             <Image file="yura---desktop-1920px-3dblocks@2x.png" className="girlImage wow slideInLeft" />
                         </div>
                         {/* <div className="col-md-6">
-                            {/* <div className="chatSectionImage">
+                             <div className="chatSectionImage">
                                 <Image file="top.svg" className="chatSectionTopImage wow slideInDown" />
                                 <Image file="left.svg" className="chatSectionLeftImage wow slideInLeft" />
                                 <Image file="right.svg" className="chatSectionRightImage wow slideInRight" />

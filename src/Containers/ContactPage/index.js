@@ -38,11 +38,12 @@ class Contact extends React.Component {
                             <div className="form">
                                 <Text body="Hi, my name is &nbsp;" className="formText inline"/>
                                 <Input type="text" placeholder="Full name" className="formInput inline"/>
-                                <Text body="&nbsp;. I work for&nbsp;" className="formText inline"/><br/>
+                                <Text body="&nbsp;." className="formText inline"/>
+                                <Text body="I work for&nbsp;" className="formText inline"/><br/>
                                 <Input type="text" placeholder="Company name" className="formInput inline"/>
-                                <Text body="&nbsp;and I am need of a partner" className="formText inline"/><br/>
+                                <Text body="&nbsp;and I am in need of a partner" className="formText inline"/><br/>
                                 <Text body="to assist me with&nbsp;" className="formText inline"/>
-                                <Input type="text" placeholder="a nutshell" className="formInput inline"/><br/>
+                                <Input type="text" placeholder="in a nutshell" className="formInput inline"/><br/>
                                 <Text body="You can reach me at&nbsp;" className="formText inline"/>
                                 <Input type="text" placeholder="email address" className="formInput"/><br/>
                                 <Text body="or&nbsp;" className="formText inline"/>

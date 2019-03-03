@@ -13,11 +13,23 @@
     src: url('static/fonts/Apercu-Bold.otf') format("opentype");
 }
 
+.backImage img {
+    width: 100%;
+    opacity: 0.2;
+    position: absolute;
+    z-index-1;
+}
+
 body {
     margin: 0;
     padding: 0;
     font-family: "Apercu-Regular", Helvetica, Arial, serif;
     overflow-x: hidden
+}
+
+.root {
+    width: 100% !important;
+    overflow-x: hidden !important
 }
 
 .navbar-text a {
@@ -54,6 +66,14 @@ body {
 button,
 input {
     outline: none !important;
+}
+
+.animated-page-wrapper {
+    position: absolute;
+    top: 62px;
+    left: 0;
+    width: 100%;
+    height: 100%;
 }
 
 .main {
@@ -118,18 +138,17 @@ input {
     font-family: "Apercu-Light", Helvetica, Arial, serif;
     font-size: 2.9rem;
     width: 75%;
-    padding: 2rem 10% 1rem 8%;
     color: #0133d9;
-    margin-top: 27%;
     font-weight: thin !important;
     line-height: 3.5rem;
+    padding: 30% 10% 1rem 8%;
 }
 
 .homeSubtext {
     padding: 1rem 8%;
     font-size: 1.4rem;
-    ;
     color: #0133d9;
+    font-family: "Apercu-Light", Helvetica, Arial, serif;
 }
 
 .section {
@@ -137,7 +156,7 @@ input {
 }
 
 .sectionImage {
-    margin-bottom: 2.3rem
+    margin-bottom: 1.8rem
 }
 
 .gardientLogo {
@@ -176,11 +195,14 @@ input {
     padding: 6% 10% 4% 10%
 }
 
+.girlTextWrap {
+    margin-top: 4.8rem;
+}
+
 .girlText {
     color: #0133d9;
-    font-size: 2.8rem;
+    font-size: 2.6rem;
     font-family: "Apercu-Light", Helvetica, Arial, serif;
-    margin-top: 4.8rem;
     width: 90%;
     line-height: 3.4rem
 }
@@ -188,7 +210,8 @@ input {
 .girlSubtext {
     color: #0133d9;
     margin-top: 2rem;
-    font-size: 1.4rem
+    font-size: 1.4rem;
+    font-family: "Apercu-Light", Helvetica, Arial, serif;
 }
 
 .girlGraphic {
@@ -199,15 +222,16 @@ input {
     z-index: -1
 }
 
+.learnMoreTextWrapper {
+    padding-top: 20rem
+}
+
 .learnMoreText {
     color: white;
     font-size: 2.7rem;
     font-family: "Apercu-Light", Helvetica, Arial, serif;
-    width: 70%;
-    padding: 4em 4rem 1rem 6%;
-    padding-top: 20rem;
-    margin-top: 6rem;
-    line-height: 3.5rem
+    padding: 0rem 4rem 1rem 6%;
+    line-height: 3rem
 }
 
 .learnMoreButton {
@@ -230,8 +254,8 @@ input {
 }
 
 .gardientLogoLearnMore {
-    width: 635px !important;
-    left: -480px;
+    width: 835px !important;
+    left: -700px;
     position: absolute;
     height: 100vh !important
 }
@@ -294,7 +318,6 @@ input {
 
 .chatSectionButton:hover {
     background-color: white;
-    ;
     color: #0133d9;
     cursor: pointer
 }
@@ -303,7 +326,7 @@ input {
     background-image: url('img/yura---desktop-1920px-gettyimages-554391989-copy.png');
     background-size: cover;
     min-height: 100vh;
-    padding: 0 10% 0% 10%;
+    padding: 0 10% 10% 10%;
 }
 
 .techSection {
@@ -341,7 +364,7 @@ input {
 
 .techArrow,
 .addressArrow {
-    width: 100px !important;
+    width: 70px !important;
     filter: invert(1);
     transform: rotate(180deg);
     float: right;
@@ -440,7 +463,13 @@ input {
 }
 
 .testimonials {
-    padding: 5% 7%;
+    padding: 5% 2% 5% 4%;
+}
+
+.testimonialItem {
+    width: 100%;
+    padding: 0 !important;
+    margin: 0 !important
 }
 
 .testimonialContentLeft {
@@ -450,8 +479,17 @@ input {
     color: white;
     font-family: "Apercu-Light", Helvetica, Arial, serif;
     background-size: cover;
+    width: 70%;
+    margin-bottom: 10rem;
+    position: absolute:
+}
+
+.testimonialImageLeft {
     position: absolute;
-    width: 60%
+    top: 0;
+    width: 25%;
+    margin: 7rem 0rem 0rem 5rem;
+    z-index: -1;
 }
 
 .testimonialArrow {
@@ -478,14 +516,9 @@ input {
     width: 150%
 }
 
-.testimonialImageLeft {
-    width: 80%;
-    margin: 20%
-}
-
 .testimonialImageRight {
-    position: absolute;
-    width: 80%;
+    right: 0;
+    width: 70%;
 }
 
 .testimonialContentRight {
@@ -495,27 +528,28 @@ input {
     color: white;
     font-family: "Apercu-Light", Helvetica, Arial, serif;
     background-size: cover;
+    width: 25%;
+    z-index: 1;
     position: absolute;
-    width: 60%;
-    margin: 20% 40%;
-    position: absolute;
-    bottom: 0
+    top: 0;
+    margin-left: 5%;
+    margin-top: 8rem
 }
 
 .testimonialArrowRight {
     position: absolute;
     transform: rotate(45deg);
-    right: 20px;
-    margin-top: 5.5rem;
-    width: 50px
+    right: 35px;
+    width: 50px;
+    margin-top: -20rem
 }
 
 .testimonialArrowLeft {
     position: absolute;
     transform: rotate(-45deg);
-    left: 30px;
-    bottom: 200px;
-    width: 50px
+    left: 0px;
+    top: 18rem;
+    width: 50px;
 }
 
 .teamMain,
@@ -856,6 +890,10 @@ input {
     margin-left: 1rem
 }
 
+.caseLegendTextWrap {
+    margin-bottom: 5rem
+}
+
 .caseLegendText {
     font-size: 1.6rem;
     font-family: "Apercu-Light", Helvetica, Arial, serif;
@@ -1130,6 +1168,10 @@ input {
     .girlGraphic {
         display: none
     }
+    .gardientLogo {
+        margin-left: -95px;
+        margin-top: 1.3rem !important
+    }
     .gardientLogoLearnMore {
         height: 100vh;
         left: -530px
@@ -1153,7 +1195,7 @@ input {
         margin-top: 2rem !important
     }
     .techImage {
-        width: 100% !important;
+        width: 200% !important;
         position: absolute;
         left: 0;
         padding: 0;
@@ -1207,28 +1249,23 @@ input {
     .testimonials {
         padding: 0
     }
-    .testimonialImageLeft,
-    .testimonialImageRight {
-        position: absolute;
-        width: 100% !important;
+    .testimonialImageRight,
+    .testimonialImageLeft {
+        position: relative;
+        width: 80% !important;
         margin: 0;
         padding: 0;
         left: 0;
         z-index: -1
     }
-    .testimonialContentLeft,
-    .testimonialContentRight {
-        position: relative;
-        width: 90%;
-        margin: 5%;
-        margin-top: 8rem
-    }
-    .testimonialContentRight,
-    .testimonialImageRight {
-        display: none
+    .testimonialImageLeft {
+        margin-top: -50%
     }
     .authorImage {
-        width: 120%
+        width: 180%
+    }
+    .authorDetails {
+        margin-top: 3rem
     }
     .clientLogo {
         padding: 0;
@@ -1348,7 +1385,7 @@ input {
     }
     .caseLegend,
     .caseLegendValue {
-        font-size: 1rem
+        font-size: 1.5rem
     }
     .caseLegendText {
         margin-top: 1.5rem;
@@ -1471,6 +1508,15 @@ input {
 }
 
 @media (max-width:1340px) {
+    .testimonialImageLeft {
+        position: relative;
+        left: 0;
+        top: 0;
+        width: 70%;
+        margin: 2rem 0rem 0rem 5rem;
+        z-index: -1;
+        margin-top: -80%;
+    }
     .topGraphic {
         left: 30%;
     }
@@ -1500,7 +1546,7 @@ input {
     }
     .learnMoreText {
         font-size: 2rem;
-        padding-top: 15rem
+        line-height: 2.5rem;
     }
     .techMain {
         font-size: 2.2rem;
@@ -1537,7 +1583,7 @@ input {
         bottom: 50px
     }
     .testimonialArrowRight {
-        margin-top: 0
+        margin-top: -15rem
     }
     .teamHead,
     .casesHead {
@@ -1599,11 +1645,12 @@ input {
     }
     .serviceHeadText,
     .serviceHeadNumber {
-        font-size: 1.5rem
+        font-size: 1.5rem;
+        line-height: 3rem
     }
     .serviceDescription {
-        font-size: 1rem;
-        line-height: 1.5rem
+        font-size: 1.4rem;
+        line-height: 1.9rem
     }
     .processMainHead {
         font-size: 1.5rem
@@ -1640,16 +1687,26 @@ input {
 }
 
 @media(max-width:766px) {
+    .navbar-brand {
+        padding: 0;
+        margin-left: -1rem;
+        margin-top: -0.5rem
+    }
+    .navbar-brand img {
+        width: 85px !important;
+        margin-top: 1rem;
+    }
     .homePageSection {
-        height: 140px;
-        overflow: hidden;
+        height: 155px;
         margin: 1rem 1rem 0rem 0rem !important;
+        overflow: hidden
     }
     .homeText {
-        font-size: 1.5rem;
-        line-height: 2rem;
-        width: 95%;
-        padding-top: 0
+        font-size: 1.9rem;
+        line-height: 2.3rem;
+        width: 100%;
+        padding: 1rem;
+        padding-top: 11rem;
     }
     .girlText {
         font-size: 1.5rem;
@@ -1657,8 +1714,17 @@ input {
         line-height: 2rem
     }
     .girlSubtext {
-        font-size: 1rem;
+        font-size: 0.8rem;
         width: 100%;
+        text-align: center
+    }
+    .homeSubtext {
+        font-size: 1rem;
+        padding-left: 1rem;
+        padding-top: 0.5rem
+    }
+    .mainSectionsInner {
+        margin-top: 0rem
     }
     .learnMoreText {
         padding-top: 6rem;
@@ -1670,7 +1736,7 @@ input {
         margin-top: 2rem
     }
     .techMain {
-        font-size: 1.8rem;
+        font-size: 2rem;
         line-height: 2.3rem
     }
     .techText {
@@ -1684,8 +1750,11 @@ input {
     .whatWeDoTitle {
         text-align: center;
         margin: 0;
-        width: 100%;
-        font-size: 2rem
+        width: 100% !important;
+        font-size: 2rem;
+        margin-top: 3rem;
+        text-align: right;
+        padding: 1rem
     }
     .whatWeDoText {
         font-size: 1rem;
@@ -1694,13 +1763,16 @@ input {
     .whatWeDoHead {
         margin-top: 0
     }
+    .smallList {
+        margin-left: 2rem
+    }
     .teamHead {
-        font-size: 1.5rem;
+        font-size: 1.9rem;
         margin-top: 2rem
     }
     .teamText {
-        font-size: 1.4rem;
-        line-height: 2rem;
+        font-size: 1.9rem;
+        line-height: 2.5rem;
         width: 100%;
         margin-top: 1rem
     }
@@ -1708,46 +1780,47 @@ input {
         font-size: 0.9rem
     }
     .joinUsHead {
-        font-size: 1.4rem;
+        font-size: 2rem;
         margin: 0;
     }
     .joinUsText {
         margin: 0;
         text-align: center;
         width: 100%;
-        font-size: 1.5rem
+        font-size: 1.9rem
     }
     .topGraphic {
         left: 43%;
-        width: 50%;
-        margin-top: -48%;
-        margin-left: -7%
+        width: 79%;
+        margin-top: -90%;
+        margin-left: -45%
     }
     .casesHead {
-        font-size: 1.5rem;
+        font-size: 2rem;
         margin-top: 2rem
     }
     .casesText {
-        font-size: 1.5rem;
-        line-height: 2rem;
-        margin-top: 2rem
+        font-size: 2rem;
+        line-height: 2.5rem;
+        margin-top: 2rem;
+        width: 100%
     }
     .caseLegendText {
         margin: 0;
         margin-top: 1rem;
-        font-size: 1.2rem;
+        font-size: 1.5rem;
         line-height: 1.8rem
     }
     .mobileImageFrame {
         margin-bottom: 2rem
     }
     .servicesHead {
-        font-size: 1.5rem;
+        font-size: 2rem;
         margin-top: 2rem;
     }
     .servicesText {
-        font-size: 1.5rem;
-        line-height: 2rem;
+        font-size: 2rem;
+        line-height: 2.5rem;
         margin-top: 2rem
     }
     .processMainText {
@@ -1770,8 +1843,8 @@ input {
         width: 100%
     }
     .contactHead {
-        font-size: 1.5rem;
-        line-height: 2rem;
+        font-size: 2rem;
+        line-height: 2.5rem;
     }
     .formText,
     .formInput {
@@ -1782,6 +1855,127 @@ input {
         font-size: 1.5rem
     }
     .whatWeDoHead {
-        font-size: 1rem
+        font-size: 1.3rem
+    }
+    .gardientLogoLearnMore {
+        margin-left: -180px
+    }
+    .learnMoreTextWrapper {
+        padding: 0;
+        padding-top: 8rem
+    }
+    .learnMoreText {
+        padding: 0;
+        font-size: 2rem;
+    }
+    .testimonialImageLeft {
+        margin: 0 !important;
+        padding: 0 !important;
+        width: 25% !important;
+        display: none !important
+    }
+    .testimonials {
+        width: 100%;
+        overflow: hidden
+    }
+    .testimonialImageRight {
+        display: none !important
+    }
+    .testimonialContentLeft {
+        margin-top: 2rem;
+        width: 90%;
+        margin-left: 5%
+    }
+    .testimonialContentRight {
+        position: relative;
+        padding: 2rem 2rem 3rem 2rem !important;
+        margin: 2rem 1rem 1rem 1rem !important;
+        width: 90% !important;
+        display: block !important
+    }
+    .testimonialText {
+        text-align: left;
+    }
+    .chatSection {
+        padding: 1rem
+    }
+    .chatSectionText {
+        font-size: 2rem;
+        width: 100%;
+        padding: 0rem;
+        margin: 0;
+        line-height: 2.8rem;
+        margin-top: 0rem
+    }
+    .chatSectionButton {
+        width: 80%;
+        margin-left: 10%
+    }
+    .moreCasesButton {
+        margin-bottom: 5rem
+    }
+    .clientLogo {
+        width: 70% !important;
+        margin-left: 15%
+    }
+    .girlImage {
+        margin-top: 3rem
+    }
+    .logos {
+        margin-top: 2rem
+    }
+    .authorName,
+    .authorDesignation {
+        font-size: 0.7rem !important;
+    }
+    .testimonialArrow {
+        margin-top: -2.3rem;
+        margin-right: -1rem;
+        width: 50px !important
+    }
+    .footerLogo {
+        padding: 1rem 0rem;
+        width: 80px !important
+    }
+    .footerTextWrap {
+        padding-top: 1rem
+    }
+    .ambitionButton {
+        margin-bottom: 3rem;
+        width: 80%;
+        margin-left: 10%
+    }
+    .processMainImage {
+        width: 200%
+    }
+    .processContent {
+        margin-top: 6rem
+    }
+    .servicesArrow {
+        width: 50px !important;
+        margin-top: 0rem
+    }
+    .formInput {
+        width: 150px
+    }
+}
+
+@media(min-width:1600px) {
+    .authorImage {
+        width: 110%
+    }
+    .authorDetails {
+        font-size: 1rem !important;
+        line-height: 1.7rem
+    }
+}
+
+@media(min-width:1800px) {
+    .authorImage {
+        width: 100%
+    }
+    .authorDetails {
+        font-size: 1.2rem !important;
+        line-height: 2.3rem
     }
 }

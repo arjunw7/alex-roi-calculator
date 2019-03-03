@@ -34,8 +34,10 @@ class CaseDetails extends React.Component {
                             <Text body="Block3.co" className="caseLegendValue"/>
                         </div>
                         <div className="col-md-8 col-12">
+                            <div className="caseLegendTextWrap">
                             <Text body="We help big companies act like small startups, and provide the expertise startups need to launch and scale their business. We also create ventures on our own." className="caseLegendText"/>
                             <Text body="We create new products and services from the ground up, or improve existing products. As a team we contribute with everything from concept work, product design." className="caseLegendText"/>
+                            </div>
                         </div>
                     </div>
 

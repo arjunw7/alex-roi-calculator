@@ -2,7 +2,7 @@ import React from 'react';
 import {Link } from "react-router-dom";
 import Text from '../Text';
 import Image from '../Image';
-class Button extends React.Component {
+class Footer extends React.Component {
 
     constructor(props) {
         super(props);
@@ -16,7 +16,7 @@ class Button extends React.Component {
                     <div className="col-md-3 col-6">
                     <Image file="yura-mobile-375-logo-white.svg" className="footerLogo"/>
                     </div>
-                    <div className="col-md-3 col-6">
+                    <div className="col-md-3 col-6 footerTextWrap">
                     <Text body="Yura Agency" className="footerText"/>
                     <Text body="+31 20 244 0000" className="footerText"/>
                     </div>
@@ -48,4 +48,4 @@ class Button extends React.Component {
     }
 }
 
-export default Button;
+export default Footer;
