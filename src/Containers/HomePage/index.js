@@ -262,7 +262,7 @@ class Home extends React.Component {
                                 <Text body="Testimonial" className="testimonialTitle"/>
                                 <Text body='"”Yura developed the key messaging, the graphical appearance and webdesign for our STO. In a very short time period, Yura produced exactly what we were after. They went the extra mile and worked with us as true partners."' className="testimonialText"/>
                                 <div className="row authorDetails">
-                                    <div className="col-md-2 col-lg-3 col-2">
+                                    <div className="col-md-2 col-2">
                                         <Image file="yura---desktop-1920px-oval@2x.png" className="authorImage"/>
                                     </div>
                                     <div className="col-md-10 col-10">
