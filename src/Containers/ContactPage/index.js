@@ -30,8 +30,7 @@ class Contact extends React.Component {
                             <Image file="yura---contact-1920-team.png" className="dennisPhoto"/>
                             <Text body="Dennis Roelefson" className="dennisName"/>
                             <Text body="Co-founder & Strategy Director" className="dennisProfile"/>
-                            <Text body="Linkedin" className="dennisSocial"/>
-                            <Text body="Instagram" className="dennisSocial"/>
+                            <a href="//www.linkedin.com/company/28986347/" target="blank"><Text body="Linkedin" className="dennisSocial"/></a>
                         </div>
                         <div className="col-md-8">
                             <Text body="Fill this out so Dennis can learn about you and your needs." className="contactHeadRight"/>
@@ -61,8 +60,6 @@ class Contact extends React.Component {
                         <Text body="Wibautstraat 131D 1091 GL Amsterdam" className="addressText"/><br/>
                         <Text body="+31 20 244 0000" className="addressText"/>
                         <Text body="info@yura.agency" className="addressText"/>
-                        <Text body="Get Directions" className="getDirections"/>
-                        <img src="https://png.pngtree.com/svg/20170822/ios_arrow_round_back_1238310.png" className="addressArrow" alt=""/>
                     </div>
                     <Image file="yura---contact-1920-gettyimages-554391989.png" className="addressImage"/>
                 </div>

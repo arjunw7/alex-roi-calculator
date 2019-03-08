@@ -18,30 +18,26 @@ class Footer extends React.Component {
                     </div>
                     <div className="col-md-3 col-6 footerTextWrap">
                     <Text body="Yura Agency" className="footerText"/>
-                    <Text body="+31 20 244 0000" className="footerText"/>
+                    <a href="tel:+31 20 244 0000" target="blank"><Text body="+31 20 244 0000" className="footerText"/></a>
                     </div>
                     <div className="col-md-3 col-6 smallMargin footerLinks">
                     <Link to="home"><Text body="Home" className="footerText"/></Link>
-                    <Link to="about"><Text body="About" className="footerText"/></Link>
+                    <Link to="team"><Text body="About" className="footerText"/></Link>
                     <Link to="cases"><Text body="Case" className="footerText"/></Link>
-                    <Link to="team"><Text body="Roles" className="footerText"/></Link>
-                    <Link to="//www.linkedin.com/company/28986347/"><Text body="News" className="footerText"/></Link>
+                    <a href="//www.linkedin.com/company/28986347/" target="blank"><Text body="Roles" className="footerText"/></a>
+                    <a href="//www.linkedin.com/company/28986347/" target="blank"><Text body="News" className="footerText"/></a>
                     <Link to="services&Methods"><Text body="Services" className="footerText"/></Link>
                     <Link to="services&Methods"><Text body="Methods" className="footerText"/></Link>
                     <Link to="contact"><Text body="Contact" className="footerText"/></Link>
                     </div>
                     <div className="col-md-3 col-6 smallMargin footerLinks">
-                    <Link to=""><Text body="Twitter" className="footerText"/></Link>
-                    <Link to=""><Text body="Linkedin" className="footerText"/></Link>
-                    <Link to=""><Text body="Facebook" className="footerText"/></Link>
-                    <Link to=""><Text body="Instagram" className="footerText"/></Link>
-                    <Link to=""><Text body="Medium" className="footerText"/></Link>
-                    <Link to=""><Text body="Github" className="footerText"/></Link>
+                    <a href="//twitter.com/agencyyura" target="blank"><Text body="Twitter" className="footerText"/></a>
+                    <a href="//www.linkedin.com/company/28986347/" target="blank"><Text body="Linkedin" className="footerText"/></a>
+                    <a href="//medium.com/@droelofsen" target="blank"><Text body="Medium" className="footerText"/></a>
                     </div>
                 </div>
                 <div className="footerCopyrightText">
-                    <Text body="Copyright © Yura Agency 2019. All rights reserved. For information on our site, see the Terms Of Use" className="copyrightText"/>
-                    <Text body="We're also using cookies, so we can be better. Here's our privacy policy too." className="copyrightText"/>
+                    <Text body="Copyright © Yura Agency 2019. All rights reserved." className="copyrightText"/>
                 </div>
             </div>
         )

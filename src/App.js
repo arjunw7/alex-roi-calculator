@@ -22,7 +22,7 @@ class App extends Component {
             <Route exact path="/services&Methods" component={ServicesMethods} />
             <Route exact path="/cases" component={Cases} />
             <Route exact path="/contact" component={Contact} />
-            <Route exact path="/caseDetails" component={CaseDetails} />
+            <Route exact path="/caseDetails/:id" component={CaseDetails} />
             <Route component={NotFound} />
           </Switch>
         </div>

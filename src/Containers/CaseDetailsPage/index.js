@@ -4,24 +4,27 @@ import Image from '../../Components/Image';
 import Footer from '../../Components/Footer';
 import {Link } from "react-router-dom";
 import WOW from "wowjs";
-
+import Cases from '../../Config/cases'
 class CaseDetails extends React.Component {
 
     constructor(props) {
         super(props);
-        this.state = {}
+        this.state = {
+            case: Cases[this.props.match.params.id-1]
+        }
     }
 
     componentDidMount() {
         const wow = new WOW.WOW();
         wow.init();
         window.scrollTo(0,0);
+        console.log(this.state)
     }
 
     render() { 
         return(
             <div>
-                    <Image file="yura---casedetail-1920-gettyimages-554391989-copy.png" className="caseMainImage"/>
+                    <img src={"../img/cases/" + this.props.match.params.id + "/head.png"} className="caseMainImage" alt=""/>
                     <div className="row legendData">
                         <div className="col-md-1 col-4">
                             <Text body="Client:" className="caseLegend"/>
@@ -29,9 +32,9 @@ class CaseDetails extends React.Component {
                             <Text body="Visit:" className="caseLegend"/>
                         </div>
                         <div className="col-md-2 col-8">
-                            <Text body="Block3" className="caseLegendValue"/>
-                            <Text body="Rebranding" className="caseLegendValue"/>
-                            <Text body="Block3.co" className="caseLegendValue"/>
+                            <Text body={this.state.case.name} className="caseLegendValue"/>
+                            <Text body={this.state.case.project} className="caseLegendValue"/>
+                            <a href={"//www." + this.state.case.website} target="blank"><Text body={this.state.case.website} className="caseLegendValue"/></a>
                         </div>
                         <div className="col-md-8 col-12">
                             <div className="caseLegendTextWrap">
@@ -44,13 +47,13 @@ class CaseDetails extends React.Component {
                     <div className="mobileImages">
                         <div className="row">
                             <div className="col-md-4 col-6">
-                                <Image file="yura---casedetail-1920-your-design-here.png" className="mobileImageInner"/>
+                                <img src="../img/yura---casedetail-1920-your-design-here.png" className="mobileImageInner" alt=""/>
                             </div>
                             <div className="col-md-4 col-6">
-                                <Image file="yura---casedetail-1920-your-design-here.png" className="mobileImageInner"/>
+                                <img src="../img/yura---casedetail-1920-your-design-here.png" className="mobileImageInner" alt=""/>
                             </div>
                             <div className="col-md-4 col-6 hideThirdImage">
-                                <Image file="yura---casedetail-1920-your-design-here.png" className="mobileImageInner"/>
+                                <img src="../img/yura---casedetail-1920-your-design-here.png" className="mobileImageInner" alt=""/>
                             </div>
                         </div>
                     </div>
@@ -62,10 +65,10 @@ class CaseDetails extends React.Component {
                                 <Text body="Big companies act like small startups, and provide the expertise startups need to launch and scale their business. We also create ventures on our own." className="csaseDetailImageText"/>
                             </div>
                             <div className="col-md-6 col-6">
-                                <Image file="yura---casedetail-1920-gettyimages-554391989-copy-1.png" className="mobileImageFrame"/>
+                                <img src="../img/yura---casedetail-1920-gettyimages-554391989-copy-1.png" className="mobileImageFrame" alt=""/>
                             </div>
                             <div className="col-md-6 col-6">
-                                <Image file="yura---casedetail-1920-gettyimages-554391989-copy-3.png" className="mobileImageFrame"/>
+                                <img src="../img/yura---casedetail-1920-gettyimages-554391989-copy-3.png" className="mobileImageFrame" alt=""/>
                             </div>
                             <div className="col-md-6 col-6">
                                 <Text body="Identity is Everything" className="caseDetailImageHead"/>

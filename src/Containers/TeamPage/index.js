@@ -3,14 +3,17 @@ import Text from '../../Components/Text';
 import Image from '../../Components/Image';
 import Button from '../../Components/Button';
 import Footer from '../../Components/Footer';
-import {Link } from "react-router-dom";
 import WOW from "wowjs";
-
+import Members from '../../Config/team';
 class Team extends React.Component {
 
     constructor(props) {
         super(props);
-        this.state = {}
+        this.state = {
+            members: Members
+        }
+        console.log(this.state)
+
     }
 
     componentDidMount() {
@@ -24,64 +27,27 @@ class Team extends React.Component {
             <div>
                 <div className="row teamMain">
                     <div className="col-md-4">
-                    <Text body="Team" className="teamHead"/>
+                    <Text body="About & Team" className="teamHead"/>
                     </div>
                     <div className="col-md-8">
-                    <Text body="Our team consists of experts within fields as diverse as design, animation and development, as well as Artificial Intelligence, machine learning and advanced algorithms. We are constantly on the lookout for talent within any of the fields." className="teamText"/>
+                    <Text body="We are a team of experts within fields as diverse as strategy, design and development, as well as storytelling and photography. We are constantly on the lookout for tech savvy creative minds." className="teamText"/>
                     <Button link="contact" text="Want to join our team?" className="teamMainButton"/>
                     </div>
                 </div>
                 <div className="teamMembers">
                     <Image file="yura-mobile-375-path.png" className="teamGraphic"/>
                     <div className="row">
-                        <div className="col-md-3 col-6 member wow fadeInUp" data-wow-delay="0.1s">
-                            <Image file="yura---team-1920px-team-1.png" className="memberImage"/>
-                            <Text body="Dave Paulisse" className="memberName"/>
-                            <Text body="Full Stack Developer" className="memberProfile"/>
-                            <Link to=""><Text body="Linkedin" className="memberSocial"/></Link>
-                        </div>
-                        <div className="col-md-3 col-6 member wow fadeInUp" data-wow-delay="0.2s">
-                            <Image file="yura---team-1920px-team-3.png" className="memberImage"/>
-                            <Text body="Dennis Roelofsen" className="memberName"/>
-                            <Text body="Co-founder & Strategy Director" className="memberProfile"/>
-                            <Link to=""><Text body="Linkedin" className="memberSocial"/></Link>
-                        </div>
-                        <div className="col-md-3 col-6 member wow fadeInUp" data-wow-delay="0.3s">
-                            <Image file="yura---team-1920px-team-4.png" className="memberImage"/>
-                            <Text body="August Skare" className="memberName"/>
-                            <Text body="Developer" className="memberProfile"/>
-                            <Link to=""><Text body="Linkedin" className="memberSocial"/></Link>
-                        </div>
-                        <div className="col-md-3 col-6 member wow fadeInUp" data-wow-delay="0.4s">
-                            <Image file="yura---team-1920px-team-1.png" className="memberImage"/>
-                            <Text body="Dave Paulisse" className="memberName"/>
-                            <Text body="Full Stack Developer" className="memberProfile"/>
-                            <Link to=""><Text body="Linkedin" className="memberSocial"/></Link>
-                        </div>
-                        <div className="col-md-3 col-6 member wow fadeInUp" data-wow-delay="0.1s">
-                            <Image file="yura---team-1920px-team-3.png" className="memberImage"/>
-                            <Text body="Dennis Roelofsen" className="memberName"/>
-                            <Text body="Co-founder & Strategy Director" className="memberProfile"/>
-                            <Link to=""><Text body="Linkedin" className="memberSocial"/></Link>
-                        </div>
-                        <div className="col-md-3 col-6 member wow fadeInUp" data-wow-delay="0.2s">
-                            <Image file="yura---team-1920px-team-4.png" className="memberImage"/>
-                            <Text body="August Skare" className="memberName"/>
-                            <Text body="Developer" className="memberProfile"/>
-                            <Link to=""><Text body="Linkedin" className="memberSocial"/></Link>
-                        </div>
-                        <div className="col-md-3 col-6 member wow fadeInUp" data-wow-delay="0.3s">
-                            <Image file="yura---team-1920px-team-1.png" className="memberImage"/>
-                            <Text body="Dave Paulisse" className="memberName"/>
-                            <Text body="Full Stack Developer" className="memberProfile"/>
-                            <Link to=""><Text body="Linkedin" className="memberSocial"/></Link>
-                        </div>
-                        <div className="col-md-3 col-6 member wow fadeInUp" data-wow-delay="0.4s">
-                            <Image file="yura---team-1920px-team-3.png" className="memberImage"/>
-                            <Text body="Dennis Roelofsen" className="memberName"/>
-                            <Text body="Co-founder & Strategy Director" className="memberProfile"/>
-                            <Link to=""><Text body="Linkedin" className="memberSocial"/></Link>
-                        </div>
+                        {
+                            this.state.members
+                            .map(member=>(
+                                <div className="col-md-3 col-6 member wow fadeInUp" data-wow-delay="0.1s">
+                                    <Image file={"team/" + member.image} className="memberImage"/>
+                                    <Text body={member.name} className="memberName"/>
+                                    <Text body={member.designation} className="memberProfile"/>
+                                    {member.linkedin && <a href={member.linkedin} target="blank"><Text body="Linkedin" className="memberSocial"/></a>}
+                                </div>
+                            ))
+                        }
                     </div>
                 </div>
                 <div className="joinUsSection">
@@ -91,7 +57,7 @@ class Team extends React.Component {
                         <Text body="Join Us" className="joinUsHead"/>
                         </div>
                         <div className="col-md-8">
-                        <Text body="Great parties are an important ingredient of Yura Agency. Twice a year, at summer and christmas, we gather everyone in the company for a trip. We also do parties, open houses and yearly conferences." className="joinUsText"/>
+                        <Text body="Great freedom and independence are important ingredients of Yura Agency. You can work anywhere you want, anytime you want. In fact, let’s all gather in Canggu, Bali and do a two month project." className="joinUsText"/>
                         <a href="mailto:info@yura.agency" rel="noopener noreferrer"><button className="joinUsButton">An Interesting Day</button></a>
                         </div>
                     </div>

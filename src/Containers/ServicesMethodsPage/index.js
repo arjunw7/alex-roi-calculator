@@ -25,7 +25,7 @@ class ServicesMethods extends React.Component {
                     <Text body="Methods & Services" className="servicesHead"/>
                     </div>
                     <div className="col-md-8">
-                    <Text body="Yura is a digital studio that transforms big ideas into great products and ventures. We help big companies like small startups, and provide the expertise startups need to launch and scale their business. We also create ventures on our own." className="servicesText"/>
+                    <Text body=" Yura is a creative studio that transforms big ideas into great products and ventures. We help cruiseships (companies) move like speedboats (startups), and provide the expertise startups need to launch and scale their business." className="servicesText"/>
                     <Button link="contact" text="Want to join our team?" className="teamMainButton"/>
                     </div>
                 </div>
@@ -36,17 +36,17 @@ class ServicesMethods extends React.Component {
                         <div className="col-md-4">
                             <Text body="01" className="serviceHeadNumber"/>
                             <Text body="Clarity" className="serviceHeadText"/>
-                            <Text body="We have the people needed to take the product from beginning to end. Combining heavy technical experience with a fierce focus on product design, we are capable of bringing any idea to life, no matter the complexity" className="serviceDescription"/>
+                            <Text body="Strategy = Clarity. At the end of the day this is what we sell: clarity. You want to filter out all the non-essentials and bring out the message, the purpose and the end result. Whatever the medium or the tool: Clarity, clarity and clarity." className="serviceDescription"/>
                         </div>
                         <div className="col-md-4">
                             <Text body="02" className="serviceHeadNumber"/>
                             <Text body="Speed" className="serviceHeadText"/>
-                            <Text body="We have the people needed to take a product from beginning to end. Combining heavy technical experience with a fierce focus on product design, we are capable to bring any idea to life, no matter the complexity." className="serviceDescription"/>
+                            <Text body="In a world that is rapidly changing, it makes no sense to wait for the perfect conditions. There is no such thing. Therefore we work with iterations of a product. We work in short design sprints to deliver those iterations. We work fast." className="serviceDescription"/>
                         </div>
                         <div className="col-md-4">
                             <Text body="03" className="serviceHeadNumber"/>
                             <Text body="Creativity" className="serviceHeadText"/>
-                            <Text body="We have the people needed to take a product from beginning to end. Combining heavy technical experience with a fierce focus on product design, we are capable to bring any idea to life, no matter the complexity." className="serviceDescription"/>
+                            <Text body="Underneath all of our work lies a genuine desire to create. We use our creativity and intelligence to solve the unique problems our partners and clients present to us. There is nothing more rewarding than to watch a working solution." className="serviceDescription"/>
                         </div>
                     </div>
                 </div>
@@ -54,8 +54,8 @@ class ServicesMethods extends React.Component {
                 <div className="processMain">
                     <Image file="yura-mobile-375-path.png" className="processGraphic"/>
                     <div className="processContent">
-                        <Text body="Our Process" className="processMainHead"/>
-                        <Text body="We have a unique process in 5 clearly defined phases taking a product from beginning to end." className="processMainText"/>
+                        <Text body="Why we do it" className="processMainHead"/>
+                        <Text body="We solve branded challenges in co-creation with our clients as good and fast as possible." className="processMainText"/>
                     </div>
                     <Image file="yura---desktop-1920px-gettyimages-554391989.png" className="processMainImage"/>
                 </div>
@@ -66,7 +66,7 @@ class ServicesMethods extends React.Component {
                             <Text body="Our Process" className="processDetailsHead"/>
                         </div>
                         <div className="col-md-8">
-                            <Text body="We have a unique process in 5 clearly defined phases taking a product from beginning to end. Combining heavy technical experience with a fierce focus on product design, we are capable to bring any idea to life, no matter the complexity." className="processDetailsText"/>
+                            <Text body="We have a clear process: in 5 distinct phases we’re taking your product from beginning to end. Combining strategic and technical experience with a fierce focus on design, we are capable to bring any idea to life." className="processDetailsText"/>
                         </div>
                         <div className="col-md-3">
 
@@ -77,7 +77,7 @@ class ServicesMethods extends React.Component {
                                 <div className="processData">
                                     <Text body="Phase 0" className="processPhase"/>
                                     <Text body="Investigate & Understand" className="processTitle"/>
-                                    <Text body="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus eros, nec laoreet sapien posuere vel." className="processDescription"/>
+                                    <Text body="Creating the baselines and points of departure. Knowing everything about your business, the challenge and opportunities." className="processDescription"/>
                                 </div>
                             </div>
                            <div className="processItem">
@@ -85,7 +85,7 @@ class ServicesMethods extends React.Component {
                                 <div className="processData">
                                     <Text body="Phase 1" className="processPhase"/>
                                     <Text body="Strategize & Ideate" className="processTitle"/>
-                                    <Text body="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus eros, nec laoreet sapien posuere vel." className="processDescription"/>
+                                    <Text body="Prototyping potential solutions. Crafting for clarity. Planning towards winning the battles you are so ambitious to win." className="processDescription"/>
                                 </div>
                            </div>
                            <div className="processItem">
@@ -93,7 +93,7 @@ class ServicesMethods extends React.Component {
                                 <div className="processData">
                                     <Text body="Phase 2" className="processPhase"/>
                                     <Text body="Design & Write" className="processTitle"/>
-                                    <Text body="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus eros, nec laoreet sapien posuere vel." className="processDescription"/>
+                                    <Text body="Creating the frameworks, the milestones and materials for you to say: “Yes, full speed ahead!” You now see what we’re seeing." className="processDescription"/>
                                 </div>
                            </div>
                             <div className="processItem">
@@ -101,7 +101,7 @@ class ServicesMethods extends React.Component {
                                 <div className="processData">
                                     <Text body="Phase 3" className="processPhase"/>
                                     <Text body="Execute & Implement" className="processTitle"/>
-                                    <Text body="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus eros, nec laoreet sapien posuere vel." className="processDescription"/>
+                                    <Text body="In this stage we operate like a bunch of geeks in the attic. Executing the warplan. Making the result already tangible." className="processDescription"/>
                                 </div>
                             </div>
                             <div className="processItem">
@@ -109,7 +109,7 @@ class ServicesMethods extends React.Component {
                                     <div className="processData">
                                         <Text body="Phase 4" className="processPhase"/>
                                         <Text body="Track & Improve" className="processTitle"/>
-                                        <Text body="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus eros, nec laoreet sapien posuere vel." className="processDescription"/>
+                                        <Text body="Off course we get feedback along the way. Let’s test and optimize things: whether it’s from client review or changing factors." className="processDescription"/>
                                     </div>
                             </div>
                         </div>
@@ -124,9 +124,9 @@ class ServicesMethods extends React.Component {
                         <Text body="What is your ambition?" className="ambitionTitle"/>
                         </div>
                         <div className="col-md-8">
-                        <Text body="Yura is a digital studio that transforms big ideas into great products and ventures." className="ambitionHead"/>
-                        <Text body="We create new products and services from the ground up, or improve existing products. As a team we contribute with everything from concept work, product design, prototyping and branding to all types of development including advanced machine learning and working with blockchain.?" className="ambitionText"/>
-                        <Text body="How great would it be if we could get your project flying?" className="ambitionText"/><Button link="contact" text="Contact us now" className="ambitionButton"/>
+                        <Text body="We create new products and services from the ground up, or improve existing products." className="ambitionHead"/>
+                        <Text body="As a team we contribute with everything from concept work, product design, prototyping and branding to all types of development." className="ambitionText"/>
+                        <Text body="How great would it be if we could get your project flying? Soon!" className="ambitionText"/><Button link="contact" text="Contact us now" className="ambitionButton"/>
                         </div>
                     </div>
                 </div>

@@ -22,7 +22,7 @@ class CaseItem extends React.Component {
                 <Image file={this.props.file} className="caseImage"/>
                 <Text body={this.props.title} className="caseTitle"/>
                 <Text body={this.props.text} className="caseText"/>
-                <Link to={this.props.link}><Text body="View Case" className="caseLink"/></Link>
+                <Link to={this.props.link + "/" + this.props.case.id}><Text body="View Case" className="caseLink"/></Link>
             </div>
         )
     }

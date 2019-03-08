@@ -3,11 +3,14 @@ import Text from '../../Components/Text';
 import CaseItem from '../../Components/CaseItem';
 import Footer from '../../Components/Footer';
 import WOW from "wowjs";
+import CaseData from '../../Config/cases';
 class Cases extends React.Component {
 
     constructor(props) {
         super(props);
-        this.state = {}
+        this.state = {
+            cases: CaseData
+        }
     }
 
     componentDidMount() {
@@ -24,19 +27,17 @@ class Cases extends React.Component {
                     <Text body="Cases" className="casesHead"/>
                     </div>
                     <div className="col-md-8">
-                    <Text body="We help big companies act like small startups, and provide the expertise startups need to launch and scale their business. We also create ventures on our own." className="casesText"/>
+                    <Text body="As a creative digital agency we dedicate our time and energy to building brands in the technology space. We have helped blockchain companies, startups and STO’s recently." className="casesText"/>
                     </div>
                 </div>
                 <div className="cases">
                     <div className="row">
-                        <CaseItem file="yura---case-1920-gettyimages-554391989-copy.png" title="Helena Token" text="For this oil and gas company we act like small startups, and provide the expertise startups need to launch and scale." link="caseDetails"/>
-                        <CaseItem file="yura---case-1920-gettyimages-554391989-copy-3.png" title="Case 2" text="For this oil and gas company we act like small startups, and provide the expertise startups need to launch and scale." link="caseDetails"/>
-                        <CaseItem file="yura---case-1920-gettyimages-554391989-copy-3-2.png" title="Case 3" text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam bibendum ante quis urna aliquet pellentesque. In ac dolor nulla." link="caseDetails"/>
-                        <CaseItem file="yura---case-1920-gettyimages-554391989-copy-3-1.png" title="Case 4" text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam bibendum ante quis urna aliquet pellentesque. In ac dolor nulla." link="caseDetails"/>
-                        <CaseItem file="yura---case-1920-gettyimages-554391989-copy-3-4.png" title="Case 5" text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam bibendum ante quis urna aliquet pellentesque. In ac dolor nulla." link="caseDetails"/>
-                        <CaseItem file="yura---case-1920-gettyimages-554391989-copy-3-3.png" title="Case 6" text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam bibendum ante quis urna aliquet pellentesque. In ac dolor nulla." link="caseDetails"/>
-                        <CaseItem file="yura---case-1920-gettyimages-554391989-copy-3-6.png" title="Case 7" text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam bibendum ante quis urna aliquet pellentesque. In ac dolor nulla." link="caseDetails"/>
-                        <CaseItem file="yura---case-1920-gettyimages-554391989-copy-3-5.png" title="Case 8" text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam bibendum ante quis urna aliquet pellentesque. In ac dolor nulla." link="caseDetails"/>                        
+                        {
+                            this.state.cases
+                            .map((item) => (
+                                <CaseItem file={item.overviewImage} title={item.name} text={item.description} link="caseDetails" case={item}/>
+                            ))
+                        }                    
                     </div>
                 </div>
                 <Footer/>
