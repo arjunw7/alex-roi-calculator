@@ -557,8 +557,18 @@ input {
     position: absolute;
     transform: rotate(-45deg);
     left: 0px;
-    top: 18rem;
+    top: 22rem;
     width: 50px;
+}
+
+.caseBrandName {
+    font-size: 3rem;
+    font-family: "Apercu-Light", Helvetica, Arial, serif;
+}
+
+.caseBrandType {
+    font-size: 1.5rem;
+    font-family: "Apercu-Light", Helvetica, Arial, serif;
 }
 
 .teamMain,
@@ -900,7 +910,8 @@ input {
 }
 
 .caseLegendTextWrap {
-    margin-bottom: 5rem
+    margin-bottom: 5rem;
+    margin-top: 0.5rem
 }
 
 .caseLegendText {
@@ -908,6 +919,10 @@ input {
     font-family: "Apercu-Light", Helvetica, Arial, serif;
     line-height: 2.3rem;
     margin-left: 3.5rem
+}
+
+.case2 .caseLegendText {
+    margin-top: -0.5rem !important;
 }
 
 .mobileImageFrame {
@@ -933,14 +948,51 @@ input {
     color: #0133d9;
 }
 
+.case2 .caseDetailImages {
+    padding: 5rem 0rem
+}
+
+.case2 .caseDetailImageHead,
+.case2 .csaseDetailImageText {
+    margin-left: 12rem
+}
+
+.case2 .caseDetailImageHead {
+    margin-top: 10rem
+}
+
+.case2 .caseDetailImages {
+    padding-bottom: 0
+}
+
+.case3 .legendData {
+    padding: 0 9% 0 10%
+}
+
+.case3 .caseLegendText {
+    margin-left: 0
+}
+
+.case4 .controls {
+    margin-top: 6rem
+}
+
+.caseFullImage {
+    width: 100%
+}
+
+.white {
+    color: white
+}
+
 .caseDetailImageHead {
-    margin-left: 20%;
-    margin-top: 30%;
+    margin-left: 15%;
+    margin-top: 10%;
     font-size: 2rem
 }
 
 .csaseDetailImageText {
-    margin-left: 20%;
+    margin-left: 15%;
     font-size: 1.6rem;
     font-family: "Apercu-Light", Helvetica, Arial, serif;
     line-height: 2rem
@@ -1205,6 +1257,24 @@ input {
     .girlGraphic {
         display: none
     }
+    .case2 .caseDetailImageHead,
+    .case2 .csaseDetailImageText {
+        padding: 0 1.5rem !important;
+        margin: 0 !important
+    }
+    .case2 .caseDetailImageHead {
+        margin-top: 10rem
+    }
+    .case2 .caseDetailImages {
+        padding-bottom: 0
+    }
+    .case2 .singleImage {
+        margin-top: 0 !important;
+        padding: 0 !important
+    }
+    .case2 .caseLegendTextWrap {
+        margin-top: 1rem
+    }
     .gardientLogo {
         margin-left: -95px;
         margin-top: 1.3rem !important
@@ -1412,17 +1482,18 @@ input {
         width: 100%
     }
     .caseDetailImageHead {
-        font-size: 1.2rem;
+        font-size: 1.4rem;
         margin-top: 0;
         line-height: 1.5rem;
         padding: 0;
         margin-left: 0
     }
     .csaseDetailImageText {
-        font-size: 0.8rem;
-        line-height: 1.2rem;
+        font-size: 1.2rem;
+        line-height: 1.7rem;
         margin-left: 0;
-        margin-bottom: 1rem
+        margin-bottom: 1rem;
+        margin-top: 1rem
     }
     .caseDetailsGraphic {
         display: none
@@ -1436,12 +1507,17 @@ input {
     }
     .caseLegend,
     .caseLegendValue {
-        font-size: 1.5rem
+        font-size: 1.1rem
     }
     .caseLegendText {
         margin-top: 1.5rem;
         font-size: 1.2rem;
         line-height: 1.7rem
+    }
+    .caseThreeSingleImage img {
+        width: 60%;
+        margin-left: 20%;
+        margin-top: 10%
     }
     .mobileImages {
         margin-top: 2rem;

@@ -8,7 +8,11 @@ import NotFound from "./Containers/404Page";
 import Team from './Containers/TeamPage';
 import Navigation from "./Components/Navbar";
 import ServicesMethods from './Containers/ServicesMethodsPage';
-import CaseDetails from './Containers/CaseDetailsPage';
+import CaseDetails1 from './Containers/CaseDetailsPage1';
+import CaseDetails2 from './Containers/CaseDetailsPage2';
+import CaseDetails3 from './Containers/CaseDetailsPage3';
+import CaseDetails4 from './Containers/CaseDetailsPage4';
+
 class App extends Component {
   render() {
     return (
@@ -22,7 +26,10 @@ class App extends Component {
             <Route exact path="/services&Methods" component={ServicesMethods} />
             <Route exact path="/cases" component={Cases} />
             <Route exact path="/contact" component={Contact} />
-            <Route exact path="/caseDetails/:id" component={CaseDetails} />
+            <Route exact path="/1" component={CaseDetails1} />
+            <Route exact path="/2" component={CaseDetails2} />
+            <Route exact path="/3" component={CaseDetails3} />
+            <Route exact path="/4" component={CaseDetails4} />
             <Route component={NotFound} />
           </Switch>
         </div>

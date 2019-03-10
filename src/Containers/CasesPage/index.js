@@ -35,7 +35,7 @@ class Cases extends React.Component {
                         {
                             this.state.cases
                             .map((item) => (
-                                <CaseItem file={item.overviewImage} title={item.name} text={item.description} link="caseDetails" case={item}/>
+                                <CaseItem file={item.overviewImage} title={item.name} text={item.description} link="caseDetails" pageName={item.pageName} case={item}/>
                             ))
                         }                    
                     </div>
