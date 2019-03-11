@@ -647,8 +647,9 @@ input {
 }
 
 .joinUsGraphic {
+    width: 900px;
     position: absolute;
-    left: -500px;
+    left: -750px;
     height: 100vh;
 }
 
@@ -677,7 +678,9 @@ input {
 }
 
 .joinUsButton {
-    margin-left: 3rem
+    margin-left: 3rem;
+    padding: 1rem 5rem;
+    border-radius: 80px
 }
 
 .servicesHead {
@@ -1660,7 +1663,7 @@ input {
         line-height: 3.5rem;
     }
     .sectionImage {
-        margin-bottom: 1rem
+        margin-bottom: 1.4rem
     }
     .gardientLogo {
         width: 450px !important;
@@ -2152,5 +2155,12 @@ input {
         margin-left: 7.5%;
         margin-top: -2.5% !important;
         opacity: 0.95
+    }
+}
+
+@media(min-width:1400px) {
+    .caseLegend,
+    .caseLegendValue {
+        font-size: 1.8rem !important
     }
 }

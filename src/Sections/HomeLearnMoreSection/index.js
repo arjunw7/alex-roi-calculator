@@ -24,7 +24,7 @@ class HomeLearnMoreSection extends React.Component {
                 <div className="learnMoreTextWrapper">
                 <Text body="Our driving principles are: We underpromise and overdeliver. We are equal partners with all our clients and we work in sprints; hyperfocussed and fast." className="learnMoreText"/>
                 </div>
-                <Button link="" text="Learn how" className="learnMoreButton"/>
+                <Button link="services&methods" text="Learn how" className="learnMoreButton"/>
             </div>
         )
     }

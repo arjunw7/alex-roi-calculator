@@ -27,7 +27,7 @@ class Navigation extends React.Component {
                 <Nav><Navbar.Text><NavLink exact activeClassName="active" to="/team">About</NavLink></Navbar.Text></Nav>
                 <Nav><Navbar.Text><NavLink exact activeClassName="active" to="/cases">Cases</NavLink></Navbar.Text></Nav>
                 <Nav><Navbar.Text><NavLink exact activeClassName="active" to="/contact">Contact</NavLink></Navbar.Text></Nav>
-                <Nav><Navbar.Text>+31 20 244 0000</Navbar.Text>
+                <Nav><a href="tel:+31 20 244 0000" target="blank"><Navbar.Text>+31 20 244 0000</Navbar.Text></a>
                 </Nav>
             </Navbar.Collapse>
             </Navbar>
