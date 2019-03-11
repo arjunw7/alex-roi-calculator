@@ -27,7 +27,7 @@ class HomeGirlSection extends React.Component {
                     <div className="girlTextWrap">
                         <Text body="Driving business results through the combination of creativity, strategy and technology. Because every brand is a digital brand." className="girlText"/>
                     </div>
-                    <Text body="- May we help you accelerate growth. ✊🏻" className="girlSubtext"/>
+                    <Text body="- May we help you accelerate growth? ✊🏻" className="girlSubtext"/>
                     </div>
                 </div>
                 <Image file="yura-mobile-375-path.png" className="girlGraphic"/>

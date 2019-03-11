@@ -68,9 +68,9 @@ class CaseDetails3 extends React.Component {
                 <div className="controls">
                     <img src="../img/yura---casedetail-1920-path-copy@2x.png" className="caseDetailsLeftArrow" alt=""/>
                     <Link to="2"><Text body="Previous Case" className="control"/></Link>
-                <Text body="Overview" className="control"/>
-                <Link to="4"><Text body="Next Case" className="control"/></Link>
-                <img src="../img/yura---casedetail-1920-path-copy@2x.png" className="caseDetailsRightArrow" alt=""/>
+                    <Text body="Overview" className="control"/>
+                    <Link to="4"><Text body="Next Case" className="control"/></Link>
+                    <img src="../img/yura---casedetail-1920-path-copy@2x.png" className="caseDetailsRightArrow" alt=""/>
                 </div>
 
                 <Footer/>
