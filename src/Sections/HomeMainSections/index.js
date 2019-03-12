@@ -34,7 +34,7 @@ class HomeMainSections extends React.Component {
                                 <div className="col-md-6 col-12 wow fadeInUp homePageSection">
                                 <Link to="services&Methods">
                                     <Text body="Services" className="sectionTitleText"/>
-                                    <Image file="yura---desktop-1920px-unknown.png" className="sectionImage"/>
+                                    <Image file="services.png" className="sectionImage"/>
                                 </Link>
                                 </div>
                                 <div className="col-md-6 col-12 wow fadeInUp homePageSection">
