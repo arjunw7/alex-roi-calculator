@@ -35,7 +35,7 @@ class CaseDetails3 extends React.Component {
                     <div className="col-md-7 col-12">
                         <div className="caseLegendTextWrap">
                         <Text body="An existing and fully operational energy company doing an STO, now that’s exiting news to us. After a deepdive session we started writing the brand narrative and rewriting the pitchdeck. Then all other branded deliverables derived from there" className="caseLegendText"/>
-                        <Text body="We worked in design sprints of one week each. We were able to de-liver the brand narrative, the pitchdeck, webdesign and fully func-tional website in the first week." className="caseLegendText"/>
+                        <Text body="We worked in design sprints of one week each. We were able to deliver the brand narrative, the pitchdeck, webdesign and fully functional website in the first week." className="caseLegendText"/>
                         </div>
                     </div>
                 </div>

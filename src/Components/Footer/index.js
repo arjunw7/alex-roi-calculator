@@ -23,7 +23,7 @@ class Footer extends React.Component {
                     <div className="col-md-3 col-6 smallMargin footerLinks">
                     <Link to="home"><Text body="Home" className="footerText"/></Link>
                     <Link to="team"><Text body="About" className="footerText"/></Link>
-                    <Link to="cases"><Text body="Case" className="footerText"/></Link>
+                    <Link to="cases"><Text body="Cases" className="footerText"/></Link>
                     <a href="//www.linkedin.com/company/28986347/" target="blank"><Text body="Roles" className="footerText"/></a>
                     <a href="//www.linkedin.com/company/28986347/" target="blank"><Text body="News" className="footerText"/></a>
                     <Link to="services&Methods"><Text body="Services" className="footerText"/></Link>

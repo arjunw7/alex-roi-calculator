@@ -58,7 +58,7 @@ class Team extends React.Component {
                         </div>
                         <div className="col-md-8">
                         <Text body="Great freedom and independence are important ingredients of Yura Agency. You can work anywhere you want, anytime you want. In fact, let’s all gather in Canggu, Bali and do a two month project." className="joinUsText"/>
-                        <a href="mailto:info@yura.agency" rel="noopener noreferrer"><button className="joinUsButton">We're not joking<br/> We'll send you the link ASAP</button></a>
+                        <a href="//www.outpost-asia.com/location/canggu" target="blank" rel="noopener noreferrer"><button className="joinUsButton">We're not joking</button></a>
                         </div>
                     </div>
                 </div>

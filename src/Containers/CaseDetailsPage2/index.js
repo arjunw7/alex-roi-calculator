@@ -28,11 +28,10 @@ class CaseDetails2 extends React.Component {
                         <div className="col-md-2 col-8">
                             <Text body="Block3" className="caseLegendValue"/>
                             <Text body="Rebranding" className="caseLegendValue"/>
-                            
                         </div>
                         <div className="col-md-9 col-12">
                             <div className="caseLegendTextWrap">
-                            <Text body="Block3 is building blockchain businesses. Block3 asked us to re-shape their visual presence in an unpredictable way with unconven-tional colourways." className="caseLegendText"/>
+                            <Text body="Block3 is building blockchain businesses. Block3 asked us to reshape their visual presence in an unpredictable way with unconventional colour ways." className="caseLegendText"/>
                             </div>
                         </div>
                     </div>

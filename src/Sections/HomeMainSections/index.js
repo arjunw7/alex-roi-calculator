@@ -49,7 +49,7 @@ class HomeMainSections extends React.Component {
                             <div className="row">
                                 <div className="col-md-12 col-12 wow fadeInUp homePageSection">
                                 <Link to="cases">
-                                    <Text body="Cases Overview" className="sectionTitleText"/>
+                                    <Text body="Cases" className="sectionTitleText"/>
                                     <Image file="yura---desktop-1920px-cases.png" className="sectionImage"/>
                                 </Link>
                                 </div>

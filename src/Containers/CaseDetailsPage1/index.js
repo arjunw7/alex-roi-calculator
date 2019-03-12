@@ -21,13 +21,17 @@ class CaseDetails1 extends React.Component {
             <div>
                     <img src={"../img/cases/1/Mybit_A.jpg"} className="caseMainImage" alt=""/>
                     <div className="row legendData">
-                        <div className="col-md-3 col-4">
-                            <Text body="MYBIT" className="caseBrandName"/>
-                            <Text body="Brand Identity" className="caseBrandType"/>
+                        <div className="col-md-1 col-4">
+                            <Text body="Client:" className="caseLegend"/>
+                            <Text body="Project:" className="caseLegend"/>
                         </div>
-                        <div className="col-md-9 col-12">
+                        <div className="col-md-3 col-8">
+                            <Text body="MyBit" className="caseLegendValue"/>
+                            <Text body="Brand Identity" className="caseLegendValue"/>
+                        </div>
+                        <div className="col-md-8 col-12">
                             <div className="caseLegendTextWrap">
-                            <Text body="MyBit asked us to define a newbranding strategy, develop their newbrand identity and design a newwebsite doing justice to their mission. During a 2,5 day designathon session in Switzerland we kicked off and gained enough ammunition to move forward. Also the pay-off “Own your future” was born." className="caseLegendText"/>
+                            <Text body="MyBit asked us to define a newbranding strategy, develop their newbrand identity and design a new website doing justice to their mission. During a 25 day designathon session in Switzerland we kicked off and gained enough ammunition to move forward. Also the pay off “Own your future” was born." className="caseLegendText"/>
                             </div>
                         </div>
                     </div>
@@ -50,7 +54,7 @@ class CaseDetails1 extends React.Component {
                     <div className="caseDetailImages">
                         <div className="row">
                             <div className="col-md-6 col-12">
-                                <img src="../img/cases/1/Mybit_d.jpg" className="mobileImageFrame" alt=""/>
+                                <img src="../img/cases/1/Mybit_D.jpg" className="mobileImageFrame" alt=""/>
                             </div>
                             <div className="col-md-6 col-12">
                                 <Text body="The Brandbook" className="caseDetailImageHead"/>
