@@ -31,7 +31,7 @@
 
     <!-- Latest compiled JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
-    <title>Yura</title>
+    <title>ROI Calculator</title>
 </head>
 
 <body>
@@ -50,36 +50,7 @@
       To create a production bundle, use `npm run build` or `yarn build`.
     -->
 </body>
-<script type="text/javascript">
-    (function(w, d) {
-        w.HelpCrunch = function() {
-            w.HelpCrunch.q.push(arguments)
-        };
-        w.HelpCrunch.q = [];
 
-        function r() {
-            var s = document.createElement('script');
-            s.async = 1;
-            s.type = 'text/javascript';
-            s.src = 'https://widget.helpcrunch.com/';
-            (d.body || d.head).appendChild(s);
-        }
-        if (w.attachEvent) {
-            w.attachEvent('onload', r)
-        } else {
-            w.addEventListener('load', r, false)
-        }
-    })(window, document)
-</script>
-
-<script type="text/javascript">
-    HelpCrunch('init', 'yura', {
-        applicationId: 1,
-        applicationSecret: 'OsjDdAoLUmf9MOqJ0h9bvzkfUTU8vdy9PJdV85+F41Sp7Q1FkT6PIK5ogjcc5THUgcqsKnZ5NfvobJ1zWba7bg=='
-    });
-
-    HelpCrunch('showChatWidget');
-</script>
 <script src="https://unpkg.com/react/umd/react.production.js" crossorigin />
 
 </html>
