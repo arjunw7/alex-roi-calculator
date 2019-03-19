@@ -19,8 +19,8 @@ class Home extends React.Component {
         if(!this.refs.bankrupt.value || !this.refs.ipo.value || !this.refs.success.value){
             alert("Please provide a valid input between 0-100 for all three cases.")
         }
-        if(failed==0 && success==0 && ipo==0){
-            alert("All likelihoods cannot be zero.  ")
+        if(failed==0 || success==0 || ipo==0){
+            alert("Please provide a value greater than 0.")
         }
         else if(failed<0 || failed>100 || ipo<0 || ipo>100 || success<0 || success>100){
             alert("Please provide a valid input between 0-100 for all three cases.")
