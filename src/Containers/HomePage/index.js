@@ -19,21 +19,17 @@ class Home extends React.Component {
         if(!this.refs.bankrupt.value || !this.refs.ipo.value || !this.refs.success.value){
             alert("Please provide a valid input between 0-100 for all three cases.")
         }
-        if(failed==0 || success==0 || ipo==0){
-            alert("Please provide a value greater than 0.")
-        }
         else if(failed<0 || failed>100 || ipo<0 || ipo>100 || success<0 || success>100){
             alert("Please provide a valid input between 0-100 for all three cases.")
         }
-        else if((failed + ipo + success)>100){
-            alert("Total likelyhood cannot exceed 100%.")
+        else if((failed + ipo + success)!=100){
+            alert("Total likelyhoods should sum up to 100%.")
         }
         else{
-            let area1 = success/100*100000;
-            let area2 = ipo/100*2000;
-            let constant = 5/Math.log(failed+(100-success));
-            var area3  =(Math.pow(100-success, constant + 1) - Math.pow(failed, constant+1))/constant+1;
-            let totalROI = area1 + area3 - area2;
+            let p1 = (0 * failed)/100;
+            let p2 = (2000 * ipo)/100;
+            let p3  = (100000 * success)/100;
+            let totalROI = p1 + p2 + p3;
             let result = "Your ROI will be " + totalROI.toFixed(2) + " %"
             this.setState({result: result})
         }
